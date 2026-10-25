@@ -104,6 +104,9 @@ ENUMS = {
         "theoretical", "commercial_claim", "regulatory_text", "statistical_data",
         "expert_opinion", "patent_claim",
         "documentary_verification",  # direct comparison of two documents read (e.g. press figure vs primary report)
+        "press_report",              # journalism / trade press reporting events (not statistics, not company claim verbatim)
+        "data_compilation",          # compiled dataset without systematic-review protocol
+        "archaeometric_measurement", # measurement on archaeological material (isotopes, aDNA, zooarchaeology)
     },
     "confidence": {"high", "moderate", "low", "very_low"},
     "pathway": {"A", "B", "C", "A+B", "A+C", "B+C", "ALL", "cross", "history"},
