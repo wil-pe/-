@@ -327,7 +327,12 @@ def cmd_merge():
         nt = normalize_title(r["title_original"])
         if len(nt) >= 8:
             keys.append("t:" + nt[:120] + ":" + (r.get("year") or ""))
+        url = re.sub(r"^https?://(www\.)?", "", (r.get("url") or "").strip().rstrip("/").lower())
+        if url and r.get("source_type") != "patent":
+            keys.append("u:" + url)
         hit = next((canon_by_key[k] for k in keys if k in canon_by_key), None)
+        if (r.get("duplicate_of") or "").strip():  # explicit coordinator decision wins
+            hit = r["duplicate_of"].strip()
         if hit and hit != r["source_id"]:
             dup_map[r["source_id"]] = hit
         else:
