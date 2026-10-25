@@ -21,7 +21,7 @@ Les coûts indiqués (mois-personne) sont des **estimations des agents, non sour
 | 1 | INN-01 | B (A+B+C) | **Acides aminés du milieu à partir de matières de qualité alimentation animale** : hydrolysats de tourteau de soja ou de SCP purifiés, complétés en Gln/Cys/Ser/Arg ; filière commune avec l'aliment volaille | D | 3 | 2 | 2 | 10 | E-3, P-3, A-4 |
 | 2 | INN-02 | B | **Densifier la biomasse en protéines avant récolte** (maturation sans division) : viser ≥ 13 g de protéines/100 g contre 9 g mesurés | D | 3 | 1 | 3 | 10 | C I-1 |
 | 3 | INN-03 | B | **Mesurer puis réduire les litres de milieu par kg** : perfusion avec recyclage et élimination de NH₃/lactate | D | 3 | 2 | 2 | 10 | E-1, C I-3 |
-| 4 | INN-04 | B | **Différenciation musculaire de lignées immortalisées en suspension par petites molécules** (inhibiteur ERK, Ca²⁺) | D | 3 | 2 | 2 | 10 | P-2 |
+| 4 | INN-04 | B | **Différenciation musculaire de lignées immortalisées en suspension par petites molécules** (inhibiteur ERK, Ca²⁺) — base : donnée de brevet | D | 3 | 2 | 2 | 10 | P-2 |
 | 5 | INN-05 | A | **Formulation « efficience protéique nette + énergie nette »** (moins de protéines consommables par l'humain dans l'aliment) | R | 2 | 3 | 3 | 10 | N-1 |
 | 6 | INN-06 | A | **Abaisser le plancher de protéine brute** (glycine, potassium/bilan électrolytique, amidon lent) : 15 % de PB sans pénalité d'IC > 2 % | R | 2 | 3 | 3 | 10 | N-2 |
 | 7 | INN-07 | B+C | **Dose-réponse sensorielle des hybrides** (0–20 % de biomasse ou de graisse cultivée) + **audit de liberté d'exploitation** du domaine public | R | 2 | 2 | 3 | 9 | P-6, P-9, E-4 |
@@ -72,7 +72,7 @@ Les coûts indiqués (mois-personne) sont des **estimations des agents, non sour
 
 ### INN-04 — Différenciation par petites molécules en suspension (D)
 - **Problème** : les produits autorisés sont des biomasses de fibroblastes, pas du muscle (EV-C-0001, EV-C-0006, EV-C-0009). Le meilleur indice de fusion publié est de 30 % et exige un transgène (EV-C-0027).
-- **Preuves** : sur myoblastes primaires, un inhibiteur ERK porte l'indice de fusion de 15 à 62 % (Q-P-0042) ; les agrégats en suspension de lignées aviaires sont maîtrisés (EV-P-0008).
+- **Preuves** : selon un **brevet** (donnée de déposant, non publiée en revue), un inhibiteur ERK porte l'indice de fusion de myoblastes primaires de poulet de 15 à 62 % (Q-P-0042, `company_claim`) ; les agrégats en suspension de lignées aviaires sont maîtrisés (EV-P-0008).
 - **Expérience** : dose-réponse sur 3 lignées, en plaque puis en agrégats ; mesures de MyHC/MyoG et des protéines myofibrillaires.
 - **Succès** : ≥ 20 % de noyaux MyHC+. **Échec** : < 5 %.
 
