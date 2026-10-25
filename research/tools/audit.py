@@ -127,6 +127,15 @@ def datacite(doi):
         return None
 
 
+def handle_exists(doi):
+    # DOIs registered with non-Crossref agencies (e.g. ISTIC China, KISTI Korea, JaLC) resolve via the Handle API
+    try:
+        r = S.get("https://doi.org/api/handles/" + doi, timeout=30)
+        return r.status_code == 200 and r.json().get("responseCode") == 1
+    except Exception:
+        return False
+
+
 def pubmed_titles(pmids):
     out = {}
     for i in range(0, len(pmids), 150):
@@ -160,8 +169,11 @@ def refs(agent=None):
                 stats["doi_error"] += 1
                 continue
             if m is None:
+                if handle_exists(d):
+                    stats["doi_exists_other_RA_title_unchecked"] += 1
+                    continue
                 stats["doi_not_found"] += 1
-                lines.append(f"| {r['source_id']} | DOI introuvable (Crossref+DataCite) | {r['title_original'][:70]} | — | {r['year']}/— |")
+                lines.append(f"| {r['source_id']} | DOI introuvable (Crossref, DataCite, Handle) | {r['title_original'][:70]} | — | {r['year']}/— |")
                 continue
             s = sim(r["title_original"], m["title"]) if r["language"] in ("en", "") or norm(m["title"]) else 1
             yr_ok = not r["year"] or not m["year"] or abs(int(re.sub(r'\D', '', r['year'][:4]) or 0) - int(m["year"])) <= 1
