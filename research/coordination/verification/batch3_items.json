@@ -1,0 +1,1039 @@
+[
+ {
+  "id": "Q-M-0057",
+  "parameter": "Arsenic dans la L-thréonine de qualité alimentation animale",
+  "value": "0.1-4.6",
+  "unit_original": "mg/kg",
+  "quantity_basis": "concentration",
+  "scale": "industrial",
+  "data_nature": "measured",
+  "locator": "Section 3.1.2",
+  "conditions": "Cd, Hg, Pb < LOD",
+  "notes": "",
+  "sources": [
+   {
+    "source_id": "SRC-M-0012",
+    "title_original": "Safety and efficacy of l-threonine produced by fermentation with Escherichia coli CGMCC 11473 for all animal species",
+    "authors": "EFSA FEEDAP Panel",
+    "year": "2017",
+    "doi": "10.2903/j.efsa.2017.4939",
+    "pmid": "",
+    "url": "https://europepmc.org/article/PMC/PMC7009872",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-M-0014",
+  "claim_fr": "Comparaison documentaire (agent M) : la L-thréonine de qualité alimentation animale évaluée par l'EFSA (288-319 UI/mg, soit ~300 000 UI/g) dépasse d'environ quatre ordres de grandeur la spécification d'endotoxines d'un acide aminé pour culture cellulaire (< 10 UE/g) : la « qualité alimentation animale » n'est pas homogène d'un acide aminé (ou d'un fournisseur) à l'autre.",
+  "locator": "Sections 3.1.2 et annexe (1 UI = 1 UE) comparées à SRC-M-0013",
+  "quote_original": "ranged from 288 to 319 IU/mg … One IU corresponds to one endotoxin unit (EU)",
+  "conditions": "Un lot de thréonine (2017) contre une spécification de lysine (autre acide aminé) ; ordre de grandeur seulement",
+  "evidence_type": "documentary_verification",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-M-0012",
+    "title_original": "Safety and efficacy of l-threonine produced by fermentation with Escherichia coli CGMCC 11473 for all animal species",
+    "authors": "EFSA FEEDAP Panel",
+    "year": "2017",
+    "doi": "10.2903/j.efsa.2017.4939",
+    "pmid": "",
+    "url": "https://europepmc.org/article/PMC/PMC7009872",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-A-0006",
+  "parameter": "Lysine, filet de poulet cuit rôti",
+  "value": "2.635",
+  "unit_original": "g/100 g",
+  "quantity_basis": "edible_meat",
+  "scale": "not_applicable",
+  "data_nature": "measured",
+  "locator": "fdc_id 171477",
+  "conditions": "cuit",
+  "notes": "Soit 2,635/31,02 = 85 mg lysine/g protéine (calcul simple). Méthionine 0,859 g, cystine 0,397 g/100 g (soit 40 mg Met+Cys/g protéine).",
+  "sources": [
+   {
+    "source_id": "SRC-A-0004",
+    "title_original": "FoodData Central SR Legacy (April 2018) — Chicken, broilers or fryers, breast, meat only, cooked, roasted (fdc_id 171477); Tempeh (fdc_id 174272)",
+    "authors": "USDA Agricultural Research Service",
+    "year": "2018",
+    "doi": "",
+    "pmid": "",
+    "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-C-0076",
+  "parameter": "Croissance de la lignée SC-2 en sortie de crise (passages 33–80)",
+  "value": "0.12",
+  "unit_original": "pd/d",
+  "quantity_basis": "time",
+  "scale": "lab",
+  "data_nature": "measured",
+  "locator": "Results",
+  "conditions": "",
+  "notes": "puis 0,60 pd/d après le passage 80",
+  "sources": [
+   {
+    "source_id": "SRC-C-0041",
+    "title_original": "Contributions of differential p53 expression in the spontaneous immortalization of a chicken embryo fibroblast cell line",
+    "authors": "Christman SA; Kong BW; Landry MM; Kim H; Foster DN",
+    "year": "2006",
+    "doi": "10.1186/1471-2121-7-27",
+    "pmid": "16813656",
+    "url": "https://doi.org/10.1186/1471-2121-7-27",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-K-0188",
+  "parameter": "Coût par kg de protéine de qualité équivalente — mycoprotéine (TEA Risner 2023)",
+  "value": "30.5-35.6",
+  "unit_original": "USD/kg quality-equivalent protein",
+  "quantity_basis": "protein",
+  "scale": "model",
+  "data_nature": "model_output",
+  "locator": "results.md §6 bis",
+  "conditions": "29,56 USD/kg protéine ÷ ivDIAAS 0,83-0,97 (Q-S-0001/0002)",
+  "notes": "",
+  "sources": [
+   {
+    "source_id": "SRC-K-0019",
+    "title_original": "Agent K – modèle de comparaison homogène des trois voies par kg de protéine comestible (comparison.py, version 2026-10-25)",
+    "authors": "Agent K (Chicken Muscle Research Lab)",
+    "year": "2026",
+    "doi": "",
+    "pmid": "",
+    "url": "research/agents/K/models/comparison.py",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-K-0029",
+  "claim_fr": "Le rapport Wageningen 1397 estime les émissions à la porte de l'abattoir à 3,75 kg CO2-eq/kg vif pour le poulet conventionnel et 3,64 pour le Beter Leven 1 étoile avec LUC, mais 1,38 et 1,75 sans LUC, et l'occupation des sols à 3,59 et 4,32 m2·an/kg vif.",
+  "locator": "Tableaux 10 et 11, p. 16-17",
+  "quote_original": "Total 3.75 4.07 3.64 … Total excl LUC 1.38 1.58 1.75",
+  "conditions": "Pays-Bas, berceau-porte d'abattoir",
+  "evidence_type": "life_cycle_assessment",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-K-0010",
+    "title_original": "Environmental impacts of broiler production systems in the Netherlands (Wageningen Livestock Research Report 1397)",
+    "authors": "Mostert PF; Bos AP; van Harn J; van Horne P; de Jong IC",
+    "year": "2022",
+    "doi": "10.18174/580961",
+    "pmid": "",
+    "url": "https://edepot.wur.nl/580961",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-S-0002",
+  "claim_fr": "Deux analogues de filet de poulet à base de mycoprotéine (73–80 % de biomasse, carraghénane) ont un ivDIAAS limité par l'histidine de 85 % (« hot-eat ») et 89 % (« cold-eat ») selon le profil enfant 3–10 ans, et de 106 % et 111 % selon le profil adulte : ils satisfont le seuil adulte mais pas celui de l'enfant ; leur ivTD est de 79 ± 3 % et 82 ± 4 %.",
+  "locator": "§3.2, Table 2 et Fig. 4",
+  "quote_original": "Both hot- and cold-eat chicken products made from mycoprotein biomass met the requirements for adults but not for children.",
+  "conditions": "In vitro INFOGEST, n = 2 ; produits ENOUGH BV cuits à la poêle (hot-eat) ou consommés froids ; composition calculée sur la recette (protéines vérifiées par Kjeldahl N×6,25)",
+  "evidence_type": "experimental",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-S-0001",
+    "title_original": "In vitro protein digestibility and colonic fermentation of mycoprotein-based meat analogues",
+    "authors": "Ariëns RMC; Polanowska K; Somhorst D; Boudewijn A; Pouvreau L; de Jong GAH; Bastiaan-Net S",
+    "year": "2026",
+    "doi": "10.1016/j.crfs.2026.101488",
+    "pmid": "42440770",
+    "url": "https://europepmc.org/article/PMC/PMC13334399",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0034",
+  "claim_fr": "Remplacer le tourteau de soja par du tourteau de soja fermenté augmente le poids final (SMD 0,586) mais n'a pas d'effet significatif global sur l'IC (SMD −0,219 ; p = 0,129) ; les effets dépendent de la souche microbienne de fermentation et non du taux d'incorporation (30-150 g/kg).",
+  "locator": "Résumé ; sections Effect on FCR ; meta-régression",
+  "quote_original": "SBM fermentation had no effect on FCR of broiler chickens (SMD = −0.219, 95% CI: −0.501 to 0.064, p = 0.129)",
+  "conditions": "16 études, 51 comparaisons, 5176 poulets (Ross 308 57 %)",
+  "evidence_type": "meta_analysis",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-N-0019",
+    "title_original": "Effect of feeding fermented soybean meal on broiler chickens' performance: a meta-analysis",
+    "authors": "Irawan A; Ratriyanto A; Respati AN; Ningsih N; Fitriastuti R; Suprayogi WPS",
+    "year": "2022",
+    "doi": "10.5713/ab.21.0546",
+    "pmid": "35760407",
+    "url": "https://europepmc.org/article/PMC/PMC9659450",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-M-0026",
+  "parameter": "Prix implicite de la lysine Fufeng (CA / volume, toutes qualités), 2025",
+  "value": "6372",
+  "unit_original": "RMB per tonne",
+  "quantity_basis": "currency",
+  "scale": "industrial",
+  "data_nature": "model_output",
+  "locator": "Segment animal nutrition, p. 11 du PDF",
+  "conditions": "Mélange de qualités : non comparable au prix de la lysine 98 %",
+  "notes": "Calcul de l'agent, pas valeur publiée.",
+  "sources": [
+   {
+    "source_id": "SRC-M-0001",
+    "title_original": "Fufeng Group Limited — Annual Report 2025 (阜豐集團有限公司 年報 2025)",
+    "authors": "Fufeng Group Limited (HKEX 0546)",
+    "year": "2026",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0423/2026042302480.pdf",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-P-0039",
+  "parameter": "densité de cellules aviaires EBx en fed-batch (Valneva)",
+  "value": "9.1",
+  "unit_original": "10^6 cells/mL",
+  "quantity_basis": "cell_count",
+  "scale": "bench",
+  "data_nature": "company_claim",
+  "locator": "exemples",
+  "conditions": "viabilité 91 %",
+  "notes": "",
+  "sources": [
+   {
+    "source_id": "SRC-P-0016",
+    "title_original": "Food products comprising avian stem cells (WO2020104650A1)",
+    "authors": "Guehenneux F; Leon A; Madeline B; Moreau K ; déposant : Valneva SE",
+    "year": "2020",
+    "doi": "",
+    "pmid": "",
+    "url": "https://patents.google.com/patent/WO2020104650A1/en",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0040",
+  "claim_fr": "Humbird suppose une masse humide de 3 000 pg par cellule (70 % d'eau) et une fraction volumique maximale de 0,25, d'où un maximum de 86 × 10^6 cellules/mL ≈ 258 g/L humides ; la densité de 130 × 10^6 cellules/mL rapportée à 43 % p/v pour des cellules de poulet impliquerait ~3,3 ng/cellule et une fraction volumique supérieure à cette limite théorique.",
+  "locator": "Humbird : section « Cell density limitations » ; Pasitka 2024 : résumé",
+  "quote_original": "For 3,000 pg cells with a diameter of 17.7 μm, the absolute maximum attainable cell density is thus 86 × 106/ml or 258 g/L wet.",
+  "conditions": "Comparaison effectuée par l'agent C",
+  "evidence_type": "theoretical",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-E-0001",
+    "title_original": "Scale-up economics for cultured meat",
+    "authors": "Humbird D",
+    "year": "2021",
+    "doi": "10.1002/bit.27848",
+    "pmid": "34101164",
+    "url": "https://europepmc.org/article/PMC/PMC8362201",
+    "access_level": "full_text_read"
+   },
+   {
+    "source_id": "SRC-X-0001",
+    "title_original": "Empirical economic analysis shows cost-effective continuous manufacturing of cultivated chicken using animal-free medium",
+    "authors": "Pasitka L; Wissotsky G; Ayyash M; Yarza N; Rosoff G; Kaminker R; Nahmias Y",
+    "year": "2024",
+    "doi": "10.1038/s43016-024-01022-w",
+    "pmid": "39179871",
+    "url": "https://doi.org/10.1038/s43016-024-01022-w",
+    "access_level": "abstract_only"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0019",
+  "claim_fr": "Contrairement aux fibroblastes de poulet qui s'immortalisent facilement en culture, les fibroblastes bovins entrent en sénescence vers le 60e doublement et ne s'immortalisent spontanément qu'après ~400 jours.",
+  "locator": "résumé",
+  "quote_original": "Although chicken fibroblasts readily immortalize in culture, bovine fibroblasts have not been shown to immortalize without genetic manipulation of TP53 or TERT.",
+  "conditions": "Fibroblastes bovins Simmental et Holstein, 500 jours",
+  "evidence_type": "experimental",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-C-0007",
+    "title_original": "Spontaneous immortalization of bovine fibroblasts following long-term expansion offers a non-transformed cell source for cultivated beef",
+    "authors": "Pasitka L; Cohen M; Regenbaum S; Ehrlich A; Gildor B; Gold A; Nahmias Y",
+    "year": "2025",
+    "doi": "10.1038/s43016-025-01255-3",
+    "pmid": "41225077",
+    "url": "https://doi.org/10.1038/s43016-025-01255-3",
+    "access_level": "abstract_only"
+   }
+  ]
+ },
+ {
+  "id": "Q-H-0048",
+  "parameter": "δ13C du collagène des poulets de Pompéi",
+  "value": "-16.8",
+  "unit_original": "‰ VPDB (moyenne, ET 1,0, n = 5)",
+  "quantity_basis": "other",
+  "scale": "historical",
+  "data_nature": "measured",
+  "locator": "Tableau 1",
+  "conditions": "Pompéi avant 79 ap. J.-C. ; porcs −20,4 ‰",
+  "notes": "",
+  "sources": [
+   {
+    "source_id": "SRC-H-0003",
+    "title_original": "Baseline isotopic variability in plants and animals and implications for the reconstruction of human diet in 1st century AD Pompeii",
+    "authors": "Soncin S; Amoretti V; Comegna C; Corbino CA; Mantile N; Altieri S; Di Cicco MR; Giacometti V; Bakker J; Caso M; Trentacoste A; Ellis S; Tafuri MA; et al.",
+    "year": "2025",
+    "doi": "10.1038/s41598-025-12156-7",
+    "pmid": "40754595",
+    "url": "https://www.nature.com/articles/s41598-025-12156-7",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-P-0055",
+  "claim_fr": "Une revue PRISMA de 183 brevets d'analogues de viande végétaux (2014-2023) montre une hausse en 2020-2022, des déposants surtout américains, Nestlé comme premier déposant, et le soja comme taxon le plus fréquent.",
+  "locator": "résumé ; résultats",
+  "quote_original": "The analysis of 183 patents showed an increase in patent numbers in the years 2020–2022",
+  "conditions": "WoS + Google Patents + Espacenet, brevets en anglais",
+  "evidence_type": "systematic_review",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-P-0055",
+    "title_original": "Plant Taxa as Raw Material in Plant-Based Meat Analogues (PBMAs)—A Patent Survey",
+    "authors": "Kostrakiewicz-Gierałt K",
+    "year": "2024",
+    "doi": "10.3390/nu16234054",
+    "pmid": "39683448",
+    "url": "https://europepmc.org/article/PMC/PMC11643423",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-M-0092",
+  "parameter": "Protéines de viande par kg d'aliment à l'IC objectif Ross 308 (composition USDA)",
+  "value": "60.2",
+  "unit_original": "g meat protein/kg feed",
+  "quantity_basis": "feed",
+  "scale": "model",
+  "data_nature": "model_output",
+  "locator": "fdc_id 171052 ; Q-N-0011 ; Q-N-0014",
+  "conditions": "Aliment des reproducteurs exclu",
+  "notes": "Avec TACO (20,6 g/100 g, SRC-K-0007) : 58,0 g/kg ; N (Q-N-0076) : 63,8 g/kg. Inverse : 16,6 kg d'aliment/kg de protéine de viande.",
+  "sources": [
+   {
+    "source_id": "SRC-A-0004",
+    "title_original": "FoodData Central SR Legacy (April 2018) — Chicken, broilers or fryers, breast, meat only, cooked, roasted (fdc_id 171477); Tempeh (fdc_id 174272)",
+    "authors": "USDA Agricultural Research Service",
+    "year": "2018",
+    "doi": "",
+    "pmid": "",
+    "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-M-0035",
+  "claim_fr": "Selon la synthèse Greenwell (d'après van Horne 2020, non lu), sur la base des prix et performances de 2017, le coût de production par kg de poids vif est 20 % plus élevé pour le concept « Kip van Morgen » et 44 % pour Beter Leven 1 étoile que pour le poulet conventionnel, et le coût par kg de filet 38 % et 78 % plus élevé, notamment à cause des rendements filet plus faibles.",
+  "locator": "Section « Economie », p. 2",
+  "quote_original": "de kostprijs per kg levend gewicht van de Kip van Morgen 20% hoger en van BL1* 44% hoger dan conventioneel (Van Horne, 2020) … De kostprijs voor een kg borstfilet is respectievelijk 38% en 78% hoger",
+  "conditions": "Situation néerlandaise 2017 ; postes en hausse : aliment (IC), logement (densité), travail",
+  "evidence_type": "techno_economic_model",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-M-0021",
+    "title_original": "Welzijn, milieu en economie van vleeskuikens. Een overzicht van de inzichten uit het project Greenwell",
+    "authors": "Bos B; van Kernebeek H; Mostert P; van Harn J; van Horne P; de Jong I (Wageningen Livestock Research ; Wageningen Economic Research)",
+    "year": "2022",
+    "doi": "",
+    "pmid": "",
+    "url": "https://edepot.wur.nl/591335",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-K-0083",
+  "parameter": "Prix de gros du poulet entier sans abats (WOG), moyenne nationale États-Unis, janv.-juin 2023",
+  "value": "1.32",
+  "unit_original": "USD/lb WOG",
+  "quantity_basis": "carcass",
+  "scale": "national",
+  "data_nature": "statistical",
+  "locator": "Tableau 6 (source USDA-AMS)",
+  "conditions": "",
+  "notes": "Prix direct au consommateur du poulet de pâturage : 6,09 USD/lb (USDA-AMS)",
+  "sources": [
+   {
+    "source_id": "SRC-K-0013",
+    "title_original": "Pasture-based versus conventional broiler chicken production: Enterprise budget modeling and profitability analysis",
+    "authors": "Alves LKS; Vukina T; Bartz BM; Eckberg JO; Pullin AN",
+    "year": "2026",
+    "doi": "10.1016/j.psj.2026.107350",
+    "pmid": "42398456",
+    "url": "https://europepmc.org/article/PMC/PMC13352374",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0043",
+  "claim_fr": "Le risque de viande spaghetti augmente avec le poids vif (OR 1,30) et la température ambiante en élevage (OR 1,75) ; le risque de woody breast augmente avec le poids vif (OR 1,23) et en l'absence de vaccination contre la coccidiose (OR 1,86).",
+  "locator": "Résumé",
+  "quote_original": "The odds of WB increased with live weight (OR = 1.23, 95% CI 1.03–1.47) and when flocks were not vaccinated against coccidia (OR = 1.86, 95% CI 1.51–2.29).",
+  "conditions": "Idem",
+  "evidence_type": "field_trial",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-N-0029",
+    "title_original": "Prevalence of breast muscle myopathies (spaghetti meat, woody breast, white striping) and associated risk factors in broiler chickens from Ontario Canada",
+    "authors": "Che S; Wang C; Varga C; Barbut S; Susta L",
+    "year": "2022",
+    "doi": "10.1371/journal.pone.0267019",
+    "pmid": "35427383",
+    "url": "https://europepmc.org/article/PMC/PMC9012353",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-P-0028",
+  "parameter": "licenciements Meati (avis WARN)",
+  "value": "150",
+  "unit_original": "employés",
+  "quantity_basis": "other",
+  "scale": "industrial",
+  "data_nature": "statistical",
+  "locator": "corps",
+  "conditions": "Thornton, Colorado, 6/05/2025",
+  "notes": "",
+  "sources": [
+   {
+    "source_id": "SRC-P-0064",
+    "title_original": "Meati Foods hit by unexpected financial crisis leading to difficult layoffs",
+    "authors": "vegconomist",
+    "year": "2025",
+    "doi": "",
+    "pmid": "",
+    "url": "https://vegconomist.com/company-news/meati-foods-hit-unexpected-financial-crisis-leading-difficult-layoffs/",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-K-0052",
+  "claim_fr": "Calcul de l'agent K : la teneur en protéines retenue par les ACV de viande cultivée (18-25 %, CE Delft) est 2 à 2,8 fois la seule mesure publique de biomasse aviaire cultivée (9 g/100 g, caille) ; à impact par kg de produit inchangé, les GES, l'énergie, l'eau et la surface par kg de protéine de la voie B sont multipliés d'autant.",
+  "locator": "results.md §5 (Q-K-0126, Q-K-0023, Q-C-0021)",
+  "quote_original": "Hypothèse forte (Q-K-0126) : l'impact par kg de produit est gardé constant quand la teneur en protéines passe de 18-25 % à 9 %.",
+  "conditions": "hypothèse de proportionnalité",
+  "evidence_type": "theoretical",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-K-0019",
+    "title_original": "Agent K – modèle de comparaison homogène des trois voies par kg de protéine comestible (comparison.py, version 2026-10-25)",
+    "authors": "Agent K (Chicken Muscle Research Lab)",
+    "year": "2026",
+    "doi": "",
+    "pmid": "",
+    "url": "research/agents/K/models/comparison.py",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-K-0078",
+  "parameter": "Rendement en filet (% de la carcasse WOG), conventionnel vs croissance lente",
+  "value": "27.71-28.50",
+  "unit_original": "% of carcass",
+  "quantity_basis": "breast_meat",
+  "scale": "lab",
+  "data_nature": "measured",
+  "locator": "Tableau 2",
+  "conditions": "mâles, 41 j (conv.) vs 62 j (lent), 29 et 37 kg/m2",
+  "notes": "Croissance lente : 14,93-15,22 % ; carcasse : 75,0-75,8 vs 71,7-72,3 % du PV",
+  "sources": [
+   {
+    "source_id": "SRC-K-0012",
+    "title_original": "Differences in carcass composition and meat quality of conventional and slow-growing broiler chickens raised at 2 stocking densities",
+    "authors": "Weimer SL; Zuelly S; Davis M; Karcher DM; Erasmus MA",
+    "year": "2022",
+    "doi": "10.1016/j.psj.2022.101833",
+    "pmid": "35421814",
+    "url": "https://europepmc.org/article/PMC/PMC9018444",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0059",
+  "claim_fr": "Une farine de protéines bactériennes produite sur gaz naturel (méthanotrophe) incorporée jusqu'à 120 g/kg a réduit l'ingéré et amélioré le rapport gain/aliment sans modifier le gain ; en revanche l'autolysat (parois rompues, AA libres) a réduit croissance, rendement carcasse et augmenté l'adiposité.",
+  "locator": "Résumé",
+  "quote_original": "broiler chickens performed better on a BPM product with intact proteins than on an autolysate with ruptured cell walls and a high content of free amino acids and low molecular-weight peptides",
+  "conditions": "Poulets de chair 0-35 j, Norvège",
+  "evidence_type": "experimental",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-N-0038",
+    "title_original": "Growth performance and carcase quality in broiler chickens fed on bacterial protein grown on natural gas",
+    "authors": "Øverland M; Schøyen HF; Skrede A",
+    "year": "2010",
+    "doi": "10.1080/00071668.2010.522556",
+    "pmid": "21058073",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21058073/",
+    "access_level": "abstract_only"
+   }
+  ]
+ },
+ {
+  "id": "Q-S-0038",
+  "parameter": "Concentration de (E,E)-2,4-décadiénal dans le bouillon de poulet (FD 128)",
+  "value": "19.49",
+  "unit_original": "ppb",
+  "quantity_basis": "concentration",
+  "scale": "lab",
+  "data_nature": "measured",
+  "locator": "Table 2",
+  "conditions": "",
+  "notes": "",
+  "sources": [
+   {
+    "source_id": "SRC-S-0011",
+    "title_original": "Characterization of the Key Aroma Compounds in Chicken Soup Stock Using Aroma Extract Dilution Analysis",
+    "authors": "Takakura Y; Mizushima M; Hayashi K; Masuzawa T; Nishimura T",
+    "year": "2014",
+    "doi": "10.3136/fstr.20.109",
+    "pmid": "",
+    "url": "https://www.jstage.jst.go.jp/article/fstr/20/1/20_109/_html/-char/en",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-K-0047",
+  "claim_fr": "Modèle de l'agent K : l'eau bleue du poulet par kg de protéine diffère d'un facteur 8 selon la source (1 654 L avec la classe industrielle de Mekonnen & Hoekstra contre 200 L pour la référence CE Delft), ce qui rend la comparaison avec la viande cultivée (168-622 L) indécidable : B paraît moins économe que A avec CE Delft mais plus économe avec Mekonnen & Hoekstra.",
+  "locator": "results.md §0 et §3 (Q-K-0141, Q-K-0157, Q-K-0162)",
+  "quote_original": "Eau bleue | Référence ambitieuse 2030 (CE Delft) | standard | porte | 200 / 200 / 200 | L/kg protéine",
+  "conditions": "Mekonnen & Hoekstra : moyenne mondiale 1996-2005 incluant l'irrigation des cultures ; CE Delft : poulet néerlandais ambitieux 2030",
+  "evidence_type": "life_cycle_assessment",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-K-0019",
+    "title_original": "Agent K – modèle de comparaison homogène des trois voies par kg de protéine comestible (comparison.py, version 2026-10-25)",
+    "authors": "Agent K (Chicken Muscle Research Lab)",
+    "year": "2026",
+    "doi": "",
+    "pmid": "",
+    "url": "research/agents/K/models/comparison.py",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-H-0032",
+  "parameter": "Rapport os/viande chez le poulet gras",
+  "value": "9",
+  "unit_original": "%",
+  "quantity_basis": "carcass",
+  "scale": "historical",
+  "data_nature": "historical_record",
+  "locator": "p. ~185",
+  "conditions": "France ~1860",
+  "notes": "",
+  "sources": [
+   {
+    "source_id": "SRC-H-0021",
+    "title_original": "Poules et œufs",
+    "authors": "Gayot E",
+    "year": "1864",
+    "doi": "",
+    "pmid": "",
+    "url": "https://archive.org/details/poulesetoeufs00gayo",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-K-0021",
+  "parameter": "Demande d'énergie de la viande cultivée 2030 (plage des scénarios)",
+  "value": "147-264",
+  "unit_original": "MJ/kg product",
+  "quantity_basis": "energy",
+  "scale": "model",
+  "data_nature": "model_output",
+  "locator": "Tableau 8, PDF p. 37",
+  "conditions": "2030",
+  "notes": "Analyse de sensibilité : 124-445 MJ/kg ; Mattick 2015 : 106 ; Tuomisto 2014 : 35-61",
+  "sources": [
+   {
+    "source_id": "SRC-K-0003",
+    "title_original": "LCA of cultivated meat. Future projections for different scenarios",
+    "authors": "Sinke P; Odegard I",
+    "year": "2021",
+    "doi": "",
+    "pmid": "",
+    "url": "https://gfieurope.org/de/wp-content/uploads/sites/2/2022/04/CE_Delft_190107_LCA_of_cultivated_meat_Def.pdf",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-K-0100",
+  "parameter": "Surface de maïs et de soja mobilisée par kg de poids vif, Brésil 2020 (sans allocation huile/tourteau)",
+  "value": "4.0",
+  "unit_original": "m2/kg live weight",
+  "quantity_basis": "land",
+  "scale": "national",
+  "data_nature": "model_output",
+  "locator": "Tabela 1, p. 160",
+  "conditions": "(19 579,1/5,529 + 10 488,8/3,438) kha / 16 452,1 kt",
+  "notes": "Calcul de l'agent K : 3,54 + 3,05 = 6,59 Mha pour 16,45 Mt PV ; surestimé car la surface du soja n'est pas partagée avec l'huile ; une seule récolte par an supposée",
+  "sources": [
+   {
+    "source_id": "SRC-K-0017",
+    "title_original": "Avanço tecnológico e sustentável das cadeias de frangos de corte e de suínos",
+    "authors": "Talamini DJD; Vilas-Boas J",
+    "year": "2021",
+    "doi": "",
+    "pmid": "",
+    "url": "http://www.alice.cnptia.embrapa.br/alice/handle/doc/1139829",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0007",
+  "claim_fr": "Pour atteindre 1 815 g, la Ross 308 avec le régime 2001 aurait besoin de 32 j et d'un IC de 1,47, contre 101 j et un IC de 4,42 pour l'ACRBC avec le régime 1957.",
+  "locator": "Résumé",
+  "quote_original": "The Ross 308 broiler on the 2001 feed was estimated to have reached 1,815 g BW at 32 d of age with a FC of 1.47, whereas the ACRBC on the 1957 feed would not have reached that BW until 101 d of age with a FC of 4.42.",
+  "conditions": "Estimation à poids égal (1815 g) à partir des courbes de croissance",
+  "evidence_type": "experimental",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-N-0002",
+    "title_original": "Growth, livability, and feed conversion of 1957 versus 2001 broilers when fed representative 1957 and 2001 broiler diets",
+    "authors": "Havenstein GB; Ferket PR; Qureshi MA",
+    "year": "2003",
+    "doi": "10.1093/ps/82.10.1500",
+    "pmid": "14601725",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14601725/",
+    "access_level": "abstract_only"
+   }
+  ]
+ },
+ {
+  "id": "Q-N-0022",
+  "parameter": "N retenu par kg de gain de poids vif",
+  "value": "29",
+  "unit_original": "g N/kg BW gain",
+  "quantity_basis": "protein",
+  "scale": "model",
+  "data_nature": "measured_reported_by_review",
+  "locator": "Discussion",
+  "conditions": "Utilisée pour recalculer le bilan N",
+  "notes": "Conversion N×6,25 = 181 g protéine corporelle/kg de gain (calcul de l'agent N)",
+  "sources": [
+   {
+    "source_id": "SRC-N-0005",
+    "title_original": "Meta-analysis of the effect of low-protein diets on the growth performance, nitrogen excretion, and fat deposition in broilers",
+    "authors": "de Rauglaudre T; Méda B; Fontaine S; Lambert W; Fournel S; Létourneau-Montminy MP",
+    "year": "2023",
+    "doi": "10.3389/fanim.2023.1214076",
+    "pmid": "",
+    "url": "https://hal.inrae.fr/hal-04218409",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-H-0005",
+  "parameter": "Ration quotidienne des poules enfermées (Columelle)",
+  "value": "4",
+  "unit_original": "cyathes par tête et par jour (quaterni cyathi)",
+  "quantity_basis": "feed",
+  "scale": "historical",
+  "data_nature": "historical_record",
+  "locator": "VIII, chap. IV §5 (éd. Du Bois)",
+  "conditions": "poules en claustration, 3 repas",
+  "notes": "Cyathe = mesure romaine de volume ; conversion non faite (non documentée dans la source)",
+  "sources": [
+   {
+    "source_id": "SRC-H-0014",
+    "title_original": "De re rustica, liber VIII (De villaticis pastionibus) — texte bilingue, trad. Louis Du Bois, Panckoucke 1846",
+    "authors": "Lucius Junius Moderatus Columella; trad. Du Bois L",
+    "year": "60",
+    "doi": "",
+    "pmid": "",
+    "url": "http://remacle.org/bloodwolf/erudits/columelle/livre8.htm",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0009",
+  "claim_fr": "Le classement GES des systèmes de poulet s'inverse selon l'origine du soja : avec un soja à faible LUC, le conventionnel devient le moins émetteur (1,37 kg CO2-eq/kg PV) et le système à croissance lente BLS le plus émetteur (1,79), car son indice de consommation est plus élevé.",
+  "locator": "Conclusion ; Discussion",
+  "quote_original": "when soybean products were sourced from a country with low LUC emissions, the conventional production system (1.37 kg CO2-eq/ kg live weight) had the lowest GHG emissions and the BLS production system (1.79 kg CO2-eq/kg live weight) the highest",
+  "conditions": "Analyse de sensibilité sur l'origine du soja",
+  "evidence_type": "life_cycle_assessment",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-E-0004",
+    "title_original": "The impact of changing toward higher welfare broiler production systems on greenhouse gas emissions: a Dutch case study using life cycle assessment",
+    "authors": "Mostert PF; Bos AP; van Harn J; de Jong IC",
+    "year": "2022",
+    "doi": "10.1016/j.psj.2022.102151",
+    "pmid": "36279609",
+    "url": "https://europepmc.org/article/PMC/PMC9593752",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-M-0045",
+  "parameter": "Prix de l'aliment complet poulet de chair (marchés ruraux chinois, 11/12/2025)",
+  "value": "3.50",
+  "unit_original": "元/公斤 (RMB/kg)",
+  "quantity_basis": "currency",
+  "scale": "national",
+  "data_nature": "statistical",
+  "locator": "Page MOA 12月第2周",
+  "conditions": "Prix de détail",
+  "notes": "Viande de poulet au détail : 22,25 RMB/kg (même page).",
+  "sources": [
+   {
+    "source_id": "SRC-M-0026",
+    "title_original": "12月第2周畜产品和饲料集贸市场价格情况",
+    "authors": "农业农村部 (ministère de l'Agriculture et des Affaires rurales, Chine)",
+    "year": "2025",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/202512/t20251217_6479832.htm",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-S-0011",
+  "parameter": "Digestibilité iléale vraie des AA totaux, repas soja texturé + quinoa",
+  "value": "93.8",
+  "unit_original": "%",
+  "quantity_basis": "protein",
+  "scale": "lab",
+  "data_nature": "measured",
+  "locator": "Table 4",
+  "conditions": "n=6 ; NS vs poulet",
+  "notes": "",
+  "sources": [
+   {
+    "source_id": "SRC-S-0002",
+    "title_original": "Development of a protein food based on texturized wheat proteins, with high protein digestibility and improved lysine content",
+    "authors": "Le Bourgot C; Liu X; Buffière C; Hafanaoui N; Salis L; Pouyet C; Dardevet D; Rémond D",
+    "year": "2023",
+    "doi": "10.1016/j.foodres.2023.112978",
+    "pmid": "37316015",
+    "url": "https://hal.inrae.fr/hal-04148545",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-A-0038",
+  "claim_fr": "Dans un hybride transformé où 20 % du filet de poulet est remplacé par un isolat végétal (riz, pois ou soja) + transglutaminase, la teneur en protéines brutes après cuisson passe de 13,9 % (témoin poulet) à 19,3–20,9 %, l'humidité baisse (78,5 → 69,5–72,4 %), et l'isolat de soja donne la meilleure cohésion, élasticité et force de cisaillement.",
+  "locator": "Tableau 2 ; Résultats texture ; Conclusion",
+  "quote_original": "After cooking, it was observed that soy protein exhibited an excellent nutrient balance, strong structural bonds, and cooking stability.",
+  "conditions": "Gel émulsionné, cuisson 180 °C 15 min, n = 3",
+  "evidence_type": "experimental",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-A-0033",
+    "title_original": "Development and Assessment of Processed Hybrid Chicken Analogue: The Effect of Isolated Rice, Pea, and Soy Proteins",
+    "authors": "Kim J; Kim JS; Moon KD",
+    "year": "2025",
+    "doi": "10.5851/kosfa.2025.e3",
+    "pmid": "41821533",
+    "url": "https://europepmc.org/article/PMC/PMC12965358",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-S-0056",
+  "parameter": "Empreinte eau de FeedKind",
+  "value": "18.98",
+  "unit_original": "m3/tonne of product",
+  "quantity_basis": "water",
+  "scale": "model",
+  "data_nature": "model_output",
+  "locator": "§2.2",
+  "conditions": "80 % dû à l'huile végétale de granulation",
+  "notes": "",
+  "sources": [
+   {
+    "source_id": "SRC-S-0021",
+    "title_original": "Assessment of environmental impact of FeedKind protein",
+    "authors": "Cumberlege T; Blenkinsopp T; Clark J (Carbon Trust)",
+    "year": "2016",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.carbontrust.com/our-work-and-impact/guides-reports-and-tools/assessment-of-environmental-footprint-of-feedkind-protein",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-H-0025",
+  "parameter": "Économie de grain obtenue en donnant le maïs cuit",
+  "value": "> 0.5",
+  "unit_original": "fraction économisée",
+  "quantity_basis": "ratio",
+  "scale": "historical",
+  "data_nature": "historical_record",
+  "locator": "p. ~333–334",
+  "conditions": "idem ; 2 jours seulement à 3 litrons",
+  "notes": "Qualificatif « above one half »",
+  "sources": [
+   {
+    "source_id": "SRC-H-0017",
+    "title_original": "The art of hatching and bringing up domestick fowls of all kinds, at any time of the year: either by means of the heat of hot-beds, or that of common fire",
+    "authors": "Réaumur RAF de (trad. anglaise anonyme)",
+    "year": "1750",
+    "doi": "",
+    "pmid": "",
+    "url": "https://archive.org/details/artofhatchingbri00reau",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-H-0047",
+  "claim_fr": "Le règlement 1774/2002 interdit d'une part le recyclage intra-espèce des protéines animales, d'autre part l'alimentation des animaux d'élevage (hors animaux à fourrure) avec des déchets de cuisine et de table ; il prévoit cependant des dérogations pour nourrir certains animaux avec des sous-produits animaux, dont les « asticots pour appâts de pêche ». Le règlement 1069/2009 (art. 11) maintient ces interdictions.",
+  "locator": "Règlement 1774/2002, art. 22 et 23 ; règlement 1069/2009, art. 11",
+  "quote_original": "the feeding of farmed animals other than fur animals with catering waste or feed material containing or derived from catering waste",
+  "conditions": "UE, depuis 2002",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-H-0037",
+    "title_original": "Regulation (EC) No 1774/2002 of the European Parliament and of the Council of 3 October 2002 laying down health rules concerning animal by-products not intended for human consumption",
+    "authors": "European Parliament; Council of the European Union",
+    "year": "2002",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.legislation.gov.uk/eur/2002/1774/adopted",
+    "access_level": "partial_text_read"
+   },
+   {
+    "source_id": "SRC-H-0038",
+    "title_original": "Regulation (EC) No 1069/2009 of the European Parliament and of the Council of 21 October 2009 laying down health rules as regards animal by-products and derived products not intended for human consumption — Article 11",
+    "authors": "European Parliament; Council of the European Union",
+    "year": "2009",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.legislation.gov.uk/eur/2009/1069/article/11/adopted",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-P-0026",
+  "claim_fr": "Le brevet pionnier de W. van Eelen sur la production industrielle de viande par culture cellulaire (US7270829B2, priorité 1997) est expiré depuis 2019 selon Google Patents : ses principes de base sont dans le domaine public.",
+  "locator": "statut juridique",
+  "quote_original": "A meat product containing in vitro produced animal cells in a three dimensional form",
+  "conditions": "—",
+  "evidence_type": "patent_claim",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-P-0014",
+    "title_original": "Industrial production of meat using cell culture methods (US7270829B2)",
+    "authors": "Van Eelen WF ; déposant : Van Eelen WF (individuel)",
+    "year": "2007",
+    "doi": "",
+    "pmid": "",
+    "url": "https://patents.google.com/patent/US7270829B2/en",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-A-0012",
+  "parameter": "Gain de séparation fibreuse anisotrope par micro-impression perforante",
+  "value": "5",
+  "unit_original": "× (jusqu'à)",
+  "quantity_basis": "ratio",
+  "scale": "bench",
+  "data_nature": "measured",
+  "locator": "Résumé",
+  "conditions": "Valeur maximale selon motif",
+  "notes": "'up to'",
+  "sources": [
+   {
+    "source_id": "SRC-A-0002",
+    "title_original": "Perforated imprinting on high moisture meat analogue confers long range mechanical anisotropy resembling meat cuts",
+    "authors": "Lou X; Wang J; Kwang LG; Zhou H; Ong FYT; Ng S; Yu H",
+    "year": "2024",
+    "doi": "10.1038/s41538-024-00344-0",
+    "pmid": "39706829",
+    "url": "https://europepmc.org/article/PMC/PMC11662005",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-M-0033",
+  "claim_fr": "Dans l'essai néerlandais Greenwell (14 oiseaux/m²), à protéine équilibrée de 100 %, l'IC a été de 1,543 pour Ross 308 (43 j ; 2 828 g), 1,684 pour Ranger Classic (51 j ; 2 812 g) et 1,818 pour Hubbard JA757 (58 j ; 2 932 g) ; la mortalité de 3,8 %, 1,4 % et 1,3 %.",
+  "locator": "Tableau 2",
+  "quote_original": "Voederconversie                     1.543 1.595       1.756          1.684            1.794        1.887         1.818        1.854       1.953",
+  "conditions": "Essai en station, 3 souches × 3 niveaux de protéine équilibrée ; une seule bande",
+  "evidence_type": "experimental",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-M-0021",
+    "title_original": "Welzijn, milieu en economie van vleeskuikens. Een overzicht van de inzichten uit het project Greenwell",
+    "authors": "Bos B; van Kernebeek H; Mostert P; van Harn J; van Horne P; de Jong I (Wageningen Livestock Research ; Wageningen Economic Research)",
+    "year": "2022",
+    "doi": "",
+    "pmid": "",
+    "url": "https://edepot.wur.nl/591335",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-R-0001",
+  "parameter": "Teneur en protéines (spécification) — cellules de poulet cultivées Eat Just (UMNSAH/DF1)",
+  "value": "5-10",
+  "unit_original": "%",
+  "quantity_basis": "wet_cell_biomass",
+  "scale": "not_applicable",
+  "data_nature": "regulatory_limit",
+  "locator": "Entrées 2 (p. 4) et 6 (p. 10)",
+  "conditions": "Singapour ; approbations du 26/11/2020 (avec FBS) et du 11/01/2023 (sans sérum)",
+  "notes": "Base humide déduite de l'humidité spécifiée à 85-95 % (protéines rapportées au produit tel quel). [2026-10-25 notes: 'Base humide déduite de l'humidité spécifiée à 85-95 % (calcu' -> 'Base humide déduite de l'humidité spécifiée à 85-95 % (proté']",
+  "sources": [
+   {
+    "source_id": "SRC-R-0019",
+    "title_original": "SFA List of Approved Novel Foods (as at 14 Aug 2026)",
+    "authors": "Singapore Food Agency (SFA)",
+    "year": "2026",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.sfa.gov.sg/docs/default-source/regulatory-standards-frameworks-and-guidelines/2026-08-14-sfa-list-of-approved-novel-foods.pdf",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-S-0042",
+  "claim_fr": "Une analyse de produits vendus en Corée (Pulmuone) trouve, à teneur protéique non différente, moins de méthionine (−38 %), d'histidine (−34 %) et de zinc (−57 %) dans les analogues végétaux que dans les produits carnés transformés équivalents, mais davantage de fer (+33 %) et de calcium (+242 %).",
+  "locator": "Résumé (초록)",
+  "quote_original": "동물성 육가공품 대비 부족한 필수 아미노산은 메티오닌(38%) 및 히스티딘(34%)이 확인되었다 … 아연 함량은 57% 낮은 수준이었다",
+  "conditions": "Produits du commerce coréen ; comparaison avec produits carnés transformés (pas filet de poulet) ; tous les auteurs employés par Pulmuone",
+  "evidence_type": "experimental",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-S-0031",
+    "title_original": "국내 유통 식물성 대체육 제품과 동물성 육가공품의 영양성분 특성 비교",
+    "authors": "Jeong IS; Kim JJ; Lee JM; Lee DH; Kim SG; Lee SY; Park KH",
+    "year": "2023",
+    "doi": "10.3746/jkfn.2023.52.3.276",
+    "pmid": "",
+    "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002942601",
+    "access_level": "abstract_only"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0050",
+  "claim_fr": "Selon la revue chinoise de Sun et al. (2024), la capacité des bioréacteurs de viande cultivée reste « au niveau du millier de litres » et les capacités annuelles annoncées par les entreprises varient de 20 à 180 t ; les entreprises chinoises déclaraient des bioréacteurs de 500 L (Joes Future Food, 2019) et 1 000 L (CellX 2020, 佰鸿 2023).",
+  "locator": "Section 2.2, tableau 4",
+  "quote_original": "细胞培养肉的生物反应器产能目前仍然局限于千升级别,各相关企业宣布的年产量在20～180 t变动",
+  "conditions": "Données de presse compilées (jusqu'en 2023)",
+  "evidence_type": "narrative_review",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-E-0034",
+    "title_original": "细胞培养肉商业化进程、制约因素及政策建议 [Commercialization progress, constraining elements, and policy recommendations for cultivated meat]",
+    "authors": "孙一文 (Sun Yiwen); 周琳 (Zhou Lin); 王晓红 (Wang Xiaohong)",
+    "year": "2024",
+    "doi": "10.13995/j.cnki.11-1802/ts.037134",
+    "pmid": "",
+    "url": "http://sf1970.cnif.cn/article/2024/0253-990X/0253-990X-2024-50-19-397.shtml",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-K-0005",
+  "parameter": "Rendement en viande sans gras ni os supposé dans les comparaisons de la FAO",
+  "value": "59",
+  "unit_original": "% of carcass weight",
+  "quantity_basis": "ratio",
+  "scale": "not_applicable",
+  "data_nature": "model_assumption",
+  "locator": "Note c du tableau de comparaison des études, PDF p. 67",
+  "conditions": "conversion utilisée pour comparer les études publiées",
+  "notes": "Hypothèse de conversion, non mesurée",
+  "sources": [
+   {
+    "source_id": "SRC-K-0001",
+    "title_original": "Greenhouse gas emissions from pig and chicken supply chains – A global life cycle assessment",
+    "authors": "MacLeod M; Gerber P; Mottet A; Tempio G; Falcucci A; Opio C; Vellinga T; Henderson B; Steinfeld H",
+    "year": "2013",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.fao.org/3/i3460e/i3460e.pdf",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-P-0024",
+  "claim_fr": "Fork & Goode (US10669524B2) revendique un système de cuves en parallèle faisant circuler un milieu sans sérum « conditionné » par les cellules, avec 10 à 15 % du milieu remplacé chaque jour et des cuves de 0,5 L à plus de 100 000 L.",
+  "locator": "description",
+  "quote_original": "For example, 10-15% of the circulating medium maybe be replaced daily.",
+  "conditions": "plages revendiquées",
+  "evidence_type": "patent_claim",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-P-0034",
+    "title_original": "Large scale cell culture system for making meat and associated products (US10669524B2)",
+    "authors": "Forgacs G; Gupta N ; déposant : Fork & Goode Inc",
+    "year": "2020",
+    "doi": "",
+    "pmid": "",
+    "url": "https://patents.google.com/patent/US10669524B2/en",
+    "access_level": "partial_text_read"
+   }
+  ]
+ }
+]
