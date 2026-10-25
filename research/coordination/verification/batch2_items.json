@@ -1,0 +1,578 @@
+[
+ {
+  "id": "EV-N-0001",
+  "claim_fr": "Entre la souche témoin non sélectionnée AMC-1957 et la Ross 308 (2005), nourries avec le même régime moderne, la croissance a augmenté de plus de 400 % et l'IC a été réduit d'environ 50 % ; l'IC à 42 j a diminué de 2,55 %/an en moyenne composée sur 48 ans.",
+  "locator": "Résumé ; Discussion (dernier paragraphe) ; Tableau 3",
+  "quote_original": "From 1957 to 2005, broiler growth increased by over 400%, with a concurrent 50% reduction in feed conversion ratio... Forty-two-day FCR decreased by 2.55% each year",
+  "conditions": "Mâles+femelles mélangés, 4 parquets/souche, régime commercial actuel (3068-3196 kcal/kg ; 23-19 % PB), 0-56 j, Université d'Alberta",
+  "evidence_type": "experimental",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-N-0001",
+    "title_original": "Growth, efficiency, and yield of commercial broilers from 1957, 1978, and 2005",
+    "authors": "Zuidhof MJ; Schneider BL; Carney VL; Korver DR; Robinson FE",
+    "year": "2014",
+    "doi": "10.3382/ps.2014-04291",
+    "pmid": "25260522",
+    "url": "https://europepmc.org/article/PMC/PMC4988556",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0002",
+  "claim_fr": "L'indice « aliment par g de filet » (breast conversion ratio, 22-56 j) est passé de 28,2 g/g (AMC-1957) à 17,0 (AMC-1978) puis 9,4 (Ross 308 2005), soit environ 67 % d'aliment en moins par kg de filet.",
+  "locator": "Résultats, Figure 4 ; Discussion",
+  "quote_original": "From 22 to 56 d of age, breast conversion ratios (g of feed intake to g of breast meat) averaged 28.2, 17.0, and 9.4 g/g in the AMC-1957, AMC-1978, and 2005 broiler strains",
+  "conditions": "22-56 j, régime moderne identique, parquets mixtes",
+  "evidence_type": "experimental",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-N-0001",
+    "title_original": "Growth, efficiency, and yield of commercial broilers from 1957, 1978, and 2005",
+    "authors": "Zuidhof MJ; Schneider BL; Carney VL; Korver DR; Robinson FE",
+    "year": "2014",
+    "doi": "10.3382/ps.2014-04291",
+    "pmid": "25260522",
+    "url": "https://europepmc.org/article/PMC/PMC4988556",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0011",
+  "claim_fr": "Dans une méta-analyse de 106 essais (poulets mâles à croissance rapide), réduire la protéine brute d'un point dégrade l'IC de 1,9 % en moyenne ; quand tous les acides aminés indispensables respectent les ratios recommandés (33 essais), la dégradation n'est plus que de +1,2 à 1,3 % par point, sans effet sur GMQ ni ingéré.",
+  "locator": "Résumé ; section 3.3 ; Tableau 2",
+  "quote_original": "These changes in animal performance in the GEN-database led to a linear increase (P< 0.001) in the feed conversion ratio (FCR) (g/g) by 1.9% for a CP decrease of one percentage point. However, when the levels of digestible AA were controlled (AACON-database), this increase in FCR was lower (+1.2%).",
+  "conditions": "29 publications après 2016, mâles, essais iso-EM et iso-lysine, croissance témoin ≥ 90 % du potentiel",
+  "evidence_type": "meta_analysis",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-N-0005",
+    "title_original": "Meta-analysis of the effect of low-protein diets on the growth performance, nitrogen excretion, and fat deposition in broilers",
+    "authors": "de Rauglaudre T; Méda B; Fontaine S; Lambert W; Fournel S; Létourneau-Montminy MP",
+    "year": "2023",
+    "doi": "10.3389/fanim.2023.1214076",
+    "pmid": "",
+    "url": "https://hal.inrae.fr/hal-04218409",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0012",
+  "claim_fr": "Une réduction d'un point de protéine brute réduit l'excrétion journalière d'azote de 11 % (base générale) à 14 % (AA contrôlés) et augmente l'efficacité de rétention azotée d'environ 4 points, en remplaçant ~39 g/kg de tourteau de soja par des céréales et ~5,2 g/kg d'AA de synthèse.",
+  "locator": "Sections 3.2 et 3.4 ; Discussion",
+  "quote_original": "For a one percentage point CP decrease, the synthetic AA content of the feed was increased by 5.2 g/kg (i.e., an increase of 28%).",
+  "conditions": "Idem méta-analyse",
+  "evidence_type": "meta_analysis",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-N-0005",
+    "title_original": "Meta-analysis of the effect of low-protein diets on the growth performance, nitrogen excretion, and fat deposition in broilers",
+    "authors": "de Rauglaudre T; Méda B; Fontaine S; Lambert W; Fournel S; Létourneau-Montminy MP",
+    "year": "2023",
+    "doi": "10.3389/fanim.2023.1214076",
+    "pmid": "",
+    "url": "https://hal.inrae.fr/hal-04218409",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0022",
+  "claim_fr": "Pour un poulet de chair standard français (abattu à 1,8 kg, IC 1,69, en incluant reproducteurs), l'efficience brute de conversion des protéines est de 0,54 (soit ~1,85 kg de protéines végétales par kg de protéines animales produites, animal entier) et l'efficience nette en protéines consommables par l'humain (ECpc) de 0,88 : le système consomme un peu plus de protéines consommables qu'il n'en produit.",
+  "locator": "Tableau 6 ; Tableau 5 ; section 4.2-4.3",
+  "quote_original": "Poulets de chair Pch 0,54 64 40 0,88",
+  "conditions": "France, données d'élevage 2014 (ITAVI, chambres d'agriculture), aliment à moindre coût (blé 40 %, maïs 26 %, tourteau de soja 18 %), scénario « actuel » des proportions consommables",
+  "evidence_type": "simulation_model",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-N-0012",
+    "title_original": "L'efficience nette de conversion des aliments par les animaux d'élevage : une nouvelle approche pour évaluer la contribution de l'élevage à l'alimentation humaine",
+    "authors": "Laisse S; Baumont R; Dusart L; Gaudré D; Rouillé B; Benoit M; Veysset P; Rémond D; Peyraud JL",
+    "year": "2018",
+    "doi": "10.20870/productions-animales.2018.31.3.2355",
+    "pmid": "",
+    "url": "https://hal.science/hal-01995110v1",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0026",
+  "claim_fr": "Le modèle GLEAM de la FAO estime que 86 % de la matière sèche ingérée par le bétail mondial n'est pas consommable par l'humain ; mais les poulets de chair de l'OCDE consomment 18,8 kg de MS d'aliment consommable par kg de protéine produite et 5,1 kg de protéines consommables par kg de protéine produite (3,6 kg d'aliment consommable par kg de viande désossée).",
+  "locator": "Résumé ; Tableau 1 ; section 3.2",
+  "quote_original": "industrial monogastric systems range from 2.9 to 5.2 kg human-edible-feed protein per kg of protein product",
+  "conditions": "Modèle GLEAM, base 2010, céréales/légumineuses/soja comptés 100 % consommables",
+  "evidence_type": "simulation_model",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-N-0013",
+    "title_original": "Livestock: On our plates or eating at our table? A new analysis of the feed/food debate",
+    "authors": "Mottet A; de Haan C; Falcucci A; Tempio G; Opio C; Gerber P",
+    "year": "2017",
+    "doi": "10.1016/j.gfs.2017.01.001",
+    "pmid": "",
+    "url": "https://nru.uncst.go.ug/server/api/core/bitstreams/7ec3b5be-51cb-4e54-a29c-fb76dca59ec7/content",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0042",
+  "claim_fr": "Dans 37 lots commerciaux de Ross 708 en Ontario (9 250 filets, 2019-2020), la prévalence de la viande « spaghetti » était de 36,3 %, du woody breast sévère de 11,8 % et du white striping léger à modéré de 96,0 % ; 85,1 % des filets cumulaient plusieurs myopathies.",
+  "locator": "Résumé ; Résultats",
+  "quote_original": "The prevalence of SM, severe WB, and mild or moderate WS was 36.3% (95% CI: 35.3–37.3), 11.8% (95% CI: 11.2–12.5), and 96.0% (95% CI: 95.6–96.4), respectively.",
+  "conditions": "Ross 708, aliments à base de maïs, deux abattoirs, Ontario",
+  "evidence_type": "field_trial",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-N-0029",
+    "title_original": "Prevalence of breast muscle myopathies (spaghetti meat, woody breast, white striping) and associated risk factors in broiler chickens from Ontario Canada",
+    "authors": "Che S; Wang C; Varga C; Barbut S; Susta L",
+    "year": "2022",
+    "doi": "10.1371/journal.pone.0267019",
+    "pmid": "35427383",
+    "url": "https://europepmc.org/article/PMC/PMC9012353",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0052",
+  "claim_fr": "Selon un modèle de flux d'énergie, même si la croissance atteignait les limites biologiques (capacité d'ingestion, digestibilité, adiposité minimale), un poulet atteindrait 2,2 kg seulement 1,2 jour plus tôt qu'aujourd'hui (34-35 j), soit −8 % d'énergie alimentaire totale : le potentiel de gain d'efficacité par sélection est minime par rapport au progrès passé.",
+  "locator": "Résultats, 'Future breeding scenarios' ; Tableau 1 ; Figure 2",
+  "quote_original": "even if the broiler growth rate is increased to the apparent biological limit, this will result in birds that reach their slaughter weight only 1.2 days sooner (Fig. 2). This results in an 8% reduction in the total feed energy intake",
+  "conditions": "Modèle analytique, aliment standard 13,2 MJ/kg, 21 % PB, poids d'abattage 2,2 kg",
+  "evidence_type": "simulation_model",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-N-0034",
+    "title_original": "Artificial selection for improved energy efficiency is reaching its limits in broiler chickens",
+    "authors": "Tallentire CW; Leinonen I; Kyriazakis I",
+    "year": "2018",
+    "doi": "10.1038/s41598-018-19231-2",
+    "pmid": "29348409",
+    "url": "https://europepmc.org/article/PMC/PMC5773546",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0054",
+  "claim_fr": "Dans un essai standardisé sur 16 souches (7 528 oiseaux, mêmes aliments et conditions), l'IC corrigé de la mortalité jusqu'à ~3,2 kg était de 1,54 pour les souches conventionnelles, 1,76 (lentes rapides), 1,89 (modérées) et 1,97 (les plus lentes), soit 22 à 43 points d'écart.",
+  "locator": "Résumé ; Tableau 8",
+  "quote_original": "By TW2, differences in body weights and feed intake resulted in a 22 to 43-point difference in feed conversion ratios.",
+  "conditions": "Université de Guelph, 8 essais sur 2 ans, aliment sans antibiotique formulé pour souche lente modérée",
+  "evidence_type": "experimental",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-N-0035",
+    "title_original": "In pursuit of a better broiler: growth, efficiency, and mortality of 16 strains of broiler chickens",
+    "authors": "Torrey S; Mohammadigheisar M; Nascimento dos Santos M; Rothschild D; Dawson LC; Liu Z; et al.",
+    "year": "2021",
+    "doi": "10.1016/j.psj.2020.12.052",
+    "pmid": "33518309",
+    "url": "https://europepmc.org/article/PMC/PMC7936194",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-N-0032",
+  "claim_fr": "Une protéase a amélioré l'IC de 5,6 points (29-35 j) dans un régime à AA digestibles réduits (−34 g/kg), mais l'a dégradé de 5,8 points dans un régime standard : le bénéfice d'une protéase dépend de l'existence d'un déficit à combler.",
+  "locator": "Résumé ; Tableau 2 ; Discussion",
+  "quote_original": "protease increasing FCR by 5.8 points in the standard-dAA diet but decreasing FCR by 5.6 points in the reduced-dAA diet",
+  "conditions": "288 Ross 308 mâles, 24 parquets au sol, 1-35 j, régimes maïs + phytase + xylanase, Australie",
+  "evidence_type": "experimental",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-N-0018",
+    "title_original": "Protease supplementation reduced the heat increment of feed and improved energy and nitrogen partitioning in broilers fed maize-based diets with supplemental phytase and xylanase",
+    "authors": "McCafferty KW; Choct M; Musigwa S; Morgan NK; Cowieson AJ; Moss AF",
+    "year": "2022",
+    "doi": "10.1016/j.aninu.2021.10.011",
+    "pmid": "35601255",
+    "url": "https://europepmc.org/article/PMC/PMC9114623",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-N-0018",
+  "parameter": "Mortalité moyenne des poulets de chair États-Unis 2025",
+  "value": "5.95",
+  "unit_original": "percent",
+  "quantity_basis": "ratio",
+  "scale": "national",
+  "data_nature": "statistical",
+  "locator": "Tableau, ligne 2025",
+  "conditions": "Minimum 3,7 % en 2012-2013",
+  "notes": "",
+  "sources": [
+   {
+    "source_id": "SRC-N-0004",
+    "title_original": "U.S. Broiler Performance, 1925 to Present",
+    "authors": "National Chicken Council",
+    "year": "2025",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.nationalchickencouncil.org/about-the-industry/statistics/u-s-broiler-performance/",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-A-0002",
+  "claim_fr": "Les extrudés à haute humidité (HMMA, soja) ont une anisotropie mécanique à longue distance (indice LMA moyen 0,20) significativement inférieure à celle des viandes cuites ; ils se déchirent par décollement de couches et se déforment de manière isotrope à la compression, contrairement au filet de poulet qui se sépare en faisceaux millimétriques.",
+  "locator": "Résultats, Fig. 2 (c–g)",
+  "quote_original": "we measured the LMA index of sliced HMMA sheets, showing an average value of 0.20, which was significantly lower than that of animal meats (p < 0.05)",
+  "conditions": "HMMA concentré de soja 40 %/eau 60 %, extrudeuse Leistritz ZSE 27 ; viandes bouillies (filet de poulet, magret, longe de porc), n = 5",
+  "evidence_type": "experimental",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-A-0002",
+    "title_original": "Perforated imprinting on high moisture meat analogue confers long range mechanical anisotropy resembling meat cuts",
+    "authors": "Lou X; Wang J; Kwang LG; Zhou H; Ong FYT; Ng S; Yu H",
+    "year": "2024",
+    "doi": "10.1038/s41538-024-00344-0",
+    "pmid": "39706829",
+    "url": "https://europepmc.org/article/PMC/PMC11662005",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-A-0014",
+  "claim_fr": "Chez le poulet de chair Ross 308, le remplacement partiel du tourteau de soja par une protéine bactérienne de Methylococcus capsulatus jusqu'à 12,5 % du régime maintient la croissance globale (j0–35), avec une baisse transitoire du GMQ en croissance (64,1 vs 67,5 g/j) et sans effet sur les émissions.",
+  "locator": "Résumé",
+  "quote_original": "early BSCP exposure facilitates adaptation to dietary inclusion levels up to 12.5% without compromising growth performance or environmental emissions",
+  "conditions": "480 poulets, 6 traitements, 35 j",
+  "evidence_type": "experimental",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-A-0012",
+    "title_original": "Broiler performance, intestinal adaptation, and environmental responses to graded dietary inclusion of bacterial single-cell protein",
+    "authors": "Ferdous M; Ball MEE; Wangui JC; Selvaraj R; Kyriazakis I; et al.",
+    "year": "2026",
+    "doi": "10.1016/j.psj.2026.107528",
+    "pmid": "42628348",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42628348/",
+    "access_level": "abstract_only"
+   }
+  ]
+ },
+ {
+  "id": "EV-A-0020",
+  "claim_fr": "La poudre Solein (biomasse inactivée de Xanthobacter sp. SoF1, bactérie hydrogénotrophe) contient 73,1 % de protéines en N×6,25 mais 68 % avec un facteur spécifique N×5,83, 17,5 % de fibres, 7,8 % de lipides et 1 240 mg/kg de fer ; un test du micronoyau in vivo chez la souris (jusqu'à 2 000 mg/kg pc) est négatif.",
+  "locator": "Methods (test material) ; Results",
+  "quote_original": "Solein® consists of 73.1% protein when calculated using the regular Kjeldahl factor (Nx6.25), and 68% protein when using a Kjeldahl factor based on the composition of Solein® (Nx5.83).",
+  "conditions": "Poudre commerciale (Factory 01 non précisée) ; souris NMRI mâles, 5/groupe",
+  "evidence_type": "experimental",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-A-0017",
+    "title_original": "In vivo mammalian micronucleus test in mice confirms lack of genotoxic potential of a protein-rich powder derived from Xanthobacter sp. SoF1",
+    "authors": "Choi B; Endres JR; Clewell A; Hirka G; Béres E; et al.",
+    "year": "2026",
+    "doi": "10.1186/s41021-026-00356-0",
+    "pmid": "41782075",
+    "url": "https://europepmc.org/article/PMC/PMC13001180",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-A-0040",
+  "claim_fr": "La mycoprotéine Quorn est produite en continu dans deux fermenteurs « pressure-cycle » (airlift) de 150 000 L, avec une sortie d'environ 300 kg de biomasse par heure ; les campagnes durent ~1 000 h, limitées par l'apparition de mutants très ramifiés.",
+  "locator": "Résumé",
+  "quote_original": "Today, myco-protein is produced in two 150,000 l pressure-cycle fermenters in a continuous process which outputs around 300 kg biomass/h. The continuous process is typically operated for around 1,000 h.",
+  "conditions": "Données publiées en 2002",
+  "evidence_type": "narrative_review",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-A-0035",
+    "title_original": "Myco-protein from Fusarium venenatum: a well-established product for human consumption",
+    "authors": "Wiebe MG",
+    "year": "2002",
+    "doi": "10.1007/s00253-002-0931-x",
+    "pmid": "11954786",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11954786/",
+    "access_level": "abstract_only"
+   }
+  ]
+ },
+ {
+  "id": "EV-A-0043",
+  "claim_fr": "Calculé avec le profil de référence 0,5–3 ans et des digestibilités iléales standardisées mesurées chez le porc, le DIAAS des protéines de soja est de 91 (limitant : Met+Cys), du pois 70 (Met+Cys), de la féverole 55, du blé 48 et du riz 47 (lysine), contre 117 pour la viande de porc et la caséine et 100 pour la protéine de pomme de terre.",
+  "locator": "Tableau 2 ; Résultats",
+  "quote_original": "the limiting amino acid of protein obtained from cereal grains—such as corn, wheat, hemp, rice, canola, oat, rapeseed—is lysine (Lys), while the leguminous sources of protein (fava bean, pea, lupin, soy) are limited by the sulfur‐containing amino acids methionine and cysteine (Met + Cys)",
+  "conditions": "Valeurs moyennes d'ingrédients (isolats/concentrés compilés), non de produits finis",
+  "evidence_type": "systematic_review",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-A-0041",
+    "title_original": "Comprehensive overview of the quality of plant- And animal-sourced proteins based on the digestible indispensable amino acid score",
+    "authors": "Herreman L; Nommensen P; Pennings B; Laus MC",
+    "year": "2020",
+    "doi": "10.1002/fsn3.1809",
+    "pmid": "33133540",
+    "url": "https://europepmc.org/article/PMC/PMC7590266",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-A-0041",
+  "claim_fr": "La société Meati (mycélium de Neurospora), valorisée 650 M USD en 2022 après ~450 M USD levés, a vu ses actifs cédés pour environ 4 M USD en 2025 après que sa banque a saisi sa trésorerie pour défaut technique sur des objectifs de chiffre d'affaires et de marge ; Beyond Meat affichait 1,1 Md USD de dette et un recul de 9,1 % de ses revenus au T1 2025.",
+  "locator": "Article complet",
+  "quote_original": "great patents, but too little understanding of how food companies work",
+  "conditions": "Contexte de crédit cher",
+  "evidence_type": "statistical_data",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-A-0036",
+    "title_original": "Alt meat meltdown: Beyond Meat's debt causes concern, Meati set for sale",
+    "authors": "FoodNavigator",
+    "year": "2025",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.foodnavigator.com/Article/2025/05/09/beyond-meat-and-meati-struggle-amid-plant-based-meat-slowdown/",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-A-0042",
+  "claim_fr": "Rapporté au kilogramme de protéine sèche, le poulet coûtait environ 4,6 USD/kg (prix départ ferme 1,43 USD/kg MS, 31 % de protéines) contre 1,1 USD/kg pour le soja et 1,6 USD/kg pour le blé ; le faible prix du tourteau de soja freine l'usage des protéines microbiennes dans l'aliment du bétail.",
+  "locator": "Tableau 1 ; §'Microbial protein as feed'",
+  "quote_original": "the relatively low price of soybean meal and the abundant and well‐established use as main protein additive in livestock production of the latter, still counteract the application of natural gas‐based MP",
+  "conditions": "Prix 2014–2016 compilés (Waite et al. 2014 ; Indexmundi)",
+  "evidence_type": "statistical_data",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-A-0037",
+    "title_original": "Microbial protein: future sustainable food supply route with low environmental footprint",
+    "authors": "Matassa S; Boon N; Pikaar I; Verstraete W",
+    "year": "2016",
+    "doi": "10.1111/1751-7915.12369",
+    "pmid": "27389856",
+    "url": "https://europepmc.org/article/PMC/PMC4993174",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-A-0039",
+  "claim_fr": "Le premier produit de viande cultivée vendu au détail (Singapour, mai 2024) est un hybride, GOOD Meat 3, contenant seulement 3 % de poulet cultivé mélangé à des protéines végétales (120 g à 7,20 SGD), la faible proportion étant justifiée par la réduction des coûts de production.",
+  "locator": "Communiqué du 15 mai 2024",
+  "quote_original": "helps reduce costs associated with the production of cultivated meat",
+  "conditions": "Vente en surgelé chez Huber's Butchery",
+  "evidence_type": "commercial_claim",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-A-0034",
+    "title_original": "GOOD Meat Begins the World's First Retail Sales of Cultivated Chicken",
+    "authors": "GOOD Meat (Eat Just Inc.)",
+    "year": "2024",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.goodmeat.co/all-news/good-meat-begins-the-worlds-first-retail-sales-of-cultivated-chicken",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-H-0001",
+  "claim_fr": "Les premiers os de poulets domestiques non ambigus proviennent du site néolithique de Ban Non Wat (Thaïlande centrale/nord-est), daté d'environ 1650–1250 av. J.-C. ; les poulets n'arrivent en Chine centrale, en Asie du Sud et en Mésopotamie qu'à la fin du IIe millénaire av. J.-C.",
+  "locator": "Résumé ; section « Discussion » (scénario)",
+  "quote_original": "the first unambiguous domestic chicken bones are found at Neolithic Ban Non Wat in central Thailand dated to ∼1650 to 1250 BCE",
+  "conditions": "Réévaluation de ~600 sites ; datations stratigraphiques et directes",
+  "evidence_type": "historical_reconstruction",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-H-0001",
+    "title_original": "The biocultural origins and dispersal of domestic chickens",
+    "authors": "Peters J; Lebrasseur O; Irving-Pease EK; Paxinos PD; Best J; Smallman R; Callou C; Gardeisen A; Trixl S; Frantz L; Sykes N; Fuller DQ; Larson G",
+    "year": "2022",
+    "doi": "10.1073/pnas.2121978119",
+    "pmid": "35666876",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.2121978119",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-H-0005",
+  "claim_fr": "À Pompéi (avant 79 ap. J.-C.), les poulets présentent un signal δ13C plus enrichi (moyenne −16,8 ‰, n = 5) que les autres animaux domestiques (porcs −20,4 ‰), indiquant un régime distinct, à base de plantes C4 (millet) ou de produits marins, et non de simples restes de table C3.",
+  "locator": "Tableau 1 ; discussion « faunal remains »",
+  "quote_original": "Chickens, uniquely, display a consistent signal of C₄ plant consumption, indicating a distinct provisioning system from other livestock.",
+  "conditions": "Collagène osseux, deux quartiers de Pompéi",
+  "evidence_type": "experimental",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-H-0003",
+    "title_original": "Baseline isotopic variability in plants and animals and implications for the reconstruction of human diet in 1st century AD Pompeii",
+    "authors": "Soncin S; Amoretti V; Comegna C; Corbino CA; Mantile N; Altieri S; Di Cicco MR; Giacometti V; Bakker J; Caso M; Trentacoste A; Ellis S; Tafuri MA; et al.",
+    "year": "2025",
+    "doi": "10.1038/s41598-025-12156-7",
+    "pmid": "40754595",
+    "url": "https://www.nature.com/articles/s41598-025-12156-7",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-H-0022",
+  "claim_fr": "Les Géoponiques byzantines (livre XIV, chap. 8, attribué à « Démocrite ») décrivent une production de vers pour nourrir les poussins : levain d'orge et son délayés dans l'eau, additionnés de crottin d'âne ou de cheval dans des pots ; des vers apparaissent en trois jours. Le même chapitre décrit une incubation sans poule dans des pots de fiente de volaille pulvérisée et de plumes.",
+  "locator": "Livre XIV, chap. 8 (« How it is possible to produce chickens without a hen »), trad. Owen vol. II p. ~170–171",
+  "quote_original": "take some leaven of barley, and mix some gurgeons with water ; and put some ass or horse dung in the pots, and after three days worms will be produced to feed the young brood",
+  "conditions": "Compilation byzantine (Xe s.) d'auteurs antérieurs",
+  "evidence_type": "historical_documented",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-H-0018",
+    "title_original": "Geōponika. Agricultural pursuits, vol. II — trad. du grec par T. Owen",
+    "authors": "Cassianus Bassus (compilateur) ; trad. Owen T",
+    "year": "1806",
+    "doi": "",
+    "pmid": "",
+    "url": "https://archive.org/details/b22041072_0002",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-H-0024",
+  "claim_fr": "Ibn al-ʿAwwām (Séville, fin XIIe s.) reprend la « vermière » des Géoponiques — pain d'orge moisi et son mêlés de crottin de cheval et d'âne, couverts d'eau et d'étoffes de laine pour produire de la chaleur : en trois jours il s'y forme des vers qui nourrissent les poussins jusqu'à ce qu'ils soient forts ; elle doit être préparée avant l'éclosion.",
+  "locator": "Tome II, 2e partie, chap. XXXIV, art. V « Les poules », p. ~248–249 (trad. Clément-Mullet)",
+  "quote_original": "Au bout de trois jours il s'est produit dans la masse des vers qui font la pâture des poussins jusqu'à ce qu'ils aient acquis de la force. On prépare cette vermière avant l'éclosion des poussins",
+  "conditions": "Al-Andalus, XIIe s.",
+  "evidence_type": "historical_documented",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-H-0019",
+    "title_original": "Le livre de l'agriculture d'Ibn-al-Awam (Kitab al-felahah), tome II, 2e partie — trad. de l'arabe par J.-J. Clément-Mullet",
+    "authors": "Ibn al-ʿAwwām (Yaḥyā ibn Muḥammad, Séville, XIIe s.) ; trad. Clément-Mullet JJ",
+    "year": "1867",
+    "doi": "",
+    "pmid": "",
+    "url": "https://archive.org/details/le-livre-de-lagriculture-d-ibn-al-awam-...-ibn-al-aww-m-bpt-6k-9780869g",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-H-0042",
+  "claim_fr": "Résultat « négatif » instructif : après l'arrêt volontaire de tous les AGP par la filière danoise le 15 février 1998, l'analyse de 6 815 lots de poulets de chair (1995–1999) ne montre aucun effet sur les kg produits par m² ni sur la mortalité ; seul l'IC augmente marginalement de 0,016 kg/kg.",
+  "locator": "Résumé",
+  "quote_original": "kilogram broilers produced per square meter and percent dead broilers in total were not affected by the discontinued use of AGPs. However, the feed-conversion ratio increased marginally 0.016 kg/kg",
+  "conditions": "Danemark, 1995–1999, données nationales",
+  "evidence_type": "statistical_data",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-H-0030",
+    "title_original": "The effect of discontinuing the use of antimicrobial growth promoters on the productivity in the Danish broiler production",
+    "authors": "Emborg H; Ersbøll AK; Heuer OE; Wegener HC",
+    "year": "2001",
+    "doi": "10.1016/s0167-5877(01)00218-5",
+    "pmid": "11448495",
+    "url": "https://doi.org/10.1016/s0167-5877(01)00218-5",
+    "access_level": "abstract_only"
+   }
+  ]
+ },
+ {
+  "id": "EV-H-0015",
+  "claim_fr": "Pline rapporte que la loi somptuaire du consul C. Fannius (an de Rome 593, soit 161 av. J.-C.) interdit de servir plus d'une poule, et non engraissée ; pour la contourner, on engraissa de jeunes coqs avec des aliments trempés dans du lait, jugés plus délicats. Il attribue aux Déliens l'invention de l'engraissement.",
+  "locator": "Histoire naturelle X, chap. LXXI (L) §1–2 (trad. Littré)",
+  "quote_original": "Pour éluder la défense, on a imaginé d'engraisser de jeunes coqs avec des aliments détrempés dans du lait; de cette façon on les trouve plus délicats.",
+  "conditions": "Rome, IIe s. av. J.-C.",
+  "evidence_type": "historical_documented",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-H-0015",
+    "title_original": "Naturalis historia, liber X — trad. française É. Littré, Dubochet 1848–1850",
+    "authors": "Gaius Plinius Secundus; trad. Littré É",
+    "year": "77",
+    "doi": "",
+    "pmid": "",
+    "url": "http://remacle.org/bloodwolf/erudits/plineancien/livre10.htm",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-H-0021",
+  "parameter": "Consommation volontaire de grain d'une poule commune en janvier–février (orge, avoine ou sarrasin à volonté)",
+  "value": "0.25",
+  "unit_original": "litron (mesure de Paris) par jour",
+  "quantity_basis": "feed",
+  "scale": "historical",
+  "data_nature": "historical_record",
+  "locator": "Mémoire sur la nourriture, p. ~323",
+  "conditions": "quelques poules, hiver, Paris années 1740",
+  "notes": "Litron non converti (pas de facteur documenté dans la source)",
+  "sources": [
+   {
+    "source_id": "SRC-H-0017",
+    "title_original": "The art of hatching and bringing up domestick fowls of all kinds, at any time of the year: either by means of the heat of hot-beds, or that of common fire",
+    "authors": "Réaumur RAF de (trad. anglaise anonyme)",
+    "year": "1750",
+    "doi": "",
+    "pmid": "",
+    "url": "https://archive.org/details/artofhatchingbri00reau",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-H-0022",
+  "parameter": "Rapport de consommation de seigle / froment à volonté",
+  "value": "0.5",
+  "unit_original": "ratio en volume",
+  "quantity_basis": "ratio",
+  "scale": "historical",
+  "data_nature": "historical_record",
+  "locator": "p. ~324–325",
+  "conditions": "1,5 litron de froment vs 0,75 litron de seigle par jour pour le groupe",
+  "notes": "",
+  "sources": [
+   {
+    "source_id": "SRC-H-0017",
+    "title_original": "The art of hatching and bringing up domestick fowls of all kinds, at any time of the year: either by means of the heat of hot-beds, or that of common fire",
+    "authors": "Réaumur RAF de (trad. anglaise anonyme)",
+    "year": "1750",
+    "doi": "",
+    "pmid": "",
+    "url": "https://archive.org/details/artofhatchingbri00reau",
+    "access_level": "partial_text_read"
+   }
+  ]
+ }
+]

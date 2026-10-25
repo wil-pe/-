@@ -1,0 +1,596 @@
+[
+ {
+  "id": "EV-C-0001",
+  "claim_fr": "Le matériau autorisé par la FDA pour UPSIDE (CCC 000002) est défini comme des cellules de Gallus gallus « présentant des caractéristiques de myocytes et de fibroblastes », récoltées sous forme de feuillets cellulaires après une phase de prolifération en suspension suivie d'une phase de différenciation adhérente.",
+  "locator": "p. 1–2, Summary",
+  "quote_original": "This food is defined as the cell material at harvest, comprised of cultured Gallus gallus cells, with characteristics of myocytes and fibroblasts, in the form of sheets of cells",
+  "conditions": "Procédé UPSIDE décrit dans CCC 000002 ; échelle non publiée",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-C-0001",
+    "title_original": "Memorandum — Cell Culture Consultation (CCC) 000002, Cultured Gallus gallus cell material (UPSIDE Foods, Inc.)",
+    "authors": "Fasano J (FDA CFSAN, Division of Science and Technology) et al.",
+    "year": "2022",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.fda.gov/media/163261/download",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0006",
+  "claim_fr": "Le produit GOOD Meat (CCC 000001) est constitué de cellules de la lignée commerciale DF-1 (UMNSAH/DF1, ATCC CRL-12203), fibroblastes embryonnaires de poulet spontanément immortalisés, cultivées en suspension et récoltées sous forme de pâte cellulaire par centrifugation ; aucune phase de différenciation musculaire n'est décrite.",
+  "locator": "p. 1–2 (Summary), p. 4 (Cell Procurement), p. 8 (Harvest)",
+  "quote_original": "comprised of cultured Gallus gallus cells, with characteristics of fibroblasts, in the form of cell biomass",
+  "conditions": "Prolifération en suspension ; sous-traitance JOINN Biologics",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-C-0002",
+    "title_original": "Memorandum — Cell Culture Consultation (CCC) 000001, Cultured Gallus gallus cell material (GOOD Meat, Inc.)",
+    "authors": "Overbey K (FDA CFSAN, Division of Food Ingredients) et al.",
+    "year": "2023",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.fda.gov/media/166348/download",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0009",
+  "claim_fr": "Le produit Believer Meats (CCC 000039) est constitué de fibroblastes spontanément immortalisés issus d'œufs embryonnés de poulet Baladi israélien, cultivés en suspension en bioréacteur avec échange de milieu, sans phase de différenciation musculaire.",
+  "locator": "p. 2 (Summary), p. 5 (Cell Isolation), p. 14 (Proliferation)",
+  "quote_original": "comprised of cultured chicken (Gallus gallus domesticus) fibroblasts",
+  "conditions": "Installation de Rehovot (Israël) ; extension prévue en Caroline du Nord",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-C-0003",
+    "title_original": "Memorandum — Cell Culture Consultation (CCC) 000039, Cultured Gallus gallus domesticus cell material (Believer Meats)",
+    "authors": "Mills J (FDA Human Foods Program, Innovative Foods Staff) et al.",
+    "year": "2025",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.fda.gov/media/188065/download",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0004",
+  "claim_fr": "Dans sa correspondance avec la FDA (déc. 2023), UPSIDE indique que son produit commercialisé jusque-là avait été produit avec un milieu de croissance contenant du sérum ; le procédé sans sérum n'était pas encore commercialisé.",
+  "locator": "Réponse UPSIDE à la demande d'information FDA, section Heavy Metal Specifications (p. 3–4 du PDF)",
+  "quote_original": "To date, our commercialized product has been CPM produced using serum-containing growth media.",
+  "conditions": "UPSIDE, CCC 000002, correspondance oct.–déc. 2023",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-C-0004",
+    "title_original": "Cell Culture Consultation (CCC) 002 — Supplement with amendments (UPSIDE Foods heavy metal specifications; FDA requests and UPSIDE responses, Oct–Dec 2023)",
+    "authors": "UPSIDE Foods (Reyes T); FDA Office of Food Additive Safety",
+    "year": "2023",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.fda.gov/media/188916/download",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0007",
+  "claim_fr": "Le procédé GOOD Meat décrit à la FDA utilise du sérum fœtal bovin (à concentration réduite) dans le milieu de production, ainsi qu'un agent anti-agrégation (Pluronic F-68) ; l'albumine bovine et le Pluronic servent d'indicateurs d'efficacité du lavage.",
+  "locator": "p. 5 (Establishment of Cell Lines), p. 9 (Harvest; Substances)",
+  "quote_original": "Additional substances used by the firm during the production phase of cell culture include anti-clumping agents, fetal bovine serum (FBS), and a sodium chloride wash solution.",
+  "conditions": "CCC 000001",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-C-0002",
+    "title_original": "Memorandum — Cell Culture Consultation (CCC) 000001, Cultured Gallus gallus cell material (GOOD Meat, Inc.)",
+    "authors": "Overbey K (FDA CFSAN, Division of Food Ingredients) et al.",
+    "year": "2023",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.fda.gov/media/166348/download",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0011",
+  "claim_fr": "Chez Believer, l'insuline et le FGF2 recombinants humains ne sont utilisés que pour établir la banque maîtresse secondaire ; la banque de travail et la production sont adaptées à un milieu sans composant animal et sans ces protéines recombinantes.",
+  "locator": "p. 10–11 (Establishment of Secondary MCB ; Establishment of MWCB)",
+  "quote_original": "Then, Believer adapts these cells to growth in media that is free of rHPs (i.e., rH insulin and rH FGF-2).",
+  "conditions": "Fibroblastes de poulet immortalisés, suspension",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-C-0003",
+    "title_original": "Memorandum — Cell Culture Consultation (CCC) 000039, Cultured Gallus gallus domesticus cell material (Believer Meats)",
+    "authors": "Mills J (FDA Human Foods Program, Innovative Foods Staff) et al.",
+    "year": "2025",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.fda.gov/media/188065/download",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0020",
+  "claim_fr": "La biomasse de cellules de caille cultivées (Vow, fibroblastes embryonnaires spontanément immortalisés) contient en moyenne 9 g de protéines/100 g (8,8–9,5 selon le milieu), contre 18,5 g/100 g pour le filet de poulet et 18–21 g/100 g pour la caille d'élevage.",
+  "locator": "section 4.2.3.1, p. 27",
+  "quote_original": "Harvested cells contain an average of 9 g protein (8.8 or 9.5 g depending on the culture media used) per 100 g ... Chicken breast contains 18.5 g protein/100 g.",
+  "conditions": "Cellules récoltées (avant formulation), deux milieux",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-C-0008",
+    "title_original": "Supporting document 1 — Risk assessment – Application A1269 Cultured quail as a novel food (approval stage, 7 April 2025)",
+    "authors": "Food Standards Australia New Zealand (FSANZ)",
+    "year": "2025",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.foodstandards.gov.au/sites/default/files/2025-04/A1269%20SD1%20Risk%20assessment_0.pdf",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0027",
+  "claim_fr": "Des fibroblastes embryonnaires de poulet immortalisés, modifiés par un transgène MyoD inductible (lentivirus), se transdifférencient en myotubes MHC+/desmine+ ; l'indice de fusion atteint 30,49 % en hydrogel 3D (GelMA), significativement plus qu'en 2D.",
+  "locator": "Results, Figure 3C ; Methods (cellular transdifferentiation)",
+  "quote_original": "The myotube formation efficiency (fusion index) in 3D reached 30.49%, which was significantly higher than that of the 2D under the same transdifferentiation conditions",
+  "conditions": "12 % FBS pendant l'induction ; DOX 50 ng/mL ; plaques et unités GelMA ; n=3",
+  "evidence_type": "experimental",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-C-0011",
+    "title_original": "Transdifferentiation of fibroblasts into muscle cells to constitute cultured meat with tunable intramuscular fat deposition",
+    "authors": "Ma T; Ren R; Lv J; Yang R; Zheng X; Hu Y; Zhu G; Wang H",
+    "year": "2024",
+    "doi": "10.7554/elife.93220",
+    "pmid": "38771186",
+    "url": "https://doi.org/10.7554/eLife.93220",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0044",
+  "claim_fr": "Une lignée de cellules satellites de poulet immortalisée par SV40-LT (lentivirus) n'a été suivie que jusqu'au passage 12, ralentit aux derniers passages, ne pousse pas sans sérum, et les auteurs concluent que SV40-LT pourrait ne pas convenir à l'immortalisation de ces cellules.",
+  "locator": "résumé et résultats (courbe de croissance, agar mou, dépendance au sérum)",
+  "quote_original": "SV40-LT基因并不适用于鸡骨骼肌卫星细胞永生化的建立",
+  "conditions": "DMEM/F12 avec 0–20 % FBS ; différenciation 2 % sérum de cheval",
+  "evidence_type": "experimental",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-C-0021",
+    "title_original": "鸡骨骼肌卫星细胞系的建立及分析",
+    "authors": "WANG Yanxing; ZHANG Yushi; JI Haigang; LIU Yang; NIU Yufang; HAN Ruili; LIU Xiaojun; TIAN Yadong; KANG Xiangtao; LI Zhuanjian",
+    "year": "2023",
+    "doi": "10.11843/j.issn.0366-6964.2023.12.009",
+    "pmid": "",
+    "url": "https://html.rhhz.net/XMSYXB/html/2023/12/1703592626306-1604113339.htm",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0065",
+  "claim_fr": "Believer Meats, dont les publications revendiquaient des densités record et un coût projeté de 6,2 USD/lb, a cessé ses activités en décembre 2025 faute de fonds, après avoir levé 390 M USD ; son usine de Caroline du Nord visait au moins 12 000 t/an.",
+  "locator": "article du 12/12/2025",
+  "quote_original": "has been forced to shut down its operations after running out of funds",
+  "conditions": "",
+  "evidence_type": "commercial_claim",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-C-0040",
+    "title_original": "Israeli-founded lab-grown meat startup Believer shuts down as funds dry up",
+    "authors": "The Times of Israel",
+    "year": "2025",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.timesofisrael.com/israeli-founded-lab-grown-meat-startup-believer-shuts-down-as-funds-dry-up/",
+    "access_level": "partial_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0075",
+  "claim_fr": "Le premier poulet cultivé vendu au détail (GOOD Meat 3, Singapour, à partir du 16 mai 2024) contient seulement 3 % de poulet cultivé mélangé à des protéines végétales (120 g pour 7,20 SGD) ; l'entreprise justifie cette faible proportion notamment par la réduction des coûts de production. Le communiqué ne précise ni le milieu (avec ou sans sérum) ni le volume produit.",
+  "locator": "communiqué GOOD Meat du 15/05/2024",
+  "quote_original": "using just 3% cultivated chicken",
+  "conditions": "Vente en surgelé chez Huber's Butchery ; autorisation SFA de 2020 invoquée sans précision sur ce produit",
+  "evidence_type": "commercial_claim",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-A-0034",
+    "title_original": "GOOD Meat Begins the World's First Retail Sales of Cultivated Chicken",
+    "authors": "GOOD Meat (Eat Just Inc.)",
+    "year": "2024",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.goodmeat.co/all-news/good-meat-begins-the-worlds-first-retail-sales-of-cultivated-chicken",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0010",
+  "claim_fr": "Believer déclare un caryotype normal sur 500 doublements de population, un temps de doublement stable sur plus de 800 jours, l'absence de mutation de TP53 et un potentiel adipogène conservé après 576 doublements (1,6 an) sous lécithine + acides gras.",
+  "locator": "p. 9 (Establishment of Cell Lines)",
+  "quote_original": "the cell line retains normal chromosome distribution over 500 population doublings",
+  "conditions": "Lignée spontanément immortalisée, adaptée à la suspension",
+  "evidence_type": "regulatory_text",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-C-0003",
+    "title_original": "Memorandum — Cell Culture Consultation (CCC) 000039, Cultured Gallus gallus domesticus cell material (Believer Meats)",
+    "authors": "Mills J (FDA Human Foods Program, Innovative Foods Staff) et al.",
+    "year": "2025",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.fda.gov/media/188065/download",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-C-0063",
+  "claim_fr": "En janvier 2023, la SFA a autorisé GOOD Meat à utiliser un milieu sans sérum pour produire son poulet cultivé ; l'entreprise évoquait un bioréacteur de 6 000 L, présenté comme le plus grand du secteur.",
+  "locator": "article du 18/01/2023",
+  "quote_original": "Not too long ago, observers thought removing serum was a major limiting step to scaling cultivated meat.",
+  "conditions": "",
+  "evidence_type": "commercial_claim",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-C-0038",
+    "title_original": "World first: Singapore gives GOOD Meat approval to to commercialise serum-free media for cultivated meat",
+    "authors": "FoodNavigator (William Reed)",
+    "year": "2023",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.foodnavigator.com/Article/2023/01/18/World-first-Singapore-gives-GOOD-Meat-approval-to-to-commercialise-serum-free-media-for-cultivated-meat",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "Q-C-0001",
+  "parameter": "Densité cellulaire maximale en culture continue (suspension, sans sérum)",
+  "value": "108",
+  "unit_original": "× 10^6 cells per ml",
+  "quantity_basis": "cell_count",
+  "scale": "lab",
+  "data_nature": "measured",
+  "locator": "résumé",
+  "conditions": "suspension unicellulaire, milieu sans sérum",
+  "notes": "Volume de culture non précisé dans le résumé",
+  "sources": [
+   {
+    "source_id": "SRC-C-0006",
+    "title_original": "Spontaneous immortalization of chicken fibroblasts generates stable, high-yield cell lines for serum-free production of cultured meat",
+    "authors": "Pasitka L; Cohen M; Ehrlich A; Gildor B; Reuveni E; Ayyash M; Wissotsky G; Herscovici A; Kaminker R; Niv A; Bitcover R; Dadia O; Rudik A; Voloschin A; Shimoni M; Cinnamon Y; Nahmias Y",
+    "year": "2023",
+    "doi": "10.1038/s43016-022-00658-w",
+    "pmid": "37118574",
+    "url": "https://doi.org/10.1038/s43016-022-00658-w",
+    "access_level": "abstract_only"
+   }
+  ]
+ },
+ {
+  "id": "Q-C-0003",
+  "parameter": "Densité cellulaire maximale en perfusion par filtration tangentielle",
+  "value": "130",
+  "unit_original": "× 10^6 cells per ml",
+  "quantity_basis": "cell_count",
+  "scale": "lab",
+  "data_nature": "measured",
+  "locator": "résumé",
+  "conditions": "perfusion TFF, milieu sans composant animal, >20 jours",
+  "notes": "Échelle exacte non précisée dans le résumé ; ne pas extrapoler à 10 000 L",
+  "sources": [
+   {
+    "source_id": "SRC-X-0001",
+    "title_original": "Empirical economic analysis shows cost-effective continuous manufacturing of cultivated chicken using animal-free medium",
+    "authors": "Pasitka L; Wissotsky G; Ayyash M; Yarza N; Rosoff G; Kaminker R; Nahmias Y",
+    "year": "2024",
+    "doi": "10.1038/s43016-024-01022-w",
+    "pmid": "",
+    "url": "",
+    "access_level": "abstract_only"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0001",
+  "claim_fr": "Dans le modèle de Humbird, une usine fed-batch de 24 bioréacteurs de 20 m3 (6,8 kt/an de masse cellulaire humide) a un investissement total (TCI) de 328 M USD et un coût de production de 37 USD/kg de masse cellulaire humide ; la variante perfusion (96 × 2 m3, 6,9 kt/an) atteint 663 M USD et 51 USD/kg.",
+  "locator": "Tableau 2 ; section 3.1-3.2",
+  "quote_original": "Total capital investment $328M $663M ... Total cost of production $37 $51",
+  "conditions": "Usines conceptuelles, production mondiale supposée 100 kt/an, lignée à métabolisme amélioré (Reaction 3), USD ~2018-2020",
+  "evidence_type": "techno_economic_model",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-E-0001",
+    "title_original": "Scale-up economics for cultured meat",
+    "authors": "Humbird D",
+    "year": "2021",
+    "doi": "10.1002/bit.27848",
+    "pmid": "34101164",
+    "url": "https://europepmc.org/article/PMC/PMC8362201",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0005",
+  "claim_fr": "Risner et al. (2021) trouvent un coût minimal de ~437 000 USD/kg dans le scénario de référence (milieu E8 de 2019, 10^7 cellules/mL, doublement 24 h) et ~1,95 USD/kg seulement dans un scénario où quasiment toutes les limites techniques sont levées (2 × 10^8 cellules/mL, doublement 8 h, facteurs de croissance gratuits).",
+  "locator": "Tableaux 1-2 ; section Résultats",
+  "quote_original": "In Scenario 1, the cost per kilogram remains exceedingly expensive at approximately USD 400,000 ... Only in Scenario 4 does ACBM approach commodity level prices at approximately USD 2 per kg.",
+  "conditions": "Bœuf, États-Unis, 1 % du marché US (121 000 t), bioréacteurs 20 m3 seulement dans le CAPEX",
+  "evidence_type": "techno_economic_model",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-E-0002",
+    "title_original": "Preliminary Techno-Economic Assessment of Animal Cell-Based Meat",
+    "authors": "Risner D; Li F; Fell JS; Pace SA; Siegel JB; Tagkopoulos I; Spang ES",
+    "year": "2021",
+    "doi": "10.3390/foods10010003",
+    "pmid": "33374916",
+    "url": "https://europepmc.org/article/PMC/PMC7821941",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0022",
+  "claim_fr": "Dans la TEA CE Delft (corrigendum 2021), le coût des marchandises vendues de la viande cultivée passe de 22 421 $/kg (scénario actuel le plus coûteux) à 6,43 $/kg dans le scénario 2030 cumulant tous les leviers (facteurs de croissance et protéines recombinantes bon marché, amortissement sur 30 ans, cycle plus court, cellules plus grosses).",
+  "locator": "Résumé, Figure 1 ; sections 3.2.1-3.2.5",
+  "quote_original": "$22.421 ... $1.708 ... $150 ... $116 ... $18 ... $8 ... $7,16 ... $6,43",
+  "conditions": "Usine de 10 kt/an, densité de base 50 × 10^6 cellules/mL, hygiène « qualité alimentaire » sans salle blanche",
+  "evidence_type": "techno_economic_model",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-E-0014",
+    "title_original": "TEA of cultivated meat. Future projections of different scenarios – corrigendum",
+    "authors": "Vergeer R; Sinke P; Odegard I",
+    "year": "2021",
+    "doi": "",
+    "pmid": "",
+    "url": "https://cedelft.eu/wp-content/uploads/sites/2/2021/02/CE_Delft_190254_TEA_of_Cultivated_Meat_FINAL_corrigendum.pdf",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0015",
+  "claim_fr": "En 2017, le coût de production du poulet de chair en élevage dans neuf pays de l'UE allait de 78,6 (Pologne) à 86,5 (Royaume-Uni) c€/kg de poids vif ; l'aliment en représentait 47,7 à 55,6 c€/kg (≈60-65 %), le poussin 12,9-18,7 c€/kg, la main-d'œuvre 1,5-5,2 c€/kg et le logement 4,7-6,2 c€/kg.",
+  "locator": "Tableau 3.2, p. 20",
+  "quote_original": "The production costs in Poland are the lowest at 78.6 eurocents per kg live weight, the UK the highest at 86.5 eurocents.",
+  "conditions": "Modèle d'exploitation type 2017 ; IC 1,55-1,72 ; poids vif 1,9-2,6 kg",
+  "evidence_type": "statistical_data",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-E-0011",
+    "title_original": "Competitiveness of the EU poultry meat sector, base year 2017. International comparison of production costs",
+    "authors": "van Horne PLM",
+    "year": "2018",
+    "doi": "",
+    "pmid": "",
+    "url": "https://edepot.wur.nl/465696",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0016",
+  "claim_fr": "En 2017, le coût de production en élevage était nettement plus bas hors UE : Brésil 63,2, États-Unis 64,5, Ukraine 67,2, Thaïlande 72,4, Argentine 73,3 et Russie 75,2 c€/kg de poids vif, contre 82,5 en moyenne UE, surtout grâce à un aliment moins cher (24,1-24,4 €/100 kg aux États-Unis, au Brésil et en Ukraine contre 31,1 dans l'UE).",
+  "locator": "Tableaux 3.4-3.5 ; section 3.2.1",
+  "quote_original": "In the EU, the average total production costs were 82.5 eurocents per kg live weight in 2017. In Brazil, the USA and Ukraine, production costs are significantly lower than in the EU, respectively 63.2, 64.5 and 67.2 eurocents per kg live weight.",
+  "conditions": "2017, taux de change de 2017",
+  "evidence_type": "statistical_data",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-E-0011",
+    "title_original": "Competitiveness of the EU poultry meat sector, base year 2017. International comparison of production costs",
+    "authors": "van Horne PLM",
+    "year": "2018",
+    "doi": "",
+    "pmid": "",
+    "url": "https://edepot.wur.nl/465696",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0019",
+  "claim_fr": "En France en 2022, l'enquête ITAVI/Chambres d'agriculture donne un coût de production en élevage de 1,264 €/kg vif pour le poulet standard (dont aliment 0,755 et poussin 0,239), 2,485 €/kg vif pour le poulet Label Rouge (aliment 1,436) et 3,366 €/kg vif pour le poulet biologique (aliment 2,161), rémunération forfaitaire de l'éleveur incluse.",
+  "locator": "pp. 11, 15, 19 (tableaux des postes)",
+  "quote_original": "COÛT DE PRODUCTION 1,264 ... COÛT DE PRODUCTION 2,485 ... le coût de production augmente par rapport à 2021 à 3,37 €/kg vif",
+  "conditions": "France 2022, année de flambée des matières premières (+27 % aliment standard) et d'IAHP ; IC 1,61 (standard, 35,7 j), 3,04 (LR, 87,7 j), 3,08 (bio, 83,7 j)",
+  "evidence_type": "statistical_data",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-E-0012",
+    "title_original": "Performances techniques et coûts de production en volailles de chair. Résultats 2022",
+    "authors": "ITAVI - Service Économie ; Chambres d'agriculture de l'Ouest",
+    "year": "2024",
+    "doi": "",
+    "pmid": "",
+    "url": "https://l214.com/wp-content/uploads/2024/07/664729d967eea_PTCP-chair-2023-sur-resultats-2022_avril.pdf",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0024",
+  "claim_fr": "Sinke et al. (2023) estiment l'empreinte carbone de la viande cultivée en 2030 à 2,8 kg CO2-eq/kg avec énergie renouvelable sur tous les périmètres, 4,0 avec renouvelable sur le site seulement et 14,3 avec le mix énergétique mondial moyen, contre 2,7 pour le benchmark « ambitieux » 2030 du poulet, 6,0 pour le benchmark poulet actuel et 9,0 pour la moyenne mondiale 2018 (Poore & Nemecek).",
+  "locator": "Tableau 2, p. 245 ; section 3.1",
+  "quote_original": "In the global average energy scenario, the carbon footprint is over 14 kg CO2-eq./kg meat, while the ambitious benchmark has a carbon footprint of less than 3 kg CO2-eq./kg meat.",
+  "conditions": "Usine 2030 hypothétique, intrants de qualité alimentaire, recyclage d'eau 75 %, soja sans LUC",
+  "evidence_type": "life_cycle_assessment",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-E-0015",
+    "title_original": "Ex-ante life cycle assessment of commercial-scale cultivated meat production in 2030",
+    "authors": "Sinke P; Swartz E; Sanctorum H; van der Giesen C; Odegard I",
+    "year": "2023",
+    "doi": "10.1007/s11367-022-02128-8",
+    "pmid": "",
+    "url": "https://cedelft.eu/wp-content/uploads/sites/2/2023/01/CE_Delft_200220_Ex-ante-LCA-of-commercial-scale-CM-production-in-2030_FINAL_2.pdf",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0006",
+  "claim_fr": "L'ACV de Risner et al. (2025) estime le potentiel de réchauffement de la viande cultivée à 12-1508 kg CO2e/kg ; tous les scénarios utilisant des composants de milieu purifiés (qualité pharmaceutique) donnent 246-1508 kg CO2e/kg, soit 4 à 25 fois la médiane du bœuf de détail (~60 kg CO2e/kg).",
+  "locator": "Section Résultats (paragraphe GWP, Figure 4)",
+  "quote_original": "The GWP of all purified scenarios ranged from 246 to 1508 kg of CO2e per kilogram of cultured meat, which is 4 to 25 times greater than the median GWP of retail beef",
+  "conditions": "Ex ante, berceau à la porte, facteur de purification 20× appliqué aux intrants, mix énergétique US",
+  "evidence_type": "life_cycle_assessment",
+  "confidence": "low",
+  "sources": [
+   {
+    "source_id": "SRC-E-0003",
+    "title_original": "Environmental Impacts of Cultured Meat: A Cradle-to-Gate Life Cycle Assessment",
+    "authors": "Risner D; Negulescu P; Kim Y; Nguyen C; Siegel JB; Spang ES",
+    "year": "2025",
+    "doi": "10.1021/acsfoodscitech.4c00281",
+    "pmid": "39840401",
+    "url": "https://europepmc.org/article/PMC/PMC11744764",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0030",
+  "claim_fr": "L'Italie interdit depuis le 16 décembre 2023 (loi n° 172 du 1er décembre 2023) aux opérateurs du secteur alimentaire et des aliments pour animaux de produire, vendre, importer, produire pour l'exportation ou promouvoir des aliments ou aliments pour animaux issus de cultures cellulaires ou tissulaires d'animaux vertébrés, sur la base du principe de précaution ; les sanctions vont de 10 000 à 60 000 € ou 10 % du chiffre d'affaires (plafond 150 000 €), avec confiscation et fermeture possible de 1 à 3 ans.",
+  "locator": "Art. 2(1) ; art. 5(1)",
+  "quote_original": "è vietato agli operatori del settore alimentare e agli operatori del settore dei mangimi impiegare nella preparazione di alimenti, bevande e mangimi, vendere, detenere per vendere, importare, produrre per esportare ... alimenti o mangimi costituiti, isolati o prodotti a partire da colture cellulari o di tessuti derivanti da animali vertebrati",
+  "conditions": "Italie",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-E-0018",
+    "title_original": "Legge 1 dicembre 2023, n. 172. Disposizioni in materia di divieto di produzione e di immissione sul mercato di alimenti e mangimi costituiti, isolati o prodotti a partire da colture cellulari o di tessuti derivanti da animali vertebrati nonché di divieto della denominazione di carne per prodotti trasformati contenenti proteine vegetali",
+    "authors": "Repubblica Italiana",
+    "year": "2023",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.normattiva.it/eli/id/2023/12/01/23G00188/ORIGINAL",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0032",
+  "claim_fr": "En Floride, la loi (Fla. Stat. § 500.452, ch. 2024-137) rend illégal de fabriquer pour la vente, vendre, détenir ou offrir à la vente ou distribuer de la viande cultivée ; la violation délibérée constitue un délit de second degré, avec ordre d'arrêt de vente et suspension possible de licence.",
+  "locator": "§ 500.452(1)-(5)",
+  "quote_original": "It is unlawful for any person to manufacture for sale, sell, hold or offer for sale, or distribute cultivated meat in this state.",
+  "conditions": "Floride, 2024",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-E-0019",
+    "title_original": "Florida Statutes § 500.452 Cultivated meat; prohibition; penalties",
+    "authors": "Florida Legislature",
+    "year": "2024",
+    "doi": "",
+    "pmid": "",
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0500/Sections/0500.452.html",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0034",
+  "claim_fr": "Aux États-Unis, la FDA supervise la collecte des cellules, les banques cellulaires, la croissance et la différenciation, puis transfère la supervision à l'USDA-FSIS au stade de la récolte pour la viande et la volaille (accord formel de mars 2019) ; 5 consultations préalables ont été terminées : UPSIDE Foods (poulet, 16/11/2022), GOOD Meat (poulet, 20/03/2023), Mission Barns (graisse de porc, 07/03/2025), Wildtype (saumon, 28/05/2025), Believer Meats (poulet, 24/07/2025).",
+  "locator": "Inventaire FDA (5 entrées) ; page explicative FDA",
+  "quote_original": "We transition oversight to USDA-FSIS during the harvesting stage of the cell culture process.",
+  "conditions": "Consulté le 2026-10-25",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-E-0021",
+    "title_original": "Human Food Made with Cultured Animal Cells Inventory (completed pre-market consultations)",
+    "authors": "U.S. Food and Drug Administration",
+    "year": "2025",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=AnimalCellCultureFoods",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0035",
+  "claim_fr": "À Singapour, un nouvel aliment est notamment une substance issue de culture cellulaire ou tissulaire n'ayant pas été consommée de façon significative depuis au moins 20 ans ; pour la viande cultivée, l'approbation préalable porte sur les lignées, les milieux, les facteurs de croissance, les échafaudages et l'asepsie, et toute modification des lignées ou des composants du milieu exige une nouvelle approbation avant commercialisation.",
+  "locator": "Sections 2.1, 8.2-8.8, 9.1, 9.5",
+  "quote_original": "An example of such a change would be modifications in input materials (e.g. cell-lines or culture media components) in the production of cultured meat.",
+  "conditions": "Version du 17 mars 2025 (1re version 22/11/2019)",
+  "evidence_type": "regulatory_text",
+  "confidence": "high",
+  "sources": [
+   {
+    "source_id": "SRC-E-0022",
+    "title_original": "Requirements for the Safety Assessment of Novel Foods and Novel Food Ingredients (updated 17 Mar 2025)",
+    "authors": "Singapore Food Agency",
+    "year": "2025",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.sfa.gov.sg/docs/default-source/regulatory-standards-frameworks-and-guidelines/requirements-for-the-safety-assessment-of-novel-foods-and-novel-food-ingredients_17032025.pdf",
+    "access_level": "full_text_read"
+   }
+  ]
+ },
+ {
+  "id": "EV-E-0047",
+  "claim_fr": "Believer Meats, entreprise dont les chercheurs ont publié la TEA de Pasitka et al. (2024), a cessé ses activités en décembre 2025 : son usine de 200 000 pieds² (≈ 150 M$) à Wilson (Caroline du Nord), approuvée par l'USDA en novembre 2025 avec une capacité annoncée de 26 millions de livres/an, n'est jamais entrée en production commerciale et restait vacante en août 2026 ; l'offre de rachat de 50 M$ d'UPSIDE Foods a été retirée.",
+  "locator": "Article complet",
+  "quote_original": "The $150M facility had received the green light from the US Department of Agriculture to manufacture cultivated chicken in November 2025, with the capacity to produce up to 26 million lbs annually. However, a failure to raise funds meant the company couldn't overcome its debts",
+  "conditions": "États-Unis, 2025-2026",
+  "evidence_type": "commercial_claim",
+  "confidence": "moderate",
+  "sources": [
+   {
+    "source_id": "SRC-E-0031",
+    "title_original": "Upside Foods Withdraws $50M Bid to Buy Believer Meats’s US Facility, But Retains Interest",
+    "authors": "Mridul A (Green Queen)",
+    "year": "2026",
+    "doi": "",
+    "pmid": "",
+    "url": "https://www.greenqueen.com.hk/upside-foods-believer-meats-wilson-nc-cultivated-meat-facility-bid/",
+    "access_level": "full_text_read"
+   }
+  ]
+ }
+]
