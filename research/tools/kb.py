@@ -20,11 +20,14 @@ import csv
 import json
 import os
 import re
+import signal
 import sys
 import unicodedata
 from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
+
+signal.signal(signal.SIGPIPE, signal.SIG_DFL)
 
 ROOT = Path(__file__).resolve().parents[1]
 AGENTS = {
