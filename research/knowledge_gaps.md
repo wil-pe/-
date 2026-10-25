@@ -4,7 +4,12 @@ Deux types d'entrées à ne pas confondre :
 - **Inconnues scientifiques** : la donnée n'existe pas publiquement (cherchée sans succès par un ou plusieurs agents, journalisée).
 - **Lacunes de couverture** : la réponse existe probablement, mais nous ne l'avons pas trouvée ou lue (accès, langue, temps).
 
-Consolidé le 2026-10-25 à partir des handoffs H, N, C, A, E (P à intégrer). Priorité : P1 = conditionne une conclusion principale.
+Consolidé le 2026-10-25 à partir des handoffs H, N, C, A, E, P, puis de la phase 4 (B, M, S, R, K). Priorité : P1 = conditionne une conclusion principale. Les lacunes réduites en phase 4 sont marquées **[réduit]** ou **[résolu]**.
+
+## État après la phase 4 (résumé)
+- **Réduites nettement** : KG-A04 (dose-réponse insectes, agent M), KG-COV-07 (EUR-Lex contourné via CELLAR, agent R), KG-COV-12 (réglementation Corée/Chine/Suisse/États US, agent R), KG-C01 (DIAAS, agent S), KG-X01 (comparaison par kg de protéine, agent K).
+- **Réduites partiellement** : KG-C02 (énergie extrusion : labo/pilote seulement), KG-C06 (TEA mycoprotéine : via Risner 2023), KG-A03 (plancher PB : prix max du mélange d'AA calculé), KG-X02 (coûts poulet 2021–2025 UE/FR/US/BR).
+- **Toujours ouvertes (bloquées par l'accès ou la politique d'usage)** : KG-B01, KG-B02, KG-B03, KG-B04, KG-B05, KG-B06 (données de procédé et de composition de la biomasse de poulet — agent B interrompu par la politique d'usage, non relancé), KG-COV-05 (Pasitka texte intégral), KG-COV-08 (Havenstein texte intégral).
 
 ## 1. Inconnues scientifiques
 
@@ -44,7 +49,8 @@ Consolidé le 2026-10-25 à partir des handoffs H, N, C, A, E (P à intégrer). 
 | ID | Prio | Inconnue | Pourquoi | Preuves partielles |
 |---|---|---|---|---|
 | KG-X01 | P1 | Coût par kg de **protéine comestible** sur une base homogène pour les trois voies | Comparaison principale (RQ-X1) | Voie A : 8,3–14,1 €2017 (UE standard, Q-E-0070) ; voie B : 85–670 USD (Q-X-0001 à Q-X-0003, modèle) ; voie C : ingrédients seulement (soja 1,8–8,1 €/kg de protéine, prix) |
-| KG-X02 | P2 | Coûts internationaux du poulet après 2017 | Actualiser la référence | France 2022 (EV-E-0019) |
+| KG-X02 | P2 | Coûts internationaux du poulet après 2017 | Actualiser la référence | **[réduit]** UE 6 pays 2021, France 2022, États-Unis 2023, Brésil 2025 (agent K) ; étude AVEC/Wageningen 2026 introuvable |
+| KG-X03 | P2 | Empreinte eau du poulet sur une base cohérente | Comparaison eau entre voies | **Nouveau (CT-28)** : 1 654 L/kg de protéine (Mekonnen & Hoekstra) vs 200 L (CE Delft) — méthodes d'empreinte eau incompatibles |
 
 ### Histoire
 | ID | Prio | Inconnue | Preuves partielles |

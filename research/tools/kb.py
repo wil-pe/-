@@ -11,6 +11,7 @@ Usage
   python3 research/tools/kb.py add quant    <AGENT> <file.json>
   python3 research/tools/kb.py find <text>                         # search all source titles/DOIs
   python3 research/tools/kb.py set <ID> <field> <value>            # correct one field of a row you own (logged in notes)
+  python3 research/tools/kb.py del <ID> "<reason>"                 # delete one row (refuses if a source is still cited); logged
   python3 research/tools/kb.py check                               # validate every agent table
   python3 research/tools/kb.py merge                               # build root tables + dedup report
   python3 research/tools/kb.py stats
@@ -295,6 +296,38 @@ def cmd_set(rid, field, value):
     print(f"UPDATED {rid}.{field}: '{old}' -> '{value}'")
 
 
+def cmd_del(rid, reason):
+    """Delete one row (coordinator only). Refuses to delete a source still referenced by evidence/quant."""
+    m = re.match(r"^(SRC|EV|Q)-([A-Z])-\d{4}$", rid)
+    if not m:
+        sys.exit("ID must look like SRC-A-0001 / EV-A-0001 / Q-A-0001")
+    if not reason or len(reason) < 5:
+        sys.exit("a reason (>=5 chars) is required; it is logged to coordination/deletions.log")
+    table = {"SRC": "sources", "EV": "evidence", "Q": "quant"}[m.group(1)]
+    prefix, cols, idcol = TABLES[table]
+    if table == "sources":
+        refs = []
+        for a in AGENTS:
+            for tb in ("evidence", "quant"):
+                for r in read_rows(path_for(tb, a)):
+                    if rid in re.split(r"[;, ]+", r.get("source_id", "")):
+                        refs.append(r[TABLES[tb][2]])
+        if refs:
+            sys.exit(f"refusing: {rid} is still cited by {len(refs)} rows ({', '.join(refs[:8])}...). Repoint or delete those first.")
+    p2 = path_for(table, m.group(2))
+    rows = read_rows(p2)
+    hit = [r for r in rows if r[idcol] == rid]
+    if not hit:
+        sys.exit(f"{rid} not found in {p2}")
+    rows = [r for r in rows if r[idcol] != rid]
+    write_rows(p2, cols, rows)
+    log = ROOT / "coordination" / "deletions.log"
+    label = hit[0].get("title_original") or hit[0].get("claim_fr") or hit[0].get("parameter", "")
+    with open(log, "a", encoding="utf-8") as f:
+        f.write(f"{date.today().isoformat()}\t{rid}\t{reason}\t{label[:120]}\n")
+    print(f"DELETED {rid} (logged to {log.relative_to(ROOT.parent)}): {label[:90]}")
+
+
 def cmd_find(text):
     t = normalize_title(text)
     d = norm_doi(text)
@@ -415,6 +448,8 @@ if __name__ == "__main__":
         cmd_add(sys.argv[2], sys.argv[3], sys.argv[4])
     elif c == "set" and len(sys.argv) == 5:
         cmd_set(sys.argv[2], sys.argv[3], sys.argv[4])
+    elif c == "del" and len(sys.argv) == 4:
+        cmd_del(sys.argv[2], sys.argv[3])
     elif c == "find":
         cmd_find(" ".join(sys.argv[2:]))
     elif c == "check":

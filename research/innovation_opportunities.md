@@ -26,8 +26,8 @@ Les coûts indiqués (mois-personne) sont des **estimations des agents, non sour
 | 6 | INN-06 | A | **Abaisser le plancher de protéine brute** (glycine, potassium/bilan électrolytique, amidon lent) : 15 % de PB sans pénalité d'IC > 2 % | R | 2 | 3 | 3 | 10 | N-2 |
 | 7 | INN-07 | B+C | **Dose-réponse sensorielle des hybrides** (0–20 % de biomasse ou de graisse cultivée) + **audit de liberté d'exploitation** du domaine public | R | 2 | 2 | 3 | 9 | P-6, P-9, E-4 |
 | 8 | INN-08 | A+B | **Plasma d'abattoir de poulet** fractionné comme supplément de milieu | R | 2 | 2 | 3 | 9 | P-4 |
-| 9 | INN-09 | C | **Filet laminé par films protéiques (« yuba 2.0 ») perforés** : fibrosité du filet avec moins d'énergie que l'extrusion humide | D | 2 | 2 | 3 | 9 | A-1 |
-| 10 | INN-10 | C | **Arôme « poulet » sans hème** : précurseurs soufrés (cystéine, ribose/IMP, thiamine) + émulsion de phospholipides | R | 2 | 2 | 3 | 9 | A-2 |
+| 9 | INN-09 | C | **Filet laminé par films protéiques (« yuba 2.0 ») perforés** : fibrosité du filet avec moins d'énergie que l'extrusion humide (agent S : cellule de Couette ≤ 33 kJ/kg vs 150–760 kJ/kg en extrusion, déclaration) | D | 2 | 2 | 3 | 9 | A-1, S |
+| 10 | INN-10 | C | **Arôme « poulet » sans hème** : précurseurs soufrés (cystéine, ribose/IMP, thiamine) + émulsion de phospholipides — ⚠ liberté d'exploitation : brevet DSM EP3054792B1 actif jusqu'en 2034 (acide arachidonique extrudé) | R | 2 | 2 | 3 | 9 | A-2, S |
 | 11 | INN-11 | A | **Nutrition dédiée aux souches à croissance lente** (écart d'IC ≤ 0,15, azote excrété −30 %) | R | 2 | 2 | 3 | 9 | N-4 |
 | 12 | INN-12 | B | **Aseptie de qualité alimentaire sans salle blanche** (< 2 % de lots contaminés sur ≥ 50 lots de 200 à 1 000 L) | D | 3 | 1 | 1 | 8 | E-2 |
 | 13 | INN-13 | B | **Indépendance aux facteurs de croissance** : lignées cisgéniques autocrines (FGF2/IGF1 thermostables) ou co-culture fibroblastes–cellules satellites | D | 2 | 2 | 2 | 8 | P-5, C I-4 |
@@ -56,7 +56,8 @@ Les coûts indiqués (mois-personne) sont des **estimations des agents, non sour
 - **Preuves** : chez Humbird, un hydrolysat à 2 USD/kg ramène le coût modélisé de 37 à 22 USD/kg humide (Q-P-0003), condition « nécessaire mais insuffisante » (EV-P-0065) ; SCP et soja déjà produits à l'échelle de l'alimentation animale (EV-A-0014, EV-P-0060).
 - **Expérience** : plan factoriel avec 0, 25, 50, 75 et 100 % des acides aminés de DMEM/F12 remplacés par un hydrolysat (soja ou SCP), avec ou sans complémentation en 4 acides aminés, sur fibroblastes de poulet pendant 10 passages ; endotoxines, croissance, métabolites ; TEA du milieu.
 - **Succès** : ≥ 75 % remplacés avec une perte de croissance ≤ 20 %, et un coût inférieur à la référence. **Échec** : toxicité ou endotoxines impossibles à éliminer.
-- **Coût/risque** : 6–12 mois-personne ; variabilité des lots ; statut réglementaire de l'hydrolysat.
+- **Précision phase 4 (agent M)** : la lysine de qualité alimentation animale contient 10–29 UI/g d'endotoxines, proche du seuil de la culture cellulaire (≤ 10 UE/g) ; la thréonine en contient ~300 000 UI/g (CT-25). La purification doit donc être ciblée par acide aminé. Prix max du mélange d'AA pour qu'un point de PB en moins soit neutre : 2,05 USD/kg (monde 2024).
+- **Coût/risque** : 6–12 mois-personne ; variabilité des lots ; statut réglementaire de l'hydrolysat ; endotoxines (surtout thréonine).
 
 ### INN-02 — Densification protéique de la biomasse (D)
 - **Problème** : la biomasse aviaire récoltée contient 9 g de protéines/100 g, contre 18,5 g pour le filet (EV-C-0020) : à coût égal par kg humide, le coût par kg de protéine double (EV-C-0074, EV-X-0001).
