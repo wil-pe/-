@@ -1,19 +1,20 @@
 # Synthèse — Chicken Muscle Research Lab
 
-> **Version intermédiaire v0.1 (2026-10-25), fin des phases 3, 5 et 6.** Elle sera révisée après les approfondissements de la phase 4 (agents B, M, S, R, K en cours) et la comparaison de la phase 7.
+> **Version v0.2 (2026-10-25), fin de la phase 4.** Intègre les approfondissements des agents M (économie nutrition), S (substituts), R (réglementation) et K (comparaison des trois voies), et les deux lots de vérification indépendante. L'agent B (données de procédé des cellules aviaires) a été interrompu par la politique d'usage et non relancé ; la voie B est donc traitée au niveau des coûts, rendements, obstacles et réglementation, pas des protocoles de culture. Une v1 suivra un second échantillonnage de vérification (aléatoire).
 > Chaque affirmation renvoie aux identifiants de la base (`EV-…` affirmation, `Q-…` mesure, `SRC-…` source, `CT-…` contradiction, `KG-…` lacune, `INN-…` piste). La nature de chaque chiffre est indiquée : **mesuré**, **statistique**, **déclaration d'entreprise**, **sortie de modèle**.
 
 ## 1. Sur quoi repose cette synthèse
 
-- **Corpus** : 308 sources uniques (dont 44 brevets), 394 affirmations, 434 mesures. Lecture réelle : 150 sources en texte intégral (49 %), 83 par sections (27 %), 59 en résumé seulement (19 %), 16 en métadonnées ou par une source secondaire (5 %).
-  - Bases réellement consultées : PubMed, Europe PMC, Crossref, Consensus, J-STAGE, HAL, theses.fr, archive.org, OSTI, Google Patents, sites officiels FDA/SFA/FSANZ/UE/Italie/États américains.
+- **Corpus** : 456 sources uniques (dont 44 brevets), 647 affirmations, 898 mesures. Environ les trois quarts des sources ont été lues en texte intégral ou par sections.
+  - Bases réellement consultées : PubMed, Europe PMC, Crossref, Consensus, J-STAGE, HAL, theses.fr, archive.org, OSTI, Google Patents, EUR-Lex via CELLAR, Fedlex, et sites officiels FDA/USDA/SFA/FSANZ/MFDS/NHC/UE/Italie/Hongrie/États américains.
   - Bases bloquées : OpenAlex, Semantic Scholar, Google Scholar, Espacenet, PATENTSCOPE, CAB, CNKI, SciELO.
 - **Contrôle** :
-  - toutes les références ont été résolues automatiquement (DOI/PMID) : aucune n'est inventée ;
+  - toutes les références ont été résolues automatiquement (DOI/PMID) : aucune n'est inventée (les quelques DOI non résolus sont des revues chinoises/coréennes qui impriment un DOI non déposé, article vérifié sur la page de la revue) ;
   - 55 affirmations clés ont été contre-vérifiées par des vérificateurs indépendants : aucun chiffre faux, mais 44 % de réserves sur la portée ou l'attribution, toutes corrigées (`coordination/verification/summary.md`).
 - **Biais connus** :
-  - 85 % des sources sont en anglais ;
+  - la majorité des sources sont en anglais, mais la phase 4 a porté la part non anglophone à 33–50 % pour les agents M, S, R, K (chinois, portugais, allemand, coréen, japonais, néerlandais, espagnol, finnois) ;
   - les articles clés de la voie B (Pasitka 2023–2025, *Nature Food*) ne sont lus qu'en résumé ;
+  - les données **de procédé** de la voie B (composition de la biomasse, litres de milieu par kg) restent des lacunes ouvertes : l'agent chargé de les creuser a été arrêté par la politique d'usage et non relancé ;
   - les brevets ne sont qu'un échantillon.
 - **Ce n'est pas** une revue exhaustive mondiale.
 
@@ -37,7 +38,23 @@
   - La viande cultivée en 2030 n'égale le poulet « ambitieux » (2,8 contre 2,7 kg CO₂-éq/kg de viande) que si l'énergie est renouvelable pour les scopes 1–2 et une partie du scope 3. Elle monte à 14,3 avec le mix électrique mondial (Q-E-0037 à Q-E-0039, EV-E-0024).
   - Avec des intrants purifiés de qualité pharmaceutique, elle atteint 246–1 508 kg CO₂-éq/kg (EV-E-0006, CT-09).
   - Pour le poulet, le changement d'usage des sols lié au soja domine le bilan (EV-E-0009, CT-15).
-- **Énergie, eau, surface** sur base homogène : **non encore consolidées** (mission K en cours).
+- **Comparaison homogène par kg de protéine comestible (agent K, modèle `agents/K/models/`).** Toutes les valeurs de la voie B sont des sorties de modèle ; celles de la voie A combinent statistiques et modèle ; celles de la voie C mêlent prix de marché et ACV.
+
+| Voie | Coût (USD/kg protéine comestible) | GES (kg CO₂-éq/kg protéine) |
+|---|---|---|
+| A — standard | 7,6–19 | 11–44 (le changement d'usage des sols fait ×2,7) |
+| A — certifié (ECC/Beter Leven) | 19–26 | 19–55 |
+| A — Label Rouge | 41–47 | 30–39 |
+| A — biologique | 54–68 | 38–73 |
+| B — base publiée (21 % de protéines) | 9–287 (jusqu'à > 100 000 dans le pire scénario CE Delft) | 10–79 |
+| B — recalcul à 9 % de protéines | 22–670 | 28–159 |
+| C — analogues de soja (produit) | n.d. (ingrédients 1,8–8,5) | 7,7–11,4 |
+| C — mycoprotéine | 29,6 (TEA Risner 2023) | 6,6–22 selon la base |
+
+  - **Lecture** : la cible de parité réaliste de la voie B n'est pas le poulet standard mais le **Label Rouge ou le bio** ; pour égaler le standard, la biomasse cultivée devrait coûter ≤ 0,87–1,71 USD/kg (EV-K-0043).
+  - La définition même de « protéine » (azote × 6,25 vs somme des acides aminés) déplace les résultats de 21 %.
+  - Les analogues de soja consomment autant d'énergie fossile que le filet de poulet (agent K).
+- **Eau** : non consolidée — les méthodes d'empreinte eau divergent d'un facteur 8 (CT-28).
 
 ### RQ-X3 — Goulets partagés
 La **protéine** est l'intrant commun des trois voies :
@@ -47,14 +64,17 @@ La **protéine** est l'intrant commun des trois voies :
 
 Trois ponts sont identifiés comme les moins explorés : hydrolysats « qualité milieu » issus de matières de l'alimentation animale (INN-01), plasma d'abattoir (INN-08), hybrides cellules + végétal (INN-07).
 
-### RQ-X4 — Réglementation (état provisoire)
-- **États-Unis** : 5 consultations FDA closes par une lettre *no questions*, dont 3 pour du poulet (UPSIDE 2022, GOOD Meat 2023, Believer 2025) (EV-E-0034). Ce ne sont pas des autorisations : l'USDA-FSIS intervient ensuite (EV-C-0001).
-- **Interdictions** : Italie (loi 172/2023, y compris la production pour l'export, avec sanctions automatiques et extension aux financeurs, EV-E-0030), Floride (EV-E-0032), Texas 2025–2027 (EV-E-0033).
-- **Singapour** : toute modification susceptible d'affecter l'évaluation (lignée, milieu) doit être soumise à la SFA (EV-E-0035), ce qui freine l'optimisation du milieu, principal levier de coût.
-- **Analyse complète** : mission R en cours.
+### RQ-X4 — Réglementation (15 juridictions, textes officiels datés — agent R, `reports/deep/R_reglementation.md`)
+- **États-Unis** : 5 consultations FDA closes par une lettre *no questions*, dont 3 pour du poulet (UPSIDE 2022, GOOD Meat 2023, Believer 2025) (EV-E-0034). Ce ne sont pas des autorisations : l'USDA-FSIS intervient ensuite (EV-C-0001). Les interdictions d'États (Floride, Texas) sont compatibles en droit avec la position fédérale : le 11e circuit (23/03/2026) juge que la loi fédérale d'inspection des volailles ne préempte pas l'interdiction floridienne (EV-R-0057, CT-19).
+- **Union européenne** : **aucune demande de poulet cultivé**. Seuls le canard de Gourmey (évaluation EFSA, horloge suspendue) et la graisse bovine de Mosa Meat sont déposés (EV-R-0005). Le règlement 2026/1739 réserve « chicken », « breast », « wing » à la viande et les interdit aux produits issus de culture cellulaire à partir du 19/08/2029 (EV-R-0012).
+- **Interdictions nationales** : Italie (loi 172/2023, production pour l'export comprise, sanctions automatiques étendues aux financeurs, EV-E-0030) ; Hongrie (promulguée le 28/11/2025 malgré l'avis contraire de la Commission, EV-R-0016).
+- **Singapour** : 6 aliments issus de cellules approuvés, dont 3 pour le poulet (Eat Just 2020 et 2023, Vital Meat 2025) ; les spécifications fixent des seuils réglementaires de protéines (5–10 %), non des mesures (Q-R-0001, Q-R-0004). Toute modification de lignée ou de milieu doit être re-soumise (EV-E-0035), ce qui freine l'optimisation du milieu, principal levier de coût. Une liste officielle d'approbations existe depuis le 17/03/2026 (EV-R-0028).
+- **Corée** : 2 demandes, aucune reconnue ; la première attend depuis 869 jours (Q-R-0018). **Chine** : les 118 avis de recevabilité de nouveaux aliments ne portent sur aucune cellule animale (EV-R-0042). **Australie/NZ** : canard de Gourmey approuvé le 6/10/2026 (Q-R-0025).
+- **Voie A** : la protéine de *Clostridium* est autorisée jusqu'à 9 % de l'aliment des poulets de chair en Chine (EV-R-0044). Aucun régime réglementaire allégé n'existe pour un **poulet édité génétiquement** (le régime NGT de l'UE ne couvre que les plantes ; la FDA n'a classé aucune volaille éditée « à faible risque », EV-R-0011, EV-R-0061) — contrairement aux poissons édités commercialisés sur notification au Japon (EV-R-0060).
+- **Non vérifié** : Israël (presse contradictoire, page officielle inaccessible, CT-30).
 
 ### RQ-X5 — Espaces d'innovation
-Voir `innovation_opportunities.md`. Les 21 pistes y sont classées selon une grille explicite (impact, preuves, testabilité).
+Voir `innovation_opportunities.md`. Les 21 pistes y sont classées selon une grille explicite (impact, preuves, testabilité). La phase 4 a précisé deux têtes de liste : INN-01 (les endotoxines dictent la purification acide aminé par acide aminé — la lysine est proche du seuil, la thréonine très au-dessus, CT-25) et INN-10 (l'arôme « poulet » sans hème se heurte à un brevet DSM actif jusqu'en 2034, EV-S-0017).
 
 ## 3. Voie A — optimiser l'élevage
 
