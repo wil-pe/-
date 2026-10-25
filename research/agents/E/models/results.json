@@ -1,0 +1,382 @@
+{
+ "pathway_A": [
+  {
+   "label": "UE moyenne, standard (2017)",
+   "farm_cost_per_kg_lw": 0.825,
+   "currency": "EUR2017",
+   "ref": "Q-E-0022",
+   "nature_of_input": "published_estimate",
+   "meat_cost_range": [
+    2.07,
+    2.53
+   ],
+   "protein_cost_range": [
+    8.3,
+    14.1
+   ],
+   "protein_cost_range_usd": [
+    9.3,
+    15.9
+   ]
+  },
+  {
+   "label": "Pologne, standard (2017)",
+   "farm_cost_per_kg_lw": 0.786,
+   "currency": "EUR2017",
+   "ref": "Q-E-0026",
+   "nature_of_input": "published_estimate",
+   "meat_cost_range": [
+    1.99,
+    2.44
+   ],
+   "protein_cost_range": [
+    7.9,
+    13.6
+   ],
+   "protein_cost_range_usd": [
+    9.0,
+    15.3
+   ]
+  },
+  {
+   "label": "Brésil, standard (2017)",
+   "farm_cost_per_kg_lw": 0.632,
+   "currency": "EUR2017",
+   "ref": "Q-E-0023",
+   "nature_of_input": "published_estimate",
+   "meat_cost_range": [
+    1.66,
+    2.08
+   ],
+   "protein_cost_range": [
+    6.6,
+    11.6
+   ],
+   "protein_cost_range_usd": [
+    7.5,
+    13.1
+   ]
+  },
+  {
+   "label": "États-Unis, standard (2017)",
+   "farm_cost_per_kg_lw": 0.645,
+   "currency": "EUR2017",
+   "ref": "Q-E-0024",
+   "nature_of_input": "published_estimate",
+   "meat_cost_range": [
+    1.69,
+    2.11
+   ],
+   "protein_cost_range": [
+    6.7,
+    11.7
+   ],
+   "protein_cost_range_usd": [
+    7.6,
+    13.3
+   ]
+  },
+  {
+   "label": "France, standard (2022)",
+   "farm_cost_per_kg_lw": 1.264,
+   "currency": "EUR2022",
+   "ref": "Q-E-0029",
+   "nature_of_input": "statistical",
+   "meat_cost_range": [
+    3.0,
+    3.55
+   ],
+   "protein_cost_range": [
+    12.0,
+    19.7
+   ],
+   "protein_cost_range_usd": [
+    12.6,
+    20.8
+   ]
+  },
+  {
+   "label": "France, Label Rouge (2022)",
+   "farm_cost_per_kg_lw": 2.485,
+   "currency": "EUR2022",
+   "ref": "Q-E-0030",
+   "nature_of_input": "statistical",
+   "meat_cost_range": [
+    5.6,
+    6.38
+   ],
+   "protein_cost_range": [
+    22.4,
+    35.5
+   ],
+   "protein_cost_range_usd": [
+    23.6,
+    37.3
+   ]
+  },
+  {
+   "label": "France, biologique (2022)",
+   "farm_cost_per_kg_lw": 3.366,
+   "currency": "EUR2022",
+   "ref": "Q-E-0031",
+   "nature_of_input": "statistical",
+   "meat_cost_range": [
+    7.47,
+    8.43
+   ],
+   "protein_cost_range": [
+    29.9,
+    46.8
+   ],
+   "protein_cost_range_usd": [
+    31.5,
+    49.3
+   ]
+  }
+ ],
+ "calibration": {
+  "fed_batch_model": 36.4,
+  "fed_batch_humbird": 37,
+  "perfusion_model": 51.7,
+  "perfusion_humbird": 51
+ },
+ "pathway_B": {
+  "prudent": {
+   "capital_and_fixed": 30.28,
+   "medium": 22.0,
+   "other_opex": 8.0,
+   "total": 60.28,
+   "per_kg_protein": 287.04
+  },
+  "intermediate": {
+   "capital_and_fixed": 10.29,
+   "medium": 7.0,
+   "other_opex": 3.0,
+   "total": 20.29,
+   "per_kg_protein": 96.62
+  },
+  "optimistic": {
+   "capital_and_fixed": 1.65,
+   "medium": 4.0,
+   "other_opex": 2.0,
+   "total": 7.65,
+   "per_kg_protein": 36.43
+  }
+ },
+ "tornado": {
+  "base_intermediate": 20.3,
+  "rows": [
+   {
+    "parameter": "medium_usd_per_kg",
+    "optimistic_value_cost": 17.3,
+    "prudent_value_cost": 35.3,
+    "swing": 18.0,
+    "ref": "Q-E-0005 ; dérivé Q-E-0001/Q-E-0006 ; model_assumption"
+   },
+   {
+    "parameter": "tci_usd_per_kg_yr",
+    "optimistic_value_cost": 12.7,
+    "prudent_value_cost": 30.5,
+    "swing": 17.8,
+    "ref": "Q-E-0004 ; Q-E-0003 ; Q-E-0048/Q-E-0047"
+   },
+   {
+    "parameter": "capital_recovery_factor",
+    "optimistic_value_cost": 16.6,
+    "prudent_value_cost": 22.7,
+    "swing": 6.1,
+    "ref": "dérivé Q-E-0003 ; model_assumption ; model_assumption (CE Delft)"
+   },
+   {
+    "parameter": "other_opex_usd_per_kg",
+    "optimistic_value_cost": 19.3,
+    "prudent_value_cost": 25.3,
+    "swing": 6.0,
+    "ref": "SRC-E-0001 tableau 2 ; model_assumption"
+   },
+   {
+    "parameter": "utilization",
+    "optimistic_value_cost": 19.7,
+    "prudent_value_cost": 22.3,
+    "swing": 2.6,
+    "ref": "model_assumption"
+   },
+   {
+    "parameter": "fixed_om_fraction",
+    "optimistic_value_cost": 20.3,
+    "prudent_value_cost": 20.3,
+    "swing": 0.0,
+    "ref": "SRC-E-0001 (section 2.5)"
+   }
+  ]
+ },
+ "monte_carlo": {
+  "p5": 17.6,
+  "p50": 26.2,
+  "p95": 36.3,
+  "share_below_EU_standard_2017_high": 0.0,
+  "share_below_FR_label_rouge_2022_high": 0.0,
+  "share_below_FR_bio_2022_high": 0.0
+ },
+ "parity_thresholds": {
+  "rows": [
+   [
+    "EU_standard_2017_high",
+    15.9,
+    3.34
+   ],
+   [
+    "FR_label_rouge_2022_high",
+    37.3,
+    7.83
+   ],
+   [
+    "FR_bio_2022_high",
+    49.3,
+    10.35
+   ]
+  ],
+  "optimistic_floor_without_capex": 6.0
+ },
+ "medium_use_sensitivity": [
+  [
+   2.3,
+   1.45
+  ],
+  [
+   5,
+   3.15
+  ],
+  [
+   10,
+   6.3
+  ],
+  [
+   20,
+   12.6
+  ],
+  [
+   50,
+   31.5
+  ]
+ ],
+ "pathway_C": [
+  [
+   "e-SCP (H2-oxydantes), meilleurs sites 2028",
+   "5.5-6.1",
+   "EUR/kg protéine",
+   "Q-E-0041",
+   "model_output (COI Solar Foods)"
+  ],
+  [
+   "e-SCP, Finlande 2028",
+   ">7.3",
+   "EUR/kg protéine",
+   "Q-E-0041 (notes)",
+   "model_output"
+  ],
+  [
+   "Isolat de soja, prix de marché 2019-2023",
+   "1.8-8.1",
+   "EUR/kg protéine",
+   "Q-E-0065",
+   "prix de marché (pas un coût)"
+  ],
+  [
+   "Isolat de pois, prix de marché 2020-2023",
+   "3.5-9.3",
+   "EUR/kg protéine",
+   "Q-E-0065 (notes)",
+   "prix de marché (pas un coût)"
+  ],
+  [
+   "Mycoprotéine (TEA citée par revue, base non précisée)",
+   "3.55",
+   "USD/kg",
+   "Q-E-0066",
+   "model_output, source primaire non identifiée"
+  ]
+ ],
+ "ghg_per_kg_protein": [
+  [
+   "Poulet conventionnel NL, avec LUC",
+   "3.65 /kg PV",
+   31.1,
+   47.0,
+   "Q-E-0015",
+   "100 % imputé à la viande désossée (surestimation)"
+  ],
+  [
+   "Poulet BLS (croissance lente) NL, avec LUC",
+   "3.55 /kg PV",
+   30.2,
+   45.8,
+   "Q-E-0016",
+   "100 % imputé à la viande désossée (surestimation)"
+  ],
+  [
+   "Poulet conventionnel NL, soja faible LUC",
+   "1.37 /kg PV",
+   11.7,
+   17.7,
+   "Q-E-0017",
+   "100 % imputé à la viande désossée (surestimation)"
+  ],
+  [
+   "Poulet 2030 « ambitieux » (Sinke)",
+   "2.7 /kg viande",
+   10.8,
+   15.0,
+   "Q-E-0039",
+   "base kg de viande"
+  ],
+  [
+   "Poulet actuel « ambitieux » (Sinke, Agri-footprint)",
+   "6.0 /kg viande",
+   24.0,
+   33.3,
+   "Q-E-0039 (notes)",
+   "base kg de viande"
+  ],
+  [
+   "Poulet moyenne mondiale 2018 (Poore & Nemecek via Sinke)",
+   "9.0 /kg viande",
+   36.0,
+   50.0,
+   "Q-E-0039 (notes)",
+   "base kg de viande"
+  ],
+  [
+   "Viande cultivée 2030, renouvelable total (Sinke)",
+   "2.8 /kg viande",
+   11.2,
+   15.6,
+   "Q-E-0037",
+   "base kg de viande"
+  ],
+  [
+   "Viande cultivée 2030, renouvelable sur site (Sinke)",
+   "4.0 /kg viande",
+   16.0,
+   22.2,
+   "Q-E-0037 (notes)",
+   "base kg de viande"
+  ],
+  [
+   "Viande cultivée 2030, mix mondial (Sinke)",
+   "14.3 /kg viande",
+   57.2,
+   79.4,
+   "Q-E-0038",
+   "base kg de viande"
+  ],
+  [
+   "Viande cultivée, Risner 2025 (tous scénarios)",
+   "12-1508 /kg",
+   57,
+   7181,
+   "Q-E-0013",
+   "protéine = 21 % (Q-E-0050/0051)"
+  ]
+ ]
+}

@@ -10,6 +10,7 @@ Usage
   python3 research/tools/kb.py add evidence <AGENT> <file.json>
   python3 research/tools/kb.py add quant    <AGENT> <file.json>
   python3 research/tools/kb.py find <text>                         # search all source titles/DOIs
+  python3 research/tools/kb.py set <ID> <field> <value>            # correct one field of a row you own (logged in notes)
   python3 research/tools/kb.py check                               # validate every agent table
   python3 research/tools/kb.py merge                               # build root tables + dedup report
   python3 research/tools/kb.py stats
@@ -159,8 +160,10 @@ def all_source_ids():
 
 
 def normalize_title(t):
-    t = unicodedata.normalize("NFKD", t or "").encode("ascii", "ignore").decode()
-    t = re.sub(r"[^a-z0-9 ]", " ", t.lower())
+    # keep letters of every script (CJK, Hangul, Cyrillic, Arabic...) and drop accents/punctuation
+    t = unicodedata.normalize("NFKD", t or "")
+    t = "".join(ch for ch in t if unicodedata.category(ch) != "Mn")
+    t = re.sub(r"[\W_]+", " ", t.casefold())
     return re.sub(r"\s+", " ", t).strip()
 
 
@@ -216,7 +219,8 @@ def cmd_add(table, agent, jfile):
             for r in read_rows(path_for("sources", a)):
                 if norm_doi(r.get("doi")):
                     existing_dois[norm_doi(r["doi"])] = r["source_id"]
-                existing_titles[normalize_title(r["title_original"])] = r["source_id"]
+                if len(normalize_title(r["title_original"])) >= 8:
+                    existing_titles[normalize_title(r["title_original"])] = r["source_id"]
     out, bad = [], 0
     for rec in recs:
         rec = {k: ("" if v is None else str(v)) for k, v in rec.items()}
@@ -228,7 +232,8 @@ def cmd_add(table, agent, jfile):
         if table == "sources":
             d = norm_doi(rec.get("doi"))
             dup = existing_dois.get(d) if d else None
-            dup = dup or existing_titles.get(normalize_title(rec["title_original"]))
+            nt = normalize_title(rec["title_original"])
+            dup = dup or (existing_titles.get(nt) if len(nt) >= 8 else None)
             if dup:
                 print(f"ALREADY REGISTERED as {dup}: {rec['title_original'][:90]} (reuse that ID; not added)")
                 continue
@@ -243,11 +248,41 @@ def cmd_add(table, agent, jfile):
         if table == "sources":
             if norm_doi(rec.get("doi")):
                 existing_dois[norm_doi(rec["doi"])] = rec[idcol]
-            existing_titles[normalize_title(rec["title_original"])] = rec[idcol]
+            if len(normalize_title(rec["title_original"])) >= 8:
+                existing_titles[normalize_title(rec["title_original"])] = rec[idcol]
         label = rec.get("title_original") or rec.get("claim_fr") or rec.get("parameter")
         print(f"ADDED {rec[idcol]}: {label[:100]}")
     write_rows(p, cols, rows)
     print(f"{len(out)} added, {bad} rejected -> {p.relative_to(ROOT.parent)}")
+
+
+def cmd_set(rid, field, value):
+    """Correct one field of an existing row (any agent table), with validation."""
+    m = re.match(r"^(SRC|EV|Q)-([A-Z])-\d{4}$", rid)
+    if not m:
+        sys.exit("ID must look like SRC-A-0001 / EV-A-0001 / Q-A-0001")
+    table = {"SRC": "sources", "EV": "evidence", "Q": "quant"}[m.group(1)]
+    prefix, cols, idcol = TABLES[table]
+    if field not in cols or field in (idcol, "agent"):
+        sys.exit(f"field must be one of {[c for c in cols if c not in (idcol, 'agent')]}")
+    p = path_for(table, m.group(2))
+    rows = read_rows(p)
+    hit = [r for r in rows if r[idcol] == rid]
+    if not hit:
+        sys.exit(f"{rid} not found in {p}")
+    rec = dict(hit[0])
+    old = rec.get(field, "")
+    rec[field] = value
+    check = {k: v for k, v in rec.items() if k not in (idcol, "agent") and v != ""}
+    errs = validate(table, check, all_source_ids() if table != "sources" else None)
+    if errs:
+        sys.exit("REJECTED: " + "; ".join(errs))
+    hit[0][field] = value
+    note_col = "notes"
+    stamp = f"[{date.today().isoformat()} {field}: '{old[:60]}' -> '{value[:60]}']"
+    hit[0][note_col] = (hit[0].get(note_col, "") + " " + stamp).strip()
+    write_rows(p, cols, rows)
+    print(f"UPDATED {rid}.{field}: '{old}' -> '{value}'")
 
 
 def cmd_find(text):
@@ -288,7 +323,9 @@ def cmd_merge():
             keys.append("doi:" + norm_doi(r["doi"]))
         if (r.get("pmid") or "").strip():
             keys.append("pmid:" + r["pmid"].strip())
-        keys.append("t:" + normalize_title(r["title_original"])[:120] + ":" + (r.get("year") or ""))
+        nt = normalize_title(r["title_original"])
+        if len(nt) >= 8:
+            keys.append("t:" + nt[:120] + ":" + (r.get("year") or ""))
         hit = next((canon_by_key[k] for k in keys if k in canon_by_key), None)
         if hit and hit != r["source_id"]:
             dup_map[r["source_id"]] = hit
@@ -361,6 +398,8 @@ if __name__ == "__main__":
     c = sys.argv[1]
     if c == "add" and len(sys.argv) == 5:
         cmd_add(sys.argv[2], sys.argv[3], sys.argv[4])
+    elif c == "set" and len(sys.argv) == 5:
+        cmd_set(sys.argv[2], sys.argv[3], sys.argv[4])
     elif c == "find":
         cmd_find(" ".join(sys.argv[2:]))
     elif c == "check":

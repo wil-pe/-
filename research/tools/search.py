@@ -89,7 +89,7 @@ def epmc_full(pmcid, chars=60000):
 
 def crossref(q, n=10):
     r = get("https://api.crossref.org/works", {"query.bibliographic": q, "rows": n,
-            "select": "DOI,title,author,issued,container-title,type,language,is-referenced-by-count"})
+            "select": "DOI,title,author,issued,container-title,type,is-referenced-by-count"})
     for x in r.json()["message"]["items"]:
         au = "; ".join(f"{a.get('family','')} {a.get('given','')[:1]}" for a in x.get("author", [])[:6])
         yr = (x.get("issued", {}).get("date-parts") or [[None]])[0][0]
@@ -132,10 +132,15 @@ def pubmed(q, n=10):
 
 
 def jstage(q, n=10):
-    r = get("https://api.jstage.jst.go.jp/searchapi/do", {"service": 3, "keyword": q, "count": n})
+    # keyword search first; if nothing (multi-word queries often return 0 / WARN), fall back to title then full-text search
     ns = {"a": "http://www.w3.org/2005/Atom", "p": "http://prismstandard.org/namespaces/basic/2.0/"}
-    root = ET.fromstring(r.content)
-    print("# J-STAGE total:", root.findtext("{http://a9.com/-/spec/opensearch/1.1/}totalResults"))
+    for field in ("keyword", "article", "text"):
+        r = get("https://api.jstage.jst.go.jp/searchapi/do", {"service": 3, field: q, "count": n})
+        root = ET.fromstring(r.content)
+        total = root.findtext("{http://a9.com/-/spec/opensearch/1.1/}totalResults")
+        if total and total != "0" and root.findall("a:entry", ns):
+            break
+    print(f"# J-STAGE total ({field} search):", total)
     for e in root.findall("a:entry", ns):
         t_en = e.findtext("a:article_title/a:en", namespaces=ns) or ""
         t_ja = e.findtext("a:article_title/a:ja", namespaces=ns) or ""
