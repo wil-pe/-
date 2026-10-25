@@ -107,3 +107,9 @@ Colonnes : date | base | langue | requête exacte | résultats | retenus | remar
 | 2026-10-25 | WebSearch | zh | 黑水虻幼虫粉 替代豆粕 肉鸡 生长性能 屠宰性能 动物营养学报 | 9 | 0 | pas d'article primaire chinois accessible sur BSF × poulet ; lacune |
 | 2026-10-25 | WebSearch | zh | 国产白羽肉鸡品种 圣泽901 广明2号 沃德188 料重比 饲料转化率 审定 2021 | 9 | 0 | résultats sans rapport (moteur US) |
 | 2026-10-25 | WebSearch (extended) | zh | 白羽肉鸡 新品种 审定 圣泽901 料重比 | 10 | 1 | page Fujian (SRC-N-0048) lue ; allégation industrielle |
+| 2026-10-25 | epmc | pt | frangos de corte conversão alimentar | 1 | 0 | un seul résultat, hors sujet (os) |
+| 2026-10-25 | epmc | en | Brazilian broilers reduced crude protein diets amino acids Revista Brasileira de Zootecnia | 0 | 0 | — |
+| 2026-10-25 | WebSearch | pt | farinha de larvas de mosca-soldado-negra frangos de corte desempenho conversão alimentar Embrapa | 9 | 0 | mémoire USP téléchargé = tilapia (hors sujet) ; Embrapa Meio-Norte (15 % sans effet) seulement via presse |
+| 2026-10-25 | crossref | pt | frangos de corte proteina bruta reduzida aminoacidos industriais desempenho | 6 | 0 | mémoires USP (valine:lysine en PB réduite…) non lus |
+| 2026-10-25 | crossref | pt | frangos de corte proteína bruta reduzida desempenho (outil réparé) | 4 | 0 | Toledo 2004 Ciência Rural : SciELO 403, résumé inaccessible |
+| 2026-10-25 | kb.py | — | correctif coordinateur : titres CJK | — | — | SRC-N-0046/47/48 : titres originaux restaurés via kb.py set |
