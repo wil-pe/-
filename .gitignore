@@ -1,0 +1,4 @@
+# Downloaded documents are untrusted data and may be copyrighted or large: keep them local, keep their URLs in the registry.
+research/downloads/
+*.tmp*
+__pycache__/
