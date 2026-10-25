@@ -1,6 +1,8 @@
 # Synthèse — Chicken Muscle Research Lab
 
-> **Version v0.2 (2026-10-25), fin de la phase 4.** Intègre les approfondissements des agents M (économie nutrition), S (substituts), R (réglementation) et K (comparaison des trois voies), et les deux lots de vérification indépendante. L'agent B (données de procédé des cellules aviaires) a été interrompu par la politique d'usage et non relancé ; la voie B est donc traitée au niveau des coûts, rendements, obstacles et réglementation, pas des protocoles de culture. Une v1 suivra un second échantillonnage de vérification (aléatoire).
+> **Version v1 (2026-10-25), fin des 8 phases.** Intègre les approfondissements des agents M (économie nutrition), S (substituts), R (réglementation) et K (comparaison des trois voies), et les **trois** lots de vérification indépendante (100 affirmations au total : 55 ciblées + 45 aléatoires ; 0 erreur factuelle, réserves corrigées). L'agent B (données de procédé des cellules aviaires) a été interrompu par la politique d'usage et non relancé ; la voie B est donc traitée au niveau des coûts, rendements, obstacles et réglementation, pas des protocoles de culture.
+>
+> **Fiabilité de la base** : sur un échantillon aléatoire de 45 affirmations tirées de toute la base, un vérificateur indépendant a confirmé 38 items, émis 5 réserves mineures (formulation) et n'a trouvé aucune erreur factuelle ni source fabriquée (2 items bloqués par l'accès). Le taux de réserve tombe de 44 % (échantillon ciblé sur les affirmations les plus saillantes, déjà corrigées) à 11 % (aléatoire). Détail : `coordination/verification/summary.md`.
 > Chaque affirmation renvoie aux identifiants de la base (`EV-…` affirmation, `Q-…` mesure, `SRC-…` source, `CT-…` contradiction, `KG-…` lacune, `INN-…` piste). La nature de chaque chiffre est indiquée : **mesuré**, **statistique**, **déclaration d'entreprise**, **sortie de modèle**.
 
 ## 1. Sur quoi repose cette synthèse

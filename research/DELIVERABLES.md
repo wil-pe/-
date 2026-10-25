@@ -16,7 +16,7 @@
 | 10 | Analyse économique et environnementale | `reports/industrialization.md` + `reports/deep/K_comparaison_voies.md` + `agents/{E,K}/models/` | ✅ |
 | 11 | Inventaire des questions scientifiques non résolues | `knowledge_gaps.md` | ✅ |
 | 12 | Liste hiérarchisée d'opportunités d'innovation | `innovation_opportunities.md` (21 pistes classées) | ✅ |
-| 13 | Rapport final avec recommandations | `reports/final_synthesis.md` (v0.2 ; v1 après la 2e vérification) | 🟧 |
+| 13 | Rapport final avec recommandations | `reports/final_synthesis.md` (v1) | ✅ |
 
 ## Bases de données (section 7)
 - `source_registry.csv` — registre des sources (déduplication par DOI, PMID, titre normalisé, URL).
@@ -34,6 +34,6 @@
 - `progress.md` — journal de reprise.
 
 ## Reste à faire
-- Phase 8 : second échantillon de vérification **aléatoire** (en cours, batch3) ; puis `final_synthesis.md` v1.
-- Livrable 7 : les lacunes de procédé de la voie B (KG-B01, B04, B05, B06) restent ouvertes et signalées comme telles.
+- Livrable 7 : les lacunes de procédé de la voie B (KG-B01, B04, B05, B06) restent ouvertes et signalées comme telles (agent B arrêté par la politique d'usage).
+- Approfondissements facultatifs : si l'accès s'ouvre, textes intégraux Pasitka, Havenstein, et les 2 items batch3 non vérifiables (Fufeng, cnif.cn).
 - En attente d'un humain : PDF HAL hal-01995110 ; clé OpenAlex ; textes intégraux *Nature Food* (Pasitka).

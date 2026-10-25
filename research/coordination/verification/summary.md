@@ -6,7 +6,18 @@ Deux vérificateurs, qui n'avaient pas accès aux rapports, aux handoffs ni au r
 |---|---|---|---|---|---|---|---|
 | batch1 | viande cultivée, économie, ACV, réglementation | 28 | 17 | 10 | 1 (EV-E-0047) | 0 | 0 |
 | batch2 | nutrition, génétique, substituts, histoire | 27 | 11 | 14 | 1 (EV-A-0041) | 0 | 1 (EV-N-0022) |
-| **Total** | | **55** | **28 (51 %)** | **24 (44 %)** | **2 (4 %)** | **0** | **1 (2 %)** |
+| **batch3** | **aléatoire, tous domaines** | **45** | **38 (84 %)** | **5 (11 %)** | **0** | **0** | **2 (accès)** |
+| **Total** | | **100** | **66** | **29** | **2** | **0** | **3** |
+
+## batch3 — échantillon aléatoire (phase 8)
+
+batch1 et batch2 visaient les affirmations **les plus structurantes** (choisies à la main), d'où un taux de réserve élevé (44 %). batch3 est un **tirage aléatoire** de 45 items (graine fixe) sur toute la base, hors les 55 déjà vérifiés et hors les lignes de l'agent B (quarantaine).
+
+Résultat : **0 erreur factuelle, 0 surinterprétation**, taux de réserve 11 % (imprécisions de formulation ou de qualificatif), 2 items non vérifiables pour blocage d'accès (rapport annuel Fufeng en police CJK non extractible ; revue chinoise cnif.cn en 503). Aucune source fabriquée ; citations, DOI et métadonnées concordent partout ; les sorties de modèle (agents K, M) sont arithmétiquement reproductibles et leurs hypothèses fortes signalées ; conflits d'intérêts et natures de données correctement étiquetés.
+
+Les 5 réserves ont été corrigées (EV-S-0002 73→74 % ; EV-N-0034 plage d'incorporation ; Q-P-0039 flacon agité et non fed-batch ; Q-H-0032 rapport os:viande provisoire 9→9–11 % et localisateur ; Q-S-0011 note d'accès).
+
+**Lecture** : l'écart entre 44 % (ciblé) et 11 % (aléatoire) indique que les imprécisions se concentrent sur les affirmations les plus saillantes — déjà corrigées — et que le corps de la base est fiable. **Fiabilité globale estimée : élevée** sur cet échantillon.
 
 En plus des contrôles ci-dessus, l'audit automatique (`tools/audit.py refs`) a résolu chaque DOI et chaque PMID des 309 sources : aucune référence n'est inventée.
 

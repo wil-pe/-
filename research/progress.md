@@ -19,7 +19,7 @@
 | 5 Extraction, déduplication | ✅ fusion `kb.py merge` (308 sources uniques, 1 doublon), audit des références (0 référence inventée) |
 | 6 Vérification, contradictions | ✅ 55 affirmations contre-vérifiées (0 inexact, 24 réserves, 2 surinterprétations, 1 non vérifiable — corrigées) ; `contradictions.md` (24), `knowledge_gaps.md`, matrice de couverture |
 | 7 Comparaison, innovation | 🟧 comparaison homogène par kg de protéine comestible (agent K) intégrée ; `innovation_opportunities.md` v1 (21 pistes) affiné |
-| 8 Synthèse, audit | 🟧 `reports/final_synthesis.md` v0.2 ; reste : 2e vérification aléatoire + v1 |
+| 8 Synthèse, audit | ✅ `reports/final_synthesis.md` v1 ; 2e vérification (aléatoire, 45 items) faite ; `DELIVERABLES.md` |
 
 ## Session 1 — 2026-10-25
 
