@@ -1,0 +1,50 @@
+name,country,pathway,type,technology,status_2026,funding_sourced,source_id,notes
+UPSIDE Foods (ex-Memphis Meats),US,B,entreprise,"poulet cultivé ; voie HIPPO/YAP, glutamine synthétase/TERT, lignées sans facteurs de croissance ; hybrides en suspension 2 000 L","active ; usine de Glenview suspendue (fév. 2024)",,SRC-P-0009;SRC-P-0010;SRC-P-0011;SRC-P-0012;SRC-P-0058,143 demandes / 43 familles (GFI)
+GOOD Meat (Eat Just),US/SG,B,entreprise,poulet cultivé à partir de fibroblastes DF-1 (ATCC CRL-12203) ; produit hybride GOOD Meat 3 (3 % de cellules),active à petite échelle ; projet de bioréacteurs 250 000 L abandonné de fait ; litige ABEC réglé (2025),,SRC-P-0013;SRC-P-0007;SRC-P-0008;SRC-A-0034;SRC-P-0059,titulaire du brevet van Eelen expiré (US7270829B2)
+Believer Meats (ex-Future Meat Technologies),IL/US,B,entreprise,"fibroblastes de poulet spontanément immortalisés, perfusion TFF, milieux à homologues végétaux",activités cessées (déc. 2025),>390 M USD levés (Calcalist),SRC-P-0004;SRC-P-0005;SRC-P-0018;SRC-C-0006;SRC-X-0001,usine de Wilson (NC) conçue pour 12 000 t/an
+Yissum / Hebrew University of Jerusalem (lab. Y. Nahmias),IL,B,université,"milieux sans sérum : homologues végétaux, activateurs de FGF (ID-8, FK-506)",active,,SRC-P-0018;SRC-P-0019,26 demandes / 5 familles (GFI)
+SuperMeat the Essence of Meat,IL,B,entreprise,"hybrides végétal + cellules de poulet non tissulaires (0,5-18 %)",statut 2026 non vérifié,,SRC-P-0036;SRC-P-0058,13 demandes / 2 familles (GFI)
+Aleph Farms,IL,B,entreprise,bœuf cultivé sur échafaudage de soja texturé (licence Technion),"statut 2026 non vérifié",,SRC-P-0028;SRC-P-0058,83 demandes / 14 familles (GFI)
+Technion (lab. S. Levenberg),IL,B,université,"échafaudages de protéine de soja texturée, co-culture",active,,SRC-P-0028,
+Yeda R&D (Weizmann Institute),IL,B,université,inhibiteurs ERK1/2 pour la fusion myogénique (poulet),demande en cours,,SRC-P-0027,
+Mosa Meat,NL,B,entreprise,"bœuf ; milieux sans sérum, cultures sans ammoniac (α-KG/pyruvate)",statut 2026 non vérifié,,SRC-P-0022;SRC-P-0023;SRC-P-0058,54 demandes / 13 familles (GFI)
+Meatable,NL,B,entreprise,porc cultivé (cellules pluripotentes),dissoute (déc. 2025),~139 M USD levés (IO+) ; 30 M EUR en 2023 dont moitié Invest-NL (NL Times),SRC-P-0060;SRC-P-0061,
+Vital Meat,FR,B,entreprise,poulet cultivé à partir de lignées aviaires EBx (licence/cession Valneva),"demande US abandonnée ; statut 2026 non vérifié",,SRC-P-0017,
+Valneva SE,FR,B (transfert vaccinal),entreprise (vaccins),lignées de cellules souches aviaires EBx en suspension sans sérum,PCT éteint,,SRC-P-0016,lignée issue de l'industrie vaccinale
+Intervet International (MSD Animal Health),NL/US,B (transfert vaccinal),entreprise (vaccins),CEF immortalisés SV40T + cTERT,famille de brevets internationale,,SRC-P-0015,non alimentaire
+Tufts University (lab. D. Kaplan),US,B,université,albumine recombinante en milieu B8 ; cellules modifiées (phytoène),active,,SRC-P-0020;SRC-P-0021;SRC-P-0058,18 demandes / 8 familles (GFI)
+Fork & Goode,US,B,entreprise,système de cuves parallèles à milieu conditionné recirculé,statut 2026 non vérifié,,SRC-P-0034,
+Merck KGaA (Merck Patent GmbH),DE,B,fournisseur d'équipements,fibres creuses comestibles pour viande structurée,PCT éteint,,SRC-P-0033,fournisseur bioprocédés pharma
+BTL Healthcare Technologies,CZ (non vérifié),B,entreprise,FGF-2 thermostabilisé pour viande cultivée,demande AU en cours,,SRC-P-0026,"pays déduit du suffixe « AS », à vérifier"
+SCiFi Foods (ex-Artemys Foods),US,B,entreprise,"bœuf cultivé hybride (~10 %), cellules en suspension (CRISPR)",fermée (juin 2024),~40 M USD levés,SRC-P-0001;SRC-P-0002,
+New Age Eats (ex-New Age Meats),US,B,entreprise,porc cultivé,fermée (mars 2023),~32 M USD levés (Crunchbase via Food Dive),SRC-P-0003,usine pilote d'Alameda jamais ouverte
+Shantou Debao Investment,CN,B,entreprise,milieu pour cellules souches myogéniques de poulet (avec SVF),brevet délivré (2023),,SRC-P-0024,inventeur Lai Liangxue
+China Meat Research Centre (CMRC),CN,B,institut public,"microporteurs composites, hydrogels pour myoblastes de poulet","1 demande rejetée (2024), 1 brevet délivré (2024)",,SRC-P-0030;SRC-P-0031;SRC-P-0058,17 demandes / 16 familles (GFI)
+Tianjin University of Science and Technology,CN,B,université,hydrogels peptidiques (avec CMRC),brevet délivré,,SRC-P-0031,
+Nanjing Agricultural University (Zhou Guanghong),CN,B,université,fibres microfluidiques cœur-coque,brevet délivré (2022),,SRC-P-0032;SRC-P-0058,13 demandes / 11 familles (GFI)
+"Jiangnan University (Chen Jian, Zhou Jingwen)",CN,B,université,"milieux, stratégie industrielle nationale",active,,SRC-P-0065;SRC-P-0058,22 demandes / 16 familles (GFI)
+Joes Future Food (Nanjing Zhouzi Future Food),CN,B,entreprise,"viande cultivée (porc), échafaudages, impression 3D",statut non vérifié,,SRC-P-0058,30 demandes / 25 familles (GFI)
+Zhejiang University,CN,B,université,viande cultivée,active,,SRC-P-0058;SRC-P-0054,21 demandes / 21 familles (GFI)
+"Institute of Animal Sciences, CAAS",CN,A,institut public,puce 50k SNP pour la sélection génomique du poulet,PCT éteint,,SRC-P-0053,
+Chung-Ang University,KR,B,université,substitut de SVF à partir de sang d'abattage,PCT éteint ; membre US publié 2025,,SRC-P-0025,
+Yonsei University / DaNAgreen / CJ CheilJedang,KR,B,université/entreprises,"viande cultivée (échafaudages, milieux)",non vérifié,,SRC-P-0058,"19/14, 14/6, 14/3 demandes/familles (GFI)"
+University of Tokyo (lab. S. Takeuchi) & Nissin Foods,JP,B,université + entreprise,"gels de plasma comestible, sérum comestible, tissu musculaire 3D","demande JP rejetée en examen (2026, amendée)",,SRC-P-0029;SRC-P-0066,
+Beyond Meat (ex-Savage River),US,C,entreprise,protéines végétales structurées (fibres alignées),active,,SRC-P-0037,
+Mars (Effem Foods),US/AU,C,entreprise,extrusion humide + déchiquetage (flocons type poulet),brevet expiré (2020),,SRC-P-0038,
+Nestlé,CH,C,entreprise,analogues végétaux,premier déposant de brevets PBMA 2014-2023,,SRC-P-0055,
+Impossible Foods,US,C,entreprise,hème (leghémoglobine) et précurseurs d'arôme,brevet actif jusqu'en 2034,,SRC-P-0039,
+Marlow Foods (Quorn),UK,C,entreprise,mycoprotéine Fusarium venenatum ; souches polyploïdes,brevet expiré (2018),,SRC-P-0040,
+3F Bio / ENOUGH (Abunda),UK/NL,C,entreprise,mycoprotéine en continu avec recyclage du liquide ; usine de Sas van Gent,"aucune insolvabilité trouvée (recherche négative, 2026)",,SRC-P-0041,
+The Better Meat Co,US,A+C,entreprise,mycélium de Neurospora pour viandes mélangées,brevet actif,,SRC-P-0042,
+Emergy (Meati Foods),US,C,entreprise,mycélium de Neurospora crassa,ABC (avril 2025) ; actifs repris par Meati Holdings (oct. 2025),"~450 M USD levés (source A, EV-A-0041)",SRC-P-0043;SRC-P-0063;SRC-P-0064;SRC-A-0036,demande US abandonnée
+Fynder Group (Nature's Fynd),US,C,entreprise,tapis fongiques de surface (souche MK7),brevet actif,,SRC-P-0044,
+Mycorena,SE,C,entreprise,mycoprotéine,"faillite (juil. 2024), reprise annoncée",,SRC-P-0006,
+Solar Foods,FI,C,entreprise,Xanthobacter sur H2/CO2 (Solein),active,,SRC-P-0045,
+Kiverdi / Air Protein,US,C,entreprise,chimiolithotrophes sur H2/CO2/syngaz,statut non vérifié,,SRC-P-0046,
+Calysta,US/UK,A+C,entreprise,Methylococcus capsulatus sur méthane (FeedKind) ; réacteurs en boucle,"active ; FeedKind testé chez le poulet jusqu'à 12,5 %",,SRC-P-0047;SRC-A-0012,
+Unibio,DK,C,entreprise,fermenteur U-loop méthanotrophe,statut non vérifié,,SRC-P-0048,
+Deep Branch Biotechnology,UK,A+C,entreprise,SCP sur CO2/H2 pour aliments aquacoles et avicoles,en liquidation (Companies House),,SRC-P-0062,
+"North Carolina State University & Yissum (Z. Uni, P. Ferket)",US/IL,A,universités,alimentation in ovo,brevet expiré (2021),,SRC-P-0049,
+Alzchem Trostberg (ex-Degussa),DE,A,entreprise,acide guanidinoacétique (précurseur de créatine),brevet expiré,,SRC-P-0050,
+AB Enzymes (ex-Syngenta/Diversa),DE/US,A,entreprise,phytase thermotolérante,brevet expiré (2024),,SRC-P-0051,
+GFI / GFI APAC,US/SG,cross,ONG,analyses de brevets et de financement,active,,SRC-P-0058,organisation de plaidoyer

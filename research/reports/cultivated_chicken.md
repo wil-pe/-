@@ -16,7 +16,7 @@
 4. **Production sans sérum ni facteurs de croissance : démontrée à petite échelle, mais pas pour les produits vendus.** Believer a déclaré à la FDA une production en milieu sans composant animal et sans insuline ni FGF2 recombinants [R] (EV-C-0011). En revanche, le poulet vendu par UPSIDE en 2023 était produit avec du sérum [R] (EV-C-0004), et le dossier FDA de GOOD Meat mentionne du FBS (EV-C-0007). Vow utilise encore deux facteurs de croissance recombinants [Av] (EV-C-0023).
 5. **La biomasse récoltée contient environ moitié moins de protéines que le filet.** C'est mesuré chez la caille : 9 g/100 g contre 18,5 g/100 g, avec au moins 80 % d'eau [Av][R] (EV-C-0020, EV-C-0021). Le mémo FDA de Believer va dans le même sens, sans chiffres (EV-C-0013). Un coût exprimé par kg de biomasse humide sous-estime donc d'un facteur ~2 le coût par kg de protéine (EV-C-0074, Q-C-0083).
 6. **Pour le muscle de poulet *différencié*, rien d'industrialisable n'est publié.** Les cellules satellites restent primaires, cultivées avec du sérum et envahies par des fibroblastes (EV-C-0029, EV-C-0032). L'unique lignée immortalisée par un oncogène (SV40-LT) a échoué (EV-C-0044). Le meilleur indice de fusion publié (30 %) exige un transgène MyoD (EV-C-0027). Aucun milieu de différenciation sans sérum n'est publié pour le poulet (journal, requête n° 46).
-7. **L'économie projetée contredit les faits industriels.** La TEA de Believer annonçait 6,2 USD/lb [M] (EV-C-0018), mais l'entreprise a fermé en décembre 2025 faute de fonds, après avoir levé 390 M USD [E] (EV-C-0065). En avril 2024, le Bundestag constatait l'absence de production commerciale (EV-C-0068). Le seul produit en rayon repéré, une friandise pour chiens, contient 4 % de poulet cultivé [E] (Q-C-0069).
+7. **L'économie projetée contredit les faits industriels.** La TEA de Believer annonçait 6,2 USD/lb [M] (EV-C-0018), mais l'entreprise a fermé en décembre 2025 faute de fonds, après avoir levé 390 M USD [E] (EV-C-0065). En avril 2024, le Bundestag constatait l'absence de production commerciale (EV-C-0068). Les produits vendus au détail que nous avons repérés sont des hybrides très dilués : 3 % de poulet cultivé dans GOOD Meat 3 (Singapour, 2024), 4 % dans une friandise pour chiens (Royaume-Uni, 2025) [E] (EV-C-0075, Q-C-0084, Q-C-0069).
 
 ---
 
@@ -25,7 +25,7 @@
 - **Questions couvertes** : RQ-C1 à RQ-C8, avec des apports à RQ-X1–X3.
 - **Bases consultées** : Europe PMC (prépublications incluses), PubMed, Crossref, J-STAGE, HAL, theses.fr et Consensus (un seul appel), ainsi que WebSearch/WebFetch pour les sites officiels (FDA, SFA, FSANZ, Bundestag) et la presse spécialisée, toujours identifiée comme telle. Le détail des 53 requêtes est dans `research/agents/C/search_log.md`.
 - **Langues** : en, fr, zh, es, pt, ja, ko, de, nl, he. La production non anglophone sur le poulet est mince : un article chinois (SRC-C-0021) et des documents d'entreprise ou de presse en japonais, coréen et chinois (SRC-C-0022, 0025, 0026). La recherche coréenne et brésilienne (Embrapa) paraît en anglais.
-- **Corpus** : 43 sources enregistrées par C, plus 3 réutilisées (SRC-X-0001, SRC-E-0001, SRC-E-0002).
+- **Corpus** : 43 sources enregistrées par C, plus 5 réutilisées (SRC-X-0001, SRC-E-0001, SRC-E-0002, et, après vérification dans le document primaire, SRC-A-0034 et SRC-P-0018).
   - Ont été lus intégralement : 5 documents FDA, les sections utiles du dossier FSANZ, 2 documents SFA, le rapport du Bundestag et 26 textes intégraux Europe PMC.
   - Seuls les résumés étaient accessibles pour Pasitka 2023, 2024 et 2025 (*Nature Food*, payant), Contreras 2026 et Li 2025.
 - **Limites d'accès** :
@@ -117,6 +117,7 @@ Il faut donc des mois de culture, une sélection, et accepter une dérive géné
   - Hydrolysats d'algues : effet très dépendant de la lignée (testé sur la lignée de caille QM7) (EV-C-0055).
   - Optimisation métabolomique de 28 métabolites : +40,7 % de croissance (étude primaire non lue) (EV-C-0073).
   - Believer utilisait aussi l'hydroxypropyl-β-cyclodextrine (HPβCD), une substance nouvelle pour la FDA, et une enzyme dérivée du soja, retirée depuis (Q-C-0017, SRC-C-0005).
+  - **Remplacement de l'albumine par des protéines végétales** : dans les exemples du brevet WO 2021/148955 A1 (Future Meat/Yissum), 0,1 mg/mL de protéines de soja, de pois ou de pois chiche suffisent à remplacer la BSA pour des fibroblastes de poulet en suspension, à 39 °C, sans sérum. Le chanvre et le blé échouent, et la fraction de moins de 10 kDa est toxique [P, données de brevet, jour 3 seulement] (EV-C-0076, Q-C-0085, Q-C-0086 ; SRC-P-0018). Le brevet ne chiffre pas la concentration de BSA utilisée comme comparateur.
 - **Ammoniac, lactate et recyclage** :
   - Humbird retient 5 mM de NH₃ et 50 mM de lactate comme seuils d'inhibition ; l'ammoniac plafonne alors la densité à ~110 g/L en fed-batch [M] (EV-C-0038).
   - Believer avait décrit une « régénération » du milieu par filtration, mais **ne l'a pas utilisée** pour le matériau évalué [R] (EV-C-0012).
@@ -169,7 +170,7 @@ Il faut donc des mois de culture, une sélection, et accepter une dérive géné
 - **Produits finis** :
   - À Singapour, les cellules servaient d'ingrédient de nuggets (EV-C-0026).
   - Les friandises pour chiens Chick Bites contenaient 4 % de cellules [E] (Q-C-0069).
-  - Le chiffre de « 3 % de cellules » parfois attribué à GOOD Meat n'a pas pu être vérifié (journal, requête 40).
+  - Le premier poulet cultivé vendu au détail, GOOD Meat 3 (Singapour, mai 2024), ne contient que **3 % de poulet cultivé**, le reste étant des protéines végétales. Le communiqué de l'entreprise justifie ce choix notamment par la réduction des coûts [E] (EV-C-0075, Q-C-0084 ; source primaire SRC-A-0034, déjà enregistrée par l'agent A). Le communiqué ne dit rien du milieu ni des volumes.
 
 ### RQ-C8 — Coûts, rendements, obstacles démontrés
 
@@ -182,7 +183,7 @@ Il faut donc des mois de culture, une sélection, et accepter une dérive géné
   - Fermeture de Believer, malgré un dossier FDA favorable et une usine prévue pour au moins 12 000 t/an [E] (EV-C-0065, Q-C-0071). Une autorisation USDA de l'usine en novembre 2025 n'apparaît que dans un résumé de moteur de recherche ; elle n'est pas vérifiée.
   - Aucune production commerciale en 2024 selon le Bundestag (EV-C-0068).
   - Les autorisations peuvent aussi servir à financer les entreprises (SRC-C-0042).
-  - Le seul produit « poulet cultivé » repéré en rayon en 2025 est une friandise pour chiens à 4 % de cellules (Q-C-0069).
+  - Les produits vendus au détail repérés contiennent 3 % (GOOD Meat 3, 2024) et 4 % (Chick Bites, aliment pour chiens, 2025) de cellules (Q-C-0084, Q-C-0069). Les volumes de biomasse réellement produits restent donc très faibles.
 
 ---
 
@@ -209,7 +210,7 @@ Il faut donc des mois de culture, une sélection, et accepter une dérive géné
 | Dossier | Cellules | Différenciation | Milieu déclaré | Forme à la récolte | Composition publiée | % de cellules dans le produit fini | Source |
 |---|---|---|---|---|---|---|---|
 | FDA CCC 000002 — UPSIDE (mémo 14/11/2022) | myoblastes (adulte) + fibroblastes (embryon) ; spontanées ou cisgène TERT | oui, adhérente (« caractéristiques de myocytes et de fibroblastes ») | acides aminés, BSA, facteurs de croissance ; une version avec sérum bovin ; **produit commercialisé avec sérum** | feuillets cellulaires, humidité ajustée | qualitatif : Fe, K, P, cholestérol, folates plus élevés ; plomb 13,3 (avec sérum) / 47,6 ppb (sans) | non publié | EV-C-0001–0005, EV-C-0014 |
-| FDA CCC 000001 — GOOD Meat (17/03/2023) | DF-1 (fibroblastes) | non | basal + FBS (faible) + anti-agrégant | pâte cellulaire (centrifugation) | Fe 80 µg/100 g ; hypoxanthine 46,9 mg/100 g ; nitrate 2 mg/100 g | non publié (« 3 % » non vérifié) | EV-C-0006–0008, Q-C-0010–0012 |
+| FDA CCC 000001 — GOOD Meat (17/03/2023) | DF-1 (fibroblastes) | non | basal + FBS (faible) + anti-agrégant | pâte cellulaire (centrifugation) | Fe 80 µg/100 g ; hypoxanthine 46,9 mg/100 g ; nitrate 2 mg/100 g | absent du mémo FDA ; **3 % dans GOOD Meat 3** (Singapour, communiqué de l'entreprise, mai 2024 ; EV-C-0075) | EV-C-0006–0008, Q-C-0010–0012 |
 | FDA CCC 000039 — Believer (24/07/2025 ; complément 24/09/2025) | fibroblastes Baladi spontanés | non (potentiel adipogène) | sans composant animal ; sans insuline/FGF2 en production ; HPβCD ; enzyme de soja retirée | biomasse lavée (NaCl) | qualitatif : + humidité, − protéines/lipides/cendres, + sodium | non publié | EV-C-0009–0013, SRC-C-0005 |
 | SFA Singapour — Eat Just/GOOD Meat (déc. 2020 ; sans sérum janv. 2023) | poulet (dossier non public) | — | sans sérum autorisé en 2023 [presse] | — | non publiée | ingrédient de nuggets | EV-C-0026, EV-C-0063 |
 | FSANZ A1269 — Vow, caille (avril 2025) [Av] | fibroblastes embryonnaires 221523-Fib-Quail | non | basal sans composant animal + 2 facteurs recombinants | cellules récoltées congelées | **protéines 9 g/100 g ; lipides 1,5–1,6 ; humidité ≥ 80 %** | ingrédient principal, ≤ 300 g/portion | EV-C-0020–0025 |
@@ -238,6 +239,7 @@ Il faut donc des mois de culture, une sélection, et accepter une dérive géné
 - densités supérieures à 10⁸ cellules/mL au laboratoire (Q-C-0003) ;
 - adipogenèse simple, à la lécithine (EV-C-0016, 0037) ;
 - milieu totalement défini pour les PGC (EV-C-0053) ;
+- remplacement à court terme de la BSA par 0,1 mg/mL de protéines de légumineuses (données de brevet, EV-C-0076) ;
 - passage de l'évaluation de sécurité aux États-Unis, à Singapour, et pour la caille en Australie et Nouvelle-Zélande.
 
 **Échoue ou reste fragile** :
@@ -275,7 +277,7 @@ Il faut donc des mois de culture, une sélection, et accepter une dérive géné
 - Lignée de cellules satellites ou de myoblastes de poulet immortalisée par TERT/CDK4 et publiée (requête 7). UPSIDE en déclare une (TERT), sans publication.
 - Milieu de différenciation myogénique sans sérum pour le poulet.
 - Volumes de production, densités industrielles, taux de contamination et durée de cycle réels (tous confidentiels).
-- Pourcentage de cellules dans les produits vendus : seule l'annonce Meatly est disponible.
+- Pourcentage de cellules dans les produits vendus : on ne dispose que des déclarations des entreprises (GOOD Meat 3 : 3 % ; Chick Bites : 4 %). Aucun document réglementaire ne le donne, et la base (biomasse humide ?) n'est pas précisée.
 - Mesures de texture et données sensorielles quantitatives sur du poulet cultivé.
 - Données de transfert d'O₂ et de consommation d'O₂ par cellule de poulet en bioréacteur.
 - Recyclage du milieu appliqué à des cellules de poulet.

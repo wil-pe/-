@@ -18,7 +18,9 @@
   - Cellules satellites primaires, dépendantes du sérum, contaminées par les fibroblastes (EV-C-0029, EV-C-0032, EV-C-0034).
   - Échec de SV40-LT (EV-C-0044).
   - Indice de fusion de 30 % seulement, et avec un transgène MyoD (EV-C-0027).
-- **Échec économique** : Believer, l'entreprise aux meilleures données publiées, a fermé en décembre 2025 après avoir levé 390 M USD (EV-C-0065, Q-C-0072). Seul produit en rayon repéré : une friandise pour chiens à 4 % de cellules (Q-C-0069).
+- **Échec économique** : Believer, l'entreprise aux meilleures données publiées, a fermé en décembre 2025 après avoir levé 390 M USD (EV-C-0065, Q-C-0072).
+- **Produits au détail très dilués** : 3 % de cellules dans GOOD Meat 3 (Singapour, mai 2024 ; communiqué primaire vérifié, SRC-A-0034 → EV-C-0075, Q-C-0084) ; 4 % dans Chick Bites, aliment pour chiens (Q-C-0069).
+- **Remplacement de la BSA par 0,1 mg/mL de protéines de soja, pois ou pois chiche** pour des fibroblastes de poulet en suspension : exemples de brevet vérifiés, jour 3 seulement (SRC-P-0018 → EV-C-0076, Q-C-0085).
 
 ## 2. Contradictions repérées
 - Immortalisation spontanée « très rare » (EV-C-0036, EV-C-0067) **contre** « facile » chez les fibroblastes de poulet (EV-C-0015, EV-C-0019).
@@ -33,7 +35,7 @@
 - Lignée publiée de cellules satellites ou de myoblastes de poulet immortalisée par TERT/CDK4.
 - Milieu de différenciation sans sérum pour le poulet.
 - Volumes, densités et taux de contamination à l'échelle industrielle.
-- Pourcentage de cellules dans les produits vendus aux États-Unis et à Singapour : le chiffre « 3 % » de GOOD Meat n'a pas été vérifié.
+- Pourcentage de cellules dans les produits vendus : seules existent des déclarations d'entreprise (GOOD Meat 3 : 3 %, vérifié dans le communiqué ; Chick Bites : 4 %). Aucun document réglementaire ne le donne, et rien n'existe pour les produits américains.
 - Mesures de texture quantitatives.
 - Consommation d'O₂ par cellule de poulet.
 - Recyclage du milieu chez le poulet.
@@ -45,7 +47,10 @@
   - Pouvez-vous convertir les TEA (Humbird, Risner, Pasitka) en USD/kg de *protéine*, avec la composition de la caille (Q-C-0021) ?
   - Statut des usines UPSIDE et Believer après 2025.
 - **→N** : Coût et qualité des acides aminés de qualité alimentaire animale (lysine, méthionine, thréonine) et des hydrolysats de soja. Pourraient-ils servir de base de milieu de culture (piste I-3, RQ-X3) ? Quels métaux lourds contiennent-ils ?
-- **→A** : Données sensorielles et de texture (TPA) sur les hybrides végétal + cellules, ou végétal + graisse cultivée, comme les lanières de soja de Pasitka 2023 (EV-C-0016). Quel pourcentage de cellules faut-il pour un effet perceptible ?
+- **→A** :
+  - Données sensorielles et de texture (TPA) sur les hybrides végétal + cellules, ou végétal + graisse cultivée, comme les lanières de soja de Pasitka 2023 (EV-C-0016). Quel pourcentage de cellules faut-il pour un effet perceptible, sachant que GOOD Meat 3 n'en contient que 3 % ?
+  - **Vérification de EV-A-0036** : dans le brevet WO 2021/148955 A1 (SRC-P-0018), le chiffre de 0,1 mg/mL de protéines végétales est confirmé (Exemple 6), de même que l'échec du chanvre et du blé et la toxicité de la fraction < 10 kDa (Exemple 7). En revanche, la **concentration de BSA de 2 mg/mL utilisée comme comparateur ne figure pas dans le brevet** : elle vient de la revue SRC-A-0032. Le brevet indique au contraire qu'à 5 mg/mL, le pois chiche n'est pas toxique. Je propose de corriger le localisateur ou le texte de EV-A-0036, ou de signaler que ce chiffre provient de la revue (voir EV-C-0076).
+  - **Vérification de EV-A-0039** : le 3 % est confirmé dans le communiqué de GOOD Meat (SRC-A-0034). C'est une déclaration d'entreprise, sans document SFA ou FDA correspondant.
 - **→P** :
   - Brevets de Believer / Future Meat (immortalisation spontanée, perfusion, régénération du milieu) et d'UPSIDE (cisgène TERT).
   - Brevet US 5 672 485 (DF-1).
@@ -81,12 +86,12 @@
 - 中国食品学报 en HTTP 503 ; CNKI non disponible.
 - EDB Singapore : page vide ; streetinsider : 403.
 - La SFA ne publie pas les dossiers ; les mémos FDA renvoient à des annexes confidentielles.
-- **Outil `kb.py`** :
-  - La normalisation des titres supprime les caractères CJK. Deux titres chinois et japonais ont été pris pour des doublons ; j'ai ajouté une glose anglaise entre crochets à SRC-C-0026.
-  - Faute de commande d'édition, j'ai fait cinq corrections ponctuelles avec `kb.read_rows/write_rows`, toutes documentées dans `notes` :
+- **Outil `kb.py`** (le coordinateur a depuis appliqué un correctif) :
+  - Avant le correctif, la normalisation des titres supprimait les caractères CJK. Le titre japonais de SRC-C-0026 avait été refusé à tort comme doublon de SRC-C-0021, puis ajouté avec une glose anglaise. Il a été **rétabli dans sa forme d'origine avec `kb.py set`**. Aucune autre source n'a été refusée.
+  - Avant l'arrivée de la commande `set`, j'avais fait cinq corrections ponctuelles avec `kb.read_rows/write_rows`, toutes documentées dans `notes` :
     - SRC-C-0041 : auteurs et PMID saisis à tort, corrigés après vérification Europe PMC ;
     - SRC-C-0021 : auteurs en pinyin, comme sur la page source ;
     - SRC-C-0017 et SRC-C-0035 : affiliations non vérifiées retirées ou nuancées ;
     - EV-C-0070 : renvoi croisé corrigé ;
     - Q-C-0020, Q-C-0069, Q-C-0080 : `scale`.
-  - Je suggère d'ajouter une commande `kb.py edit` et une normalisation qui conserve les caractères CJK.
+  - Je passe désormais par `kb.py set`.

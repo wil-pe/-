@@ -46,7 +46,7 @@ Colonne « résultats » = nombre de résultats renvoyés par la base ; « reten
 | 37 | 2026-10-25 | Europe PMC | en | `AUTH:"Ben-Arye T" AND (soy OR scaffold)` | 2 | 1 (SRC-C-0034) | revue Bomkamp 2022 à la place |
 | 38 | 2026-10-25 | Crossref (doi) | en | `10.3389/fsufs.2019.00044` | 1 | 1 (SRC-C-0027) | Allan 2019 vérifié |
 | 39 | 2026-10-25 | Europe PMC | en | `("cultured meat" OR "cultivated meat") AND (ammonia OR lactate) AND ("medium recycling" OR "media recycling" OR "spent medium" OR "waste medium")` | 23 | 3 (SRC-C-0035, 0036, 0037) | recyclage jamais démontré sur cellules de poulet |
-| 40 | 2026-10-25 | WebSearch | en | `GOOD Meat 3 Singapore Huber's 3% cultivated chicken 2024 serum-free approval press release` | 10 | 1 (SRC-C-0038) | **le chiffre « 3 % de cellules » n'a pas été retrouvé** dans une source vérifiable |
+| 40 | 2026-10-25 | WebSearch | en | `GOOD Meat 3 Singapore Huber's 3% cultivated chicken 2024 serum-free approval press release` | 10 | 1 (SRC-C-0038) | le chiffre « 3 % » n'apparaissait pas dans ces résultats ; **vérifié ensuite dans le communiqué primaire de GOOD Meat (ligne 54)** |
 | 41 | 2026-10-25 | WebFetch | en | edb.gov.sg (communiqué GOOD Meat) | 0 | 0 | page vide |
 | 42 | 2026-10-25 | WebSearch | en | `Meatly cultivated chicken pet food UK approval 2024 Chick Bites percentage cultivated chicken cells embryonic stem cells` | 10 | 0 | « 4 % » via presse seulement |
 | 43 | 2026-10-25 | WebSearch | en | `Meatly protein-free culture medium cost per litre pence chicken cells announcement` | 10 | 1 (SRC-C-0039) | communiqué Agronomics : 403 |
@@ -60,6 +60,9 @@ Colonne « résultats » = nombre de résultats renvoyés par la base ; « reten
 | 51 | 2026-10-25 | Europe PMC | en | `PMCID:PMC1533818` | 1 | correction SRC-C-0041 | vérification des métadonnées (auteurs/PMID corrigés) |
 | 52 | 2026-10-25 | Europe PMC | en | `("cultured meat" OR "cultivated meat") AND ("growth factor*") AND (recombinant) AND (cost OR "low-cost" OR thermostable) AND (FGF2 OR "FGF-2" OR insulin OR transferrin)` | 118 | 1 (SRC-C-0043) | prix FGF-2 aviaire |
 | 53 | 2026-10-25 | Europe PMC | en | `("cultured meat" OR "cultivated meat") AND (contamination OR "batch failure" OR sterility) AND (bioreactor OR "scale-up")` | 234 | 0 | **recherche de résultats négatifs** : aucune donnée publiée de taux de contamination (constat partagé par FSANZ, SRC-C-0008) |
+| 54 | 2026-10-25 | WebFetch | en | goodmeat.co/all-news/good-meat-begins-the-worlds-first-retail-sales-of-cultivated-chicken (vérification de EV-A-0039, demandée par le coordinateur) | 1 | SRC-A-0034 réutilisé → EV-C-0075 | 3 % de poulet cultivé confirmé ; ni milieu ni volume indiqués |
+| 55 | 2026-10-25 | WebFetch (Google Patents) | en | patents.google.com/patent/WO2021148955A1, 3 lectures (car. 0–100 000, 100 000–200 000, 200 000–fin) (vérification de EV-A-0036) | 1 | SRC-P-0018 réutilisé → EV-C-0076 | exemples 2, 3, 6, 7 et revendications lus ; le chiffre « 2 mg/mL de BSA » n'est pas dans le brevet |
+| 56 | 2026-10-25 | Crossref (doi, outil réparé) | en | `10.1038/s43016-022-00658-w` ; `10.1186/1471-2121-7-27` | 2 | vérification | métadonnées confirmées (Pasitka : année Crossref 2022 = mise en ligne) |
 
 ## Documents ouverts directement (hors requêtes)
 
