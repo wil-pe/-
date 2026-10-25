@@ -15,7 +15,7 @@ Usage
   python3 research/tools/kb.py merge                               # build root tables + dedup report
   python3 research/tools/kb.py stats
 
-AGENT is one of H N C A E P X (X = coordinator).
+AGENT is one of H N C A E P X (X = coordinator) + phase-4 agents B M S R K.
 """
 import csv
 import json
@@ -39,6 +39,12 @@ AGENTS = {
     "E": "industrialization",
     "P": "patents_and_innovation",
     "X": "coordinator",
+    # phase 4 deep-dive agents
+    "B": "cultivated_process_data",
+    "M": "nutrition_economics",
+    "S": "substitutes_deep",
+    "R": "regulation",
+    "K": "pathway_comparison",
 }
 
 SOURCE_COLS = [

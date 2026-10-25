@@ -20,7 +20,7 @@ from pathlib import Path
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-AG = ["H", "N", "C", "A", "E", "P", "X"]
+AG = ["H", "N", "C", "A", "E", "P", "X", "B", "M", "S", "R", "K"]
 S = requests.Session()
 S.headers["User-Agent"] = "ChickenMuscleResearchLab-audit/0.1"
 
