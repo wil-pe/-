@@ -8,3 +8,4 @@ Chaque DOI est résolu sur Crossref (puis DataCite) et chaque PMID sur PubMed ; 
 ## Bilan
 
 - doi_ok : 1
+- pmid_ok : 1

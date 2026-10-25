@@ -1,3 +1,5 @@
+> **Note du coordinateur (2026-10-25)** : passages sur l'usine Believer corrigés après vérification indépendante (`coordination/verification/batch1_results.md`) — la source ne dit pas que l'usine « n'a jamais produit » ni qu'elle est « vacante ».
+
 # Ingénierie, économie, industrialisation et réglementation des trois voies de production de muscle de poulet
 
 **Agent E — Chicken Muscle Research Lab — brouillon de phase 3-4 (2026-10-25)**
@@ -82,7 +84,7 @@ Aucune TEA **japonaise** ou **coréenne** n'a été trouvée (J-STAGE : 10 résu
 1. **Mesuré vs supposé.** Seule la densité de Pasitka (130 × 10⁶ cellules/mL, plus de 20 jours) est une mesure (EV-E-0013), réalisée par l'équipe d'une entreprise et non répliquée. Tous les coûts sont des sorties de modèle. Le prix du milieu de 0,63 $/L est une déclaration.
 2. **La dispersion des résultats est de cinq ordres de grandeur.** Elle vient de quatre hypothèses : (i) le prix et la quantité de milieu ; (ii) la qualité d'hygiène, salles blanches selon Humbird ou « qualité alimentaire » sans salle blanche selon CE Delft ; (iii) le coût du capital, de 14,6 %/an pour Humbird à un délai « social » de 30 ans pour CE Delft ; (iv) la densité et la productivité.
 3. **Les chiffres de presse remontent à une même TEA.** Les « 5,66 $/kg » (ou « 2,57 $/lb ») de 2021 viennent de CE Delft/GFI avant corrigendum (6,43 $/kg après). Un article espagnol les transforme en « 2,50 $ par kilo » (EV-E-0058). Les « 6,2 $/lb » de 2024 proviennent du seul résumé de Pasitka et al. (EV-E-0014).
-4. **Échec industriel de l'auteur de la TEA la plus optimiste sur le poulet.** Believer Meats, dont l'équipe a publié Pasitka et al., a cessé ses activités en décembre 2025. Son usine de 150 M$ en Caroline du Nord, approuvée par l'USDA, n'a jamais produit (EV-E-0047). Cela ne réfute pas les données de laboratoire, mais montre qu'une projection de TEA n'a pas suffi à financer l'exploitation.
+4. **Échec industriel de l'auteur de la TEA la plus optimiste sur le poulet.** Believer Meats, dont l'équipe a publié Pasitka et al., a cessé ses activités en décembre 2025. Son usine de Caroline du Nord (~150 M$ selon la presse), approuvée par l'USDA en novembre 2025, était en administration judiciaire et sans repreneur en août 2026 ; aucune source consultée ne documente de production commerciale (EV-E-0047, EV-E-0055, corrigés après vérification indépendante). Cela ne réfute pas les données de laboratoire, mais montre qu'une projection de TEA n'a pas suffi à financer l'exploitation.
 
 ---
 
@@ -157,7 +159,7 @@ Aucune TEA **japonaise** ou **coréenne** n'a été trouvée (J-STAGE : 10 résu
 
 | Entreprise / site | Voie | Volume / équipement | Statut (date) | Nature | Réf. |
 |---|---|---|---|---|---|
-| Believer Meats, Wilson (Caroline du Nord, États-Unis) | B (poulet) | 200 000 pieds², ~150 M$, 26 Mlb/an (≈ 11,8 kt) annoncées | **construite**, approuvée par l'USDA (nov. 2025), **jamais en production** ; entreprise fermée (déc. 2025) ; usine vacante (août 2026) ; offre de rachat d'UPSIDE de 50 M$ retirée | presse ; capacité = déclaration | EV-E-0047, SRC-E-0031, SRC-P-0004 |
+| Believer Meats, Wilson (Caroline du Nord, États-Unis) | B (poulet) | 200 000 pieds², ~150 M$, 26 Mlb/an (≈ 11,8 kt) annoncées | **construite**, approuvée par l'USDA (nov. 2025) ; entreprise fermée (déc. 2025) ; usine en administration judiciaire, sort non réglé (août 2026) ; offre de rachat d'UPSIDE de 50 M$ retirée ; aucune production commerciale documentée | presse ; capacité = déclaration | EV-E-0047, SRC-E-0031, SRC-P-0004 |
 | UPSIDE Foods, Glenview (Illinois) | B (poulet) | grande usine prévue | **suspendue** (févr. 2024) ; filets produits en flacons de 2 L (2023) | presse (relevée par l'agent P) | SRC-P-0009 |
 | UPSIDE Foods, Emeryville (Californie) | B | 22 680 kg/an annoncés | en fonctionnement (pilote) | déclaration compilée | SRC-E-0034 |
 | GOOD Meat / Eat Just + ABEC | B (poulet) | 10 × 250 000 L prévus → 5 × 125 000 L (nov. 2022) | **abandonné** ; litige réglé pour 4,4 M$ | presse (agent P) | SRC-P-0007, SRC-P-0008 |
@@ -168,7 +170,7 @@ Aucune TEA **japonaise** ou **coréenne** n'a été trouvée (J-STAGE : 10 résu
 | Meatable (Pays-Bas) ; SCiFi Foods (États-Unis) ; Upstream Foods ; CellRev | B | — | **fermées** (2024-2025) faute de financement | presse | EV-E-0048 |
 | Solar Foods Factory 01, Vantaa (Finlande) | C (SCP) | 160 t/an nominales → 230 t (2026) ; Factory 02 prévue en 2028 | en fonctionnement (paramètres nominaux atteints, production non publiée) | déclaration d'entreprise | EV-E-0054 |
 
-**Synthèse.** Les TEA dimensionnent des usines de 6,8 à 10 kt/an (EV-E-0001, EV-E-0022). Or les capacités réellement opérées en viande cultivée restent de l'ordre de 10³ L, et 20 à 180 t/an sont annoncées (EV-E-0050). La seule grande usine construite pour le poulet n'a jamais produit (EV-E-0055). Le coût de construction de Believer, environ 12,7 $ par kg de capacité annuelle déclarée, est très inférieur aux 45-48 $ des TEA. Mais cette capacité n'a jamais été démontrée : c'est la valeur « optimiste » du modèle, à ne pas lire comme un CAPEX prouvé. Côté contraintes sanitaires, FSANZ juge qu'une approche HACCP complète, surtout pendant l'expansion cellulaire, est indispensable (EV-E-0037). Humbird chiffre le coût des salles blanches (40 M$ sur 178 M$ de coûts directs en fed-batch, tableau 2). CE Delft suppose au contraire une hygiène « qualité alimentaire » sans salle blanche (EV-E-0023). C'est l'hypothèse non testée la plus coûteuse du secteur.
+**Synthèse.** Les TEA dimensionnent des usines de 6,8 à 10 kt/an (EV-E-0001, EV-E-0022). Or les capacités réellement opérées en viande cultivée restent de l'ordre de 10³ L, et 20 à 180 t/an sont annoncées (EV-E-0050). Aucune production commerciale n'est documentée dans la seule grande usine construite pour le poulet (EV-E-0055). Le coût de construction de Believer, environ 12,7 $ par kg de capacité annuelle déclarée, est très inférieur aux 45-48 $ des TEA. Mais cette capacité n'a pas été démontrée : c'est la valeur « optimiste » du modèle, à ne pas lire comme un CAPEX prouvé. Côté contraintes sanitaires, FSANZ juge qu'une approche HACCP complète, surtout pendant l'expansion cellulaire, est indispensable (EV-E-0037). Humbird chiffre le coût des salles blanches (40 M$ sur 178 M$ de coûts directs en fed-batch, tableau 2). CE Delft suppose au contraire une hygiène « qualité alimentaire » sans salle blanche (EV-E-0023). C'est l'hypothèse non testée la plus coûteuse du secteur.
 
 ---
 
@@ -228,7 +230,7 @@ Légende : **ING** = autorisation d'un ingrédient ; **PROC** = exigences liées
 - Voie C : fermentation gazeuse à l'échelle de 160 t/an (déclarée).
 
 **Échoue (documenté).**
-- Passage à l'échelle des usines de viande cultivée : Believer (usine construite, jamais exploitée), Glenview (suspendue), projet de bioréacteurs ABEC (abandonné), vague de fermetures en 2024-2025 (EV-E-0047, EV-E-0048).
+- Passage à l'échelle des usines de viande cultivée : Believer (usine construite et approuvée, exploitant fermé en décembre 2025, aucune production commerciale documentée), Glenview (suspendue), projet de bioréacteurs ABEC (abandonné), vague de fermetures en 2024-2025 (EV-E-0047, EV-E-0048).
 - Les TEA ne convergent pas : aucune ne prévoit la parité avec le poulet standard hors scénarios où toutes les limites sont levées.
 
 **Reste à inventer.**

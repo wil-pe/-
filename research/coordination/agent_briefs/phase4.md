@@ -6,6 +6,13 @@ Les consignes de `_common.md` et `protocol.md` restent applicables (outils, enre
 - Tu écris sous **ta propre lettre** (dossier `research/agents/<lettre>/`) et tu rédiges un rapport d'approfondissement `research/reports/deep/<lettre>_<thème>.md` (≈ 2 000–4 000 mots), qui cite ses identifiants et indique explicitement quelles lacunes (`KG-…`) et contradictions (`CT-…`) il réduit ou résout.
 - **Langues** : au moins **30 % de sources non anglophones** quand une communauté existe (chinois, portugais, espagnol, japonais, coréen, allemand, français…). Ce biais (85 % de sources en anglais en phase 3) est la première faiblesse du corpus.
 - **Leçons de l'audit de phase 3** : ne mets jamais `confidence=high` sur une déclaration d'entreprise, un brevet ou un modèle ; un document lu en métadonnées seules ne peut pas porter une confiance `moderate` ; si tu lis le texte intégral d'une source déjà enregistrée en `abstract_only`, mets à jour son `access_level` avec `kb.py set` et note-le ; vérifie qu'un chiffre cité « d'après une revue » existe bien dans la source primaire, et sinon dis-le.
+- **Leçons de la vérification indépendante** (`coordination/verification/batch1_results.md` : 0 chiffre faux sur 28, mais 11 formulations à corriger) :
+  1. **Une source par fait** : ne fusionne pas dans une affirmation des faits issus de plusieurs sources ni tes propres inférences (« jamais entrée en production », « record ») ; scinde ou cite chaque source.
+  2. **Vocabulaire réglementaire exact** : la FDA « clôt une consultation par une lettre *no questions* », elle n'« autorise » pas ; distingue « obligatoire » et « possible », « toute modification » et « modification susceptible d'affecter l'évaluation ».
+  3. **Reprends les limites que la source énonce elle-même** (représentativité de l'échantillon, périmètre de l'ACV, contradiction interne).
+  4. **Signale tout calcul** fait par toi (« calcul de l'agent à partir du tableau X ») et vérifie-le.
+  5. **Choisis une citation qui soutient directement l'affirmation** ; vérifie le numéro de page (souvent décalé d'une page pour les tableaux).
+  6. Complète les métadonnées (PMID, URL canonique).
 - Objectif : **20 à 40 sources nouvelles**, dont la majorité lue en texte intégral ou par sections pertinentes ; 30 à 60 affirmations ; autant de mesures que pertinent.
 - Réponse finale (≤ 400 mots) : lacunes réduites (`KG-…`), contradictions résolues ou précisées (`CT-…`), chiffres nouveaux clés, limites d'accès, recherches restantes.
 
