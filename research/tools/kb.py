@@ -97,6 +97,7 @@ ENUMS = {
         "techno_economic_model", "life_cycle_assessment", "cross_species_extrapolation",
         "theoretical", "commercial_claim", "regulatory_text", "statistical_data",
         "expert_opinion", "patent_claim",
+        "documentary_verification",  # direct comparison of two documents read (e.g. press figure vs primary report)
     },
     "confidence": {"high", "moderate", "low", "very_low"},
     "pathway": {"A", "B", "C", "A+B", "A+C", "B+C", "ALL", "cross", "history"},

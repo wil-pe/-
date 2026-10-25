@@ -54,3 +54,5 @@ Q-P-0052,gain de poids après éclosion par alimentation in ovo,3-8,%,,,live_wei
 Q-P-0053,dose de GAA dans l'exemple du brevet,0.92,g/kg feed,,,feed,exemple de brevet,poulet de chair (42 j),field_trial,company_claim,SRC-P-0050,exemples,,"poids final +7 %, consommation -6 %",A,P,
 Q-P-0054,teneur en phosphate réduite permise par la phytase thermotolérante,0.225,% of poultry diet,,,feed,description de brevet,poulet,field_trial,company_claim,SRC-P-0051,description,,"vs 0,45 % sans enzyme (selon résumé de recherche)",A,P,
 Q-P-0055,teneur en cellules cultivées de l'hybride SuperMeat,0.5-18,% w/w,,,product,plage revendiquée,poulet,not_applicable,company_claim,SRC-P-0036,description,,reste végétal,B+C,P,
+Q-P-0056,coût prévu de l'usine UPSIDE de Glenview (suspendue),>140,M USD,,,currency,presse (courriel divulgué),poulet cultivé,industrial,company_claim,SRC-P-0073,corps,,187 000 pieds carrés ; projet suspendu fév. 2024,B,P,« more than $140 million »
+Q-P-0057,capacité prévue de l'usine UPSIDE de Glenview,>30,M lb/an,>13.6,kt/an,facility,presse,poulet cultivé,industrial,company_claim,SRC-P-0073,corps,,jamais construite,B,P,"conversion P : 30e6 lb × 0,4536 kg = 13 600 t"
