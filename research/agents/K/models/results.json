@@ -1,0 +1,2800 @@
+{
+ "summary": [
+  {
+   "line": "A standard (porte d'abattoir)",
+   "cost_usd": "7.6–19.0",
+   "cost_cases": "UE moyenne 2017, standard; UE six pays 2021, standard; France 2022, standard (ITAVI); États-Unis 2023, standard (grande échelle, hors abattage); Brésil (Paraná) 2025, standard (hors abattage)",
+   "cost_nature": "published_estimate + statistical",
+   "GES": "11.1–44.0",
+   "GES_nature": "model_output",
+   "Énergie": "94–137",
+   "Énergie_nature": "company_claim + model_output",
+   "Eau bleue": "200–1654",
+   "Eau bleue_nature": "model_assumption + model_output + published_estimate",
+   "Surface": "20.0–46.9",
+   "Surface_nature": "model_output + published_estimate"
+  },
+  {
+   "line": "A standard (produit au détail, toutes étapes)",
+   "cost_usd": "n.d.",
+   "cost_cases": "—",
+   "cost_nature": "—",
+   "GES": "17.5–57.0",
+   "GES_nature": "measured + model_assumption + model_output + statistical",
+   "Énergie": "168–306",
+   "Énergie_nature": "measured + model_output",
+   "Eau bleue": "n.d.",
+   "Eau bleue_nature": "—",
+   "Surface": "18.7–71.0",
+   "Surface_nature": "measured + model_output + statistical"
+  },
+  {
+   "line": "A certifié (ECC / Beter Leven)",
+   "cost_usd": "19.1–25.5",
+   "cost_cases": "Pays-Bas 2021, certifié ECC; France 2021, certifié ECC",
+   "cost_nature": "published_estimate",
+   "GES": "18.8–55.4",
+   "GES_nature": "model_output",
+   "Énergie": "n.d.",
+   "Énergie_nature": "—",
+   "Eau bleue": "2740",
+   "Eau bleue_nature": "model_assumption + model_output + published_estimate",
+   "Surface": "46.4–65.7",
+   "Surface_nature": "model_output"
+  },
+  {
+   "line": "A Label Rouge",
+   "cost_usd": "40.9–46.5",
+   "cost_cases": "France 2022, Label Rouge (ITAVI)",
+   "cost_nature": "model_assumption + statistical",
+   "GES": "30.1–39.0",
+   "GES_nature": "model_output",
+   "Énergie": "234–303",
+   "Énergie_nature": "company_claim + model_output",
+   "Eau bleue": "2740",
+   "Eau bleue_nature": "model_assumption + model_output + published_estimate",
+   "Surface": "n.d.",
+   "Surface_nature": "—"
+  },
+  {
+   "line": "A biologique / pâturage",
+   "cost_usd": "53.9–67.9",
+   "cost_cases": "États-Unis 2023, pâturage (hors abattage); France 2022, biologique (ITAVI)",
+   "cost_nature": "model_assumption + published_estimate + statistical",
+   "GES": "38.1–73.3",
+   "GES_nature": "model_output",
+   "Énergie": "305–396",
+   "Énergie_nature": "company_claim + model_output",
+   "Eau bleue": "5780",
+   "Eau bleue_nature": "model_assumption + model_output + published_estimate",
+   "Surface": "n.d.",
+   "Surface_nature": "—"
+  },
+  {
+   "line": "B, base publiée (21 % ; 18-25 % pour les ACV)",
+   "cost_usd": "9–287",
+   "cost_cases": "Humbird 2021, fed-batch (masse humide); Humbird 2021, perfusion; Humbird 2021, fed-batch + hydrolysat 2 $/kg; CE Delft 2021, 2030 tous leviers (produit CM); Risner 2021, limites levées (scénario 4); Pasitka 2024, résumé (6,2 $/lb, base non vérifiée); Pasitka 2024 selon la revue Bry-Chevalier; Modèle E/X, scénario optimiste (biomasse humide); Modèle E/X, scénario intermédiaire; Modèle E/X, scénario prudent",
+   "cost_nature": "model_output (+ model_assumption)",
+   "GES": "10.0–79.4 (intrants purifiés : 984–8378)",
+   "GES_nature": "model_output + model_assumption",
+   "Énergie": "588–1467",
+   "Énergie_nature": "model_output + model_assumption",
+   "Eau bleue": "168–311",
+   "Eau bleue_nature": "model_output + model_assumption",
+   "Surface": "6.8–10.0",
+   "Surface_nature": "model_output + model_assumption"
+  },
+  {
+   "line": "B, recalcul à 9 % de protéines (caille mesurée)",
+   "cost_usd": "22–670",
+   "cost_cases": "Humbird 2021, fed-batch (masse humide); Humbird 2021, perfusion; Humbird 2021, fed-batch + hydrolysat 2 $/kg; CE Delft 2021, 2030 tous leviers (produit CM); Risner 2021, limites levées (scénario 4); Pasitka 2024, résumé (6,2 $/lb, base non vérifiée); Pasitka 2024 selon la revue Bry-Chevalier; Modèle E/X, scénario optimiste (biomasse humide); Modèle E/X, scénario intermédiaire; Modèle E/X, scénario prudent",
+   "cost_nature": "model_output (+ model_assumption)",
+   "GES": "28–159 (intrants purifiés : 2733–16756)",
+   "GES_nature": "model_output + model_assumption",
+   "Énergie": "1633–2933",
+   "Énergie_nature": "model_output + model_assumption",
+   "Eau bleue": "467–622",
+   "Eau bleue_nature": "model_output + model_assumption",
+   "Surface": "18.9–20.0",
+   "Surface_nature": "model_output + model_assumption"
+  },
+  {
+   "line": "C ingrédients (soja, pois, tofu, mycoprotéine, SCP ; porte d'usine ou détail selon la source)",
+   "cost_usd": "1.9–29.6",
+   "cost_cases": "Isolat de soja, prix de marché 2019-2023; e-SCP (bactéries H2), sites les moins chers 2028; Mycoprotéine, TEA (Risner 2023)",
+   "cost_nature": "measured_reported_by_review + model_output",
+   "GES": "0.8–20.8",
+   "GES_nature": "company_claim + model_output + published_estimate + statistical",
+   "Énergie": "98–370",
+   "Énergie_nature": "company_claim + model_output + published_estimate",
+   "Eau bleue": "246",
+   "Eau bleue_nature": "model_output + published_estimate",
+   "Surface": "8.7–34.0 (SCP photovoltaïque modélisée : < 0.83)",
+   "Surface_nature": "model_output + published_estimate"
+  },
+  {
+   "line": "C produits (analogues végétaux AGRIBALYSE, toutes étapes)",
+   "cost_usd": "n.d.",
+   "cost_cases": "aucun coût de produit trouvé",
+   "cost_nature": "—",
+   "GES": "7.7–11.4",
+   "GES_nature": "model_assumption + model_output",
+   "Énergie": "284–344",
+   "Énergie_nature": "model_assumption + model_output",
+   "Eau bleue": "n.d.",
+   "Eau bleue_nature": "—",
+   "Surface": "n.d.",
+   "Surface_nature": "—"
+  }
+ ],
+ "protein_meat": {
+  "prudent": 0.20600000000000002,
+  "intermediaire": 0.214,
+  "optimiste": 0.23199999999999998
+ },
+ "yield": {
+  "standard": {
+   "optimiste": 0.47000000000000003,
+   "intermediaire": 0.43100000000000005,
+   "prudent": 0.414,
+   "refs": "Q-N-0035 ; Q-N-0014 ; Q-K-0064+Q-K-0065"
+  },
+  "certifie": {
+   "optimiste": 0.353,
+   "intermediaire": 0.325,
+   "prudent": 0.319,
+   "refs": "Q-K-0066 ; Q-K-0077 + Q-K-0122 (hypothèse)"
+  },
+  "label_rouge_bio": {
+   "optimiste": 0.306,
+   "intermediaire": 0.306,
+   "prudent": 0.30200000000000005,
+   "refs": "Q-K-0076 + Q-K-0122 (hypothèse)"
+  }
+ },
+ "alloc": {
+  "prudent": 1.0,
+  "intermediaire": 0.88,
+  "optimiste": 0.88
+ },
+ "aa_ratio": 0.8240343347639485,
+ "A_costs": [
+  {
+   "label": "UE moyenne 2017, standard",
+   "system": "standard",
+   "year": 2017,
+   "currency": "EUR",
+   "refs": "Q-E-0022 ; Q-K-0110 ; Q-E-0049",
+   "input_nature": "published_estimate",
+   "yield_refs": "Q-N-0035 ; Q-N-0014 ; Q-K-0064+Q-K-0065",
+   "protein_refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123",
+   "prudent": {
+    "per_kg_lw": 1.091,
+    "per_kg_protein_orig": 12.79,
+    "per_kg_protein_usd": 14.45
+   },
+   "intermediaire": {
+    "per_kg_lw": 1.032,
+    "per_kg_protein_orig": 11.18,
+    "per_kg_protein_usd": 12.63
+   },
+   "optimiste": {
+    "per_kg_lw": 0.972,
+    "per_kg_protein_orig": 8.91,
+    "per_kg_protein_usd": 10.07
+   }
+  },
+  {
+   "label": "UE six pays 2021, standard",
+   "system": "standard",
+   "year": 2021,
+   "currency": "EUR",
+   "refs": "Q-K-0059 ; Q-K-0060 ; Q-K-0061",
+   "input_nature": "published_estimate",
+   "yield_refs": "Q-N-0035 ; Q-N-0014 ; Q-K-0064+Q-K-0065",
+   "protein_refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123",
+   "prudent": {
+    "per_kg_lw": 1.247,
+    "per_kg_protein_orig": 14.62,
+    "per_kg_protein_usd": 17.29
+   },
+   "intermediaire": {
+    "per_kg_lw": 1.171,
+    "per_kg_protein_orig": 12.69,
+    "per_kg_protein_usd": 15.01
+   },
+   "optimiste": {
+    "per_kg_lw": 1.094,
+    "per_kg_protein_orig": 10.03,
+    "per_kg_protein_usd": 11.87
+   }
+  },
+  {
+   "label": "France 2022, standard (ITAVI)",
+   "system": "standard",
+   "year": 2022,
+   "currency": "EUR",
+   "refs": "Q-E-0029 ; Q-K-0112 (abattage 2021) ; Q-K-0061",
+   "input_nature": "published_estimate + statistical",
+   "yield_refs": "Q-N-0035 ; Q-N-0014 ; Q-K-0064+Q-K-0065",
+   "protein_refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123",
+   "prudent": {
+    "per_kg_lw": 1.541,
+    "per_kg_protein_orig": 18.07,
+    "per_kg_protein_usd": 19.03
+   },
+   "intermediaire": {
+    "per_kg_lw": 1.541,
+    "per_kg_protein_orig": 16.71,
+    "per_kg_protein_usd": 17.6
+   },
+   "optimiste": {
+    "per_kg_lw": 1.541,
+    "per_kg_protein_orig": 14.14,
+    "per_kg_protein_usd": 14.89
+   }
+  },
+  {
+   "label": "États-Unis 2023, standard (grande échelle, hors abattage)",
+   "system": "standard",
+   "year": 2023,
+   "currency": "USD",
+   "refs": "Q-K-0080",
+   "input_nature": "published_estimate",
+   "yield_refs": "Q-N-0035 ; Q-N-0014 ; Q-K-0064+Q-K-0065",
+   "protein_refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123",
+   "prudent": {
+    "per_kg_lw": 1.146,
+    "per_kg_protein_orig": 13.43,
+    "per_kg_protein_usd": 13.43
+   },
+   "intermediaire": {
+    "per_kg_lw": 1.146,
+    "per_kg_protein_orig": 12.42,
+    "per_kg_protein_usd": 12.42
+   },
+   "optimiste": {
+    "per_kg_lw": 1.146,
+    "per_kg_protein_orig": 10.51,
+    "per_kg_protein_usd": 10.51
+   }
+  },
+  {
+   "label": "Brésil (Paraná) 2025, standard (hors abattage)",
+   "system": "standard",
+   "year": 2025,
+   "currency": "BRL",
+   "refs": "Q-E-0032",
+   "input_nature": "statistical",
+   "yield_refs": "Q-N-0035 ; Q-N-0014 ; Q-K-0064+Q-K-0065",
+   "protein_refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123",
+   "prudent": {
+    "per_kg_lw": 4.6,
+    "per_kg_protein_orig": 53.94,
+    "per_kg_protein_usd": 9.66
+   },
+   "intermediaire": {
+    "per_kg_lw": 4.6,
+    "per_kg_protein_orig": 49.87,
+    "per_kg_protein_usd": 8.94
+   },
+   "optimiste": {
+    "per_kg_lw": 4.6,
+    "per_kg_protein_orig": 42.19,
+    "per_kg_protein_usd": 7.56
+   }
+  },
+  {
+   "label": "Pays-Bas 2021, certifié ECC",
+   "system": "certifie",
+   "year": 2021,
+   "currency": "EUR",
+   "refs": "Q-K-0056 ; Q-K-0111 ; Q-K-0114",
+   "input_nature": "published_estimate",
+   "yield_refs": "Q-K-0066 ; Q-K-0077 + Q-K-0122 (hypothèse)",
+   "protein_refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123",
+   "prudent": {
+    "per_kg_lw": 1.418,
+    "per_kg_protein_orig": 21.57,
+    "per_kg_protein_usd": 25.51
+   },
+   "intermediaire": {
+    "per_kg_lw": 1.371,
+    "per_kg_protein_orig": 19.71,
+    "per_kg_protein_usd": 23.32
+   },
+   "optimiste": {
+    "per_kg_lw": 1.325,
+    "per_kg_protein_orig": 16.17,
+    "per_kg_protein_usd": 19.13
+   }
+  },
+  {
+   "label": "France 2021, certifié ECC",
+   "system": "certifie",
+   "year": 2021,
+   "currency": "EUR",
+   "refs": "Q-K-0058 ; Q-K-0113 ; Q-K-0114",
+   "input_nature": "published_estimate",
+   "yield_refs": "Q-K-0066 ; Q-K-0077 + Q-K-0122 (hypothèse)",
+   "protein_refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123",
+   "prudent": {
+    "per_kg_lw": 1.362,
+    "per_kg_protein_orig": 20.73,
+    "per_kg_protein_usd": 24.52
+   },
+   "intermediaire": {
+    "per_kg_lw": 1.362,
+    "per_kg_protein_orig": 19.59,
+    "per_kg_protein_usd": 23.17
+   },
+   "optimiste": {
+    "per_kg_lw": 1.362,
+    "per_kg_protein_orig": 16.63,
+    "per_kg_protein_usd": 19.67
+   }
+  },
+  {
+   "label": "États-Unis 2023, pâturage (hors abattage)",
+   "system": "label_rouge_bio",
+   "year": 2023,
+   "currency": "USD",
+   "refs": "Q-K-0082",
+   "input_nature": "published_estimate",
+   "yield_refs": "Q-K-0076 + Q-K-0122 (hypothèse)",
+   "protein_refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123",
+   "prudent": {
+    "per_kg_lw": 4.224,
+    "per_kg_protein_orig": 67.9,
+    "per_kg_protein_usd": 67.9
+   },
+   "intermediaire": {
+    "per_kg_lw": 4.224,
+    "per_kg_protein_orig": 64.5,
+    "per_kg_protein_usd": 64.5
+   },
+   "optimiste": {
+    "per_kg_lw": 4.224,
+    "per_kg_protein_orig": 59.5,
+    "per_kg_protein_usd": 59.5
+   }
+  },
+  {
+   "label": "France 2022, Label Rouge (ITAVI)",
+   "system": "label_rouge_bio",
+   "year": 2022,
+   "currency": "EUR",
+   "refs": "Q-E-0030 ; Q-K-0128 (hyp.) ; Q-K-0121",
+   "input_nature": "model_assumption + statistical",
+   "yield_refs": "Q-K-0076 + Q-K-0122 (hypothèse)",
+   "protein_refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123",
+   "prudent": {
+    "per_kg_lw": 2.75,
+    "per_kg_protein_orig": 44.2,
+    "per_kg_protein_usd": 46.55
+   },
+   "intermediaire": {
+    "per_kg_lw": 2.753,
+    "per_kg_protein_orig": 42.04,
+    "per_kg_protein_usd": 44.26
+   },
+   "optimiste": {
+    "per_kg_lw": 2.755,
+    "per_kg_protein_orig": 38.81,
+    "per_kg_protein_usd": 40.87
+   }
+  },
+  {
+   "label": "France 2022, biologique (ITAVI)",
+   "system": "label_rouge_bio",
+   "year": 2022,
+   "currency": "EUR",
+   "refs": "Q-E-0031 ; Q-K-0128 (hyp.) ; Q-K-0121",
+   "input_nature": "model_assumption + statistical",
+   "yield_refs": "Q-K-0076 + Q-K-0122 (hypothèse)",
+   "protein_refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123",
+   "prudent": {
+    "per_kg_lw": 3.631,
+    "per_kg_protein_orig": 58.36,
+    "per_kg_protein_usd": 61.46
+   },
+   "intermediaire": {
+    "per_kg_lw": 3.634,
+    "per_kg_protein_orig": 55.49,
+    "per_kg_protein_usd": 58.43
+   },
+   "optimiste": {
+    "per_kg_lw": 3.636,
+    "per_kg_protein_orig": 51.22,
+    "per_kg_protein_usd": 53.94
+   }
+  }
+ ],
+ "A_env": [
+  {
+   "indicator": "GES",
+   "label": "France standard, AGRIBALYSE sortie ferme + abattoir",
+   "system": "standard",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0027 ; Q-K-0115",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "",
+   "prudent": 22.9,
+   "intermediaire": 18.6,
+   "optimiste": 15.8
+  },
+  {
+   "indicator": "GES",
+   "label": "Pays-Bas standard avec LUC (WUR 1397)",
+   "system": "standard",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0069",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "",
+   "prudent": 44.0,
+   "intermediaire": 35.8,
+   "optimiste": 30.3
+  },
+  {
+   "indicator": "GES",
+   "label": "Pays-Bas standard sans LUC (WUR 1397)",
+   "system": "standard",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0070",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "",
+   "prudent": 16.2,
+   "intermediaire": 13.2,
+   "optimiste": 11.1
+  },
+  {
+   "indicator": "GES",
+   "label": "Pays-Bas Beter Leven 1 étoile avec LUC (WUR 1397)",
+   "system": "certifie",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0071",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "",
+   "prudent": 55.4,
+   "intermediaire": 46.1,
+   "optimiste": 39.1
+  },
+  {
+   "indicator": "GES",
+   "label": "Pays-Bas Beter Leven 1 étoile sans LUC (WUR 1397)",
+   "system": "certifie",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0071",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "",
+   "prudent": 26.6,
+   "intermediaire": 22.1,
+   "optimiste": 18.8
+  },
+  {
+   "indicator": "GES",
+   "label": "France Label Rouge, AGRIBALYSE + abattoir",
+   "system": "label_rouge_bio",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0031 ; Q-K-0115",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "",
+   "prudent": 39.0,
+   "intermediaire": 32.6,
+   "optimiste": 30.1
+  },
+  {
+   "indicator": "GES",
+   "label": "France biologique, AGRIBALYSE (moyenne → systèmes 1-2) + abattoir",
+   "system": "label_rouge_bio",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0035 ; Q-K-0039 ; Q-K-0115",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "",
+   "prudent": 73.3,
+   "intermediaire": 51.3,
+   "optimiste": 38.1
+  },
+  {
+   "indicator": "GES",
+   "label": "Monde, FAO GLEAM 2013 (berceau-détail)",
+   "boundary": "détail",
+   "system": "standard",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0001 ; Q-K-0005 ; protéine Q-K-0049 ; Q-K-0046 ; Q-K-0123",
+   "input_nature": "model_assumption + model_output",
+   "note": "conversion carcasse → viande de la FAO elle-même",
+   "prudent": 44.4,
+   "intermediaire": 37.6,
+   "optimiste": 34.7
+  },
+  {
+   "indicator": "GES",
+   "label": "Royaume-Uni, FAO GLEAM (déjà par kg de protéine)",
+   "boundary": "détail",
+   "system": "standard",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0004",
+   "input_nature": "model_output",
+   "prudent": 43.5,
+   "intermediaire": 43.5,
+   "optimiste": 43.5,
+   "note": "PAS 2050 : 32,9 (notes)"
+  },
+  {
+   "indicator": "GES",
+   "label": "Monde, Poore & Nemecek (moyenne, par kg de protéine)",
+   "boundary": "détail",
+   "system": "standard",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0102",
+   "input_nature": "model_output",
+   "prudent": 57.0,
+   "intermediaire": 57.0,
+   "optimiste": 57.0,
+   "note": "base protéine des auteurs (volaille, produit de détail)"
+  },
+  {
+   "indicator": "GES",
+   "label": "France, viande de poulet crue, AGRIBALYSE toutes étapes (produit)",
+   "system": "standard",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0045 ; Q-K-0046",
+   "boundary": "détail",
+   "input_nature": "measured + model_output",
+   "prudent": 19.2,
+   "intermediaire": 19.2,
+   "optimiste": 19.2,
+   "note": "même base que les analogues végétaux AGRIBALYSE (voie C)"
+  },
+  {
+   "indicator": "GES",
+   "label": "France, filet de poulet cru, AGRIBALYSE toutes étapes (produit)",
+   "system": "standard",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0040 ; Q-K-0047",
+   "boundary": "détail",
+   "input_nature": "measured + model_output",
+   "prudent": 24.0,
+   "intermediaire": 24.0,
+   "optimiste": 24.0,
+   "note": ""
+  },
+  {
+   "indicator": "Énergie",
+   "label": "France, filet de poulet cru, AGRIBALYSE toutes étapes (MJ non renouvelables)",
+   "system": "standard",
+   "unit": "MJ/kg protéine",
+   "refs": "Q-K-0041 ; Q-K-0047",
+   "boundary": "détail",
+   "input_nature": "measured + model_output",
+   "prudent": 305.8,
+   "intermediaire": 305.8,
+   "optimiste": 305.8,
+   "note": "transformation = 47 % ; comparable à l'escalope végétale (voie C)"
+  },
+  {
+   "indicator": "GES",
+   "label": "Allemagne, Hähnchen (moyenne), ifeu (produit)",
+   "system": "standard",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-K-0091 ; Q-K-0046",
+   "boundary": "détail",
+   "input_nature": "measured + model_output",
+   "prudent": 25.7,
+   "intermediaire": 25.7,
+   "optimiste": 25.7,
+   "note": "base produit non précisée (os éventuels) : protéine 21,4 % supposée"
+  },
+  {
+   "indicator": "Énergie",
+   "label": "Allemagne, Hähnchen (moyenne), ifeu (énergie primaire)",
+   "system": "standard",
+   "unit": "MJ/kg protéine",
+   "refs": "Q-K-0093 ; Q-K-0046",
+   "boundary": "détail",
+   "input_nature": "measured + model_output",
+   "prudent": 168.2,
+   "intermediaire": 168.2,
+   "optimiste": 168.2,
+   "note": "base produit non précisée"
+  },
+  {
+   "indicator": "Surface",
+   "label": "Allemagne, Hähnchen (moyenne), ifeu",
+   "system": "standard",
+   "unit": "m2·an/kg protéine",
+   "refs": "Q-K-0092 ; Q-K-0046",
+   "boundary": "détail",
+   "input_nature": "measured + model_output",
+   "prudent": 18.7,
+   "intermediaire": 18.7,
+   "optimiste": 18.7,
+   "note": "base produit non précisée"
+  },
+  {
+   "indicator": "GES",
+   "label": "Pays-Bas, filet de poulet au supermarché, RIVM 2024 (agent S)",
+   "system": "standard",
+   "unit": "kg CO2-eq/kg protéine",
+   "refs": "Q-S-0085 ; Q-K-0047",
+   "boundary": "détail",
+   "input_nature": "measured + statistical",
+   "prudent": 17.5,
+   "intermediaire": 17.5,
+   "optimiste": 17.5,
+   "note": "allocation économique"
+  },
+  {
+   "indicator": "Surface",
+   "label": "Pays-Bas, filet de poulet, RIVM 2024 (agent S)",
+   "system": "standard",
+   "unit": "m2·an/kg protéine",
+   "refs": "Q-S-0089 ; Q-K-0047",
+   "boundary": "détail",
+   "input_nature": "measured + statistical",
+   "prudent": 24.4,
+   "intermediaire": 24.4,
+   "optimiste": 24.4,
+   "note": ""
+  },
+  {
+   "indicator": "Énergie",
+   "label": "France standard, AGRIBALYSE (MJ non renouvelables) + électricité d'abattoir",
+   "system": "standard",
+   "unit": "MJ/kg protéine",
+   "refs": "Q-K-0028 ; Q-K-0074",
+   "boundary": "porte",
+   "input_nature": "company_claim + model_output",
+   "note": "",
+   "prudent": 137.0,
+   "intermediaire": 111.5,
+   "optimiste": 94.3
+  },
+  {
+   "indicator": "Énergie",
+   "label": "France Label Rouge, AGRIBALYSE (MJ non renouvelables) + électricité d'abattoir",
+   "system": "label_rouge_bio",
+   "unit": "MJ/kg protéine",
+   "refs": "Q-K-0032 ; Q-K-0074",
+   "boundary": "porte",
+   "input_nature": "company_claim + model_output",
+   "note": "",
+   "prudent": 302.9,
+   "intermediaire": 253.2,
+   "optimiste": 233.6
+  },
+  {
+   "indicator": "Énergie",
+   "label": "France biologique, AGRIBALYSE (MJ non renouvelables) + électricité d'abattoir",
+   "system": "label_rouge_bio",
+   "unit": "MJ/kg protéine",
+   "refs": "Q-K-0036 ; Q-K-0074",
+   "boundary": "porte",
+   "input_nature": "company_claim + model_output",
+   "note": "",
+   "prudent": 395.5,
+   "intermediaire": 330.6,
+   "optimiste": 305.0
+  },
+  {
+   "indicator": "Eau bleue",
+   "label": "Monde, standard ↔ classe industrielle (Mekonnen & Hoekstra)",
+   "system": "standard",
+   "unit": "L/kg protéine",
+   "refs": "Q-K-0012 ; Q-K-0010 ; Q-K-0127 (hyp.)",
+   "input_nature": "model_assumption + model_output + published_estimate",
+   "prudent": 1654,
+   "intermediaire": 1654,
+   "optimiste": 1654,
+   "note": "base protéine de la source (127 g/kg), indépendante du rendement désossé"
+  },
+  {
+   "indicator": "Eau bleue",
+   "label": "Monde, certifié et Label Rouge ↔ classe mixte (Mekonnen & Hoekstra)",
+   "system": "certifie",
+   "unit": "L/kg protéine",
+   "refs": "Q-K-0120 ; Q-K-0010 ; Q-K-0127 (hyp.)",
+   "input_nature": "model_assumption + model_output + published_estimate",
+   "prudent": 2740,
+   "intermediaire": 2740,
+   "optimiste": 2740,
+   "note": "base protéine de la source (127 g/kg), indépendante du rendement désossé"
+  },
+  {
+   "indicator": "Eau bleue",
+   "label": "Monde, biologique ↔ classe pâturage (Mekonnen & Hoekstra)",
+   "system": "label_rouge_bio",
+   "unit": "L/kg protéine",
+   "refs": "Q-K-0013 ; Q-K-0010 ; Q-K-0127 (hyp.)",
+   "input_nature": "model_assumption + model_output + published_estimate",
+   "prudent": 5780,
+   "intermediaire": 5780,
+   "optimiste": 5780,
+   "note": "base protéine de la source (127 g/kg), indépendante du rendement désossé"
+  },
+  {
+   "indicator": "Eau bleue",
+   "label": "Référence ambitieuse 2030 (CE Delft)",
+   "system": "standard",
+   "unit": "L/kg protéine",
+   "refs": "Q-K-0018 ; Q-K-0024",
+   "input_nature": "model_output + published_estimate",
+   "prudent": 200,
+   "intermediaire": 200,
+   "optimiste": 200,
+   "note": "même méthode que la voie B (CE Delft)"
+  },
+  {
+   "indicator": "Eau (rareté)",
+   "label": "France standard, AGRIBALYSE (m3 privés AWARE)",
+   "system": "standard",
+   "unit": "m3 éq. privés/kg protéine",
+   "refs": "Q-K-0030",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "indicateur pondéré par la rareté, pas un volume",
+   "prudent": 8.4,
+   "intermediaire": 6.9,
+   "optimiste": 5.8
+  },
+  {
+   "indicator": "Eau (rareté)",
+   "label": "France Label Rouge, AGRIBALYSE (m3 privés AWARE)",
+   "system": "label_rouge_bio",
+   "unit": "m3 éq. privés/kg protéine",
+   "refs": "Q-K-0034",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "indicateur pondéré par la rareté, pas un volume",
+   "prudent": 21.0,
+   "intermediaire": 17.6,
+   "optimiste": 16.2
+  },
+  {
+   "indicator": "Eau (rareté)",
+   "label": "France biologique, AGRIBALYSE (m3 privés AWARE)",
+   "system": "label_rouge_bio",
+   "unit": "m3 éq. privés/kg protéine",
+   "refs": "Q-K-0038",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "indicateur pondéré par la rareté, pas un volume",
+   "prudent": 53.0,
+   "intermediaire": 44.3,
+   "optimiste": 40.9
+  },
+  {
+   "indicator": "Surface",
+   "label": "Pays-Bas standard (WUR 1397)",
+   "system": "standard",
+   "unit": "m2·an/kg protéine",
+   "refs": "Q-K-0072",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "",
+   "prudent": 42.1,
+   "intermediaire": 34.3,
+   "optimiste": 29.0
+  },
+  {
+   "indicator": "Surface",
+   "label": "Pays-Bas Beter Leven 1 étoile (WUR 1397)",
+   "system": "certifie",
+   "unit": "m2·an/kg protéine",
+   "refs": "Q-K-0073",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "",
+   "prudent": 65.7,
+   "intermediaire": 54.7,
+   "optimiste": 46.4
+  },
+  {
+   "indicator": "Surface",
+   "label": "Brésil 2020, maïs + soja sans allocation (calcul K, Embrapa)",
+   "system": "standard",
+   "unit": "m2·an/kg protéine",
+   "refs": "Q-K-0100",
+   "boundary": "porte",
+   "input_nature": "model_output",
+   "note": "surestimé : surface du soja non partagée avec l'huile",
+   "prudent": 46.9,
+   "intermediaire": 38.2,
+   "optimiste": 32.3
+  },
+  {
+   "indicator": "Surface",
+   "label": "Monde, Poore & Nemecek (moyenne)",
+   "boundary": "détail",
+   "system": "standard",
+   "unit": "m2·an/kg protéine",
+   "refs": "Q-K-0103",
+   "input_nature": "model_output",
+   "prudent": 71.0,
+   "intermediaire": 71.0,
+   "optimiste": 71.0,
+   "note": ""
+  },
+  {
+   "indicator": "Surface",
+   "label": "Référence ambitieuse 2030 (CE Delft)",
+   "system": "standard",
+   "unit": "m2·an/kg protéine",
+   "refs": "Q-K-0016 ; Q-K-0024",
+   "input_nature": "model_output + published_estimate",
+   "prudent": 20.0,
+   "intermediaire": 20.0,
+   "optimiste": 20.0,
+   "note": "même méthode que la voie B (CE Delft)"
+  }
+ ],
+ "A_landuse_points_ratio": {
+  "label_rouge/conventionnel": 1.3,
+  "bio/conventionnel": 2.57
+ },
+ "B_costs": [
+  {
+   "label": "Humbird 2021, fed-batch (masse humide)",
+   "cost_per_kg": 37.0,
+   "refs": "Q-E-0001",
+   "input_nature": "model_output",
+   "per_kg_protein_21pct": 176.2,
+   "per_kg_protein_9pct": 411.1,
+   "per_kg_protein_8.8pct": 420.5,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  },
+  {
+   "label": "Humbird 2021, perfusion",
+   "cost_per_kg": 51.0,
+   "refs": "Q-E-0002",
+   "input_nature": "model_output",
+   "per_kg_protein_21pct": 242.9,
+   "per_kg_protein_9pct": 566.7,
+   "per_kg_protein_8.8pct": 579.5,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  },
+  {
+   "label": "Humbird 2021, fed-batch + hydrolysat 2 $/kg",
+   "cost_per_kg": 22.0,
+   "refs": "Q-E-0006",
+   "input_nature": "model_output",
+   "per_kg_protein_21pct": 104.8,
+   "per_kg_protein_9pct": 244.4,
+   "per_kg_protein_8.8pct": 250.0,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  },
+  {
+   "label": "CE Delft 2021, 2030 tous leviers (produit CM)",
+   "cost_per_kg": 6.43,
+   "refs": "Q-E-0034",
+   "input_nature": "model_output",
+   "per_kg_protein_21pct": 30.6,
+   "per_kg_protein_9pct": 71.4,
+   "per_kg_protein_8.8pct": 73.1,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  },
+  {
+   "label": "CE Delft 2021, scénario actuel le plus coûteux",
+   "cost_per_kg": 22421.0,
+   "refs": "Q-E-0033",
+   "input_nature": "model_output",
+   "per_kg_protein_21pct": 106766.7,
+   "per_kg_protein_9pct": 249122.2,
+   "per_kg_protein_8.8pct": 254784.1,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  },
+  {
+   "label": "Risner 2021, limites levées (scénario 4)",
+   "cost_per_kg": 1.95,
+   "refs": "Q-E-0011",
+   "input_nature": "model_output",
+   "per_kg_protein_21pct": 9.3,
+   "per_kg_protein_9pct": 21.7,
+   "per_kg_protein_8.8pct": 22.2,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  },
+  {
+   "label": "Risner 2021, référence 2019",
+   "cost_per_kg": 437000.0,
+   "refs": "Q-E-0010",
+   "input_nature": "model_output",
+   "per_kg_protein_21pct": 2080952.4,
+   "per_kg_protein_9pct": 4855555.6,
+   "per_kg_protein_8.8pct": 4965909.1,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  },
+  {
+   "label": "Pasitka 2024, résumé (6,2 $/lb, base non vérifiée)",
+   "cost_per_kg": 13.67,
+   "refs": "Q-E-0020",
+   "input_nature": "model_output",
+   "per_kg_protein_21pct": 65.1,
+   "per_kg_protein_9pct": 151.9,
+   "per_kg_protein_8.8pct": 155.3,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  },
+  {
+   "label": "Pasitka 2024 selon la revue Bry-Chevalier",
+   "cost_per_kg": 25.25,
+   "refs": "Q-E-0045",
+   "input_nature": "model_output",
+   "per_kg_protein_21pct": 120.2,
+   "per_kg_protein_9pct": 280.6,
+   "per_kg_protein_8.8pct": 286.9,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  },
+  {
+   "label": "Modèle E/X, scénario optimiste (biomasse humide)",
+   "cost_per_kg": 7.65,
+   "refs": "Q-X-0001 ; Q-K-0126",
+   "input_nature": "model_assumption + model_output",
+   "per_kg_protein_21pct": 36.4,
+   "per_kg_protein_9pct": 85.0,
+   "per_kg_protein_8.8pct": 86.9,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  },
+  {
+   "label": "Modèle E/X, scénario intermédiaire",
+   "cost_per_kg": 20.25,
+   "refs": "Q-X-0002 ; Q-K-0126",
+   "input_nature": "model_assumption + model_output",
+   "per_kg_protein_21pct": 96.4,
+   "per_kg_protein_9pct": 225.0,
+   "per_kg_protein_8.8pct": 230.1,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  },
+  {
+   "label": "Modèle E/X, scénario prudent",
+   "cost_per_kg": 60.3,
+   "refs": "Q-X-0003 ; Q-K-0126",
+   "input_nature": "model_assumption + model_output",
+   "per_kg_protein_21pct": 287.1,
+   "per_kg_protein_9pct": 670.0,
+   "per_kg_protein_8.8pct": 685.2,
+   "protein_refs": "Q-C-0082 (21 %, hypothèse) ; Q-K-0126/Q-C-0021 (9 %, 8,8 %, caille mesurée)"
+  }
+ ],
+ "B_env": [
+  {
+   "indicator": "GES",
+   "label": "Sinke 2023, 2030 énergie renouvelable (scopes 1-2 + partie du scope 3)",
+   "refs": "Q-E-0037 ; Q-K-0126 (hyp. protéine) ; Q-C-0021",
+   "input_nature": "model_assumption + model_output",
+   "unit": "kg CO2-eq/kg protéine",
+   "published_basis_25_to_18pct": [
+    11.2,
+    15.6
+   ],
+   "recalc_9pct": [
+    31.1,
+    31.1
+   ]
+  },
+  {
+   "indicator": "GES",
+   "label": "Sinke 2023, 2030 mix électrique mondial",
+   "refs": "Q-E-0038 ; Q-K-0126 (hyp. protéine) ; Q-C-0021",
+   "input_nature": "model_assumption + model_output",
+   "unit": "kg CO2-eq/kg protéine",
+   "published_basis_25_to_18pct": [
+    57.2,
+    79.4
+   ],
+   "recalc_9pct": [
+    158.9,
+    158.9
+   ]
+  },
+  {
+   "indicator": "GES",
+   "label": "CE Delft 2021, plage des scénarios 2030",
+   "refs": "Q-K-0022 ; Q-K-0126 (hyp. protéine) ; Q-C-0021",
+   "input_nature": "model_assumption + model_output",
+   "unit": "kg CO2-eq/kg protéine",
+   "published_basis_25_to_18pct": [
+    10.0,
+    75.0
+   ],
+   "recalc_9pct": [
+    27.8,
+    150.0
+   ]
+  },
+  {
+   "indicator": "GES",
+   "label": "Risner 2025, intrants purifiés (qualité pharmaceutique)",
+   "refs": "Q-E-0014 ; Q-K-0126 (hyp. protéine) ; Q-C-0021",
+   "input_nature": "model_assumption + model_output",
+   "unit": "kg CO2-eq/kg protéine",
+   "published_basis_25_to_18pct": [
+    984.0,
+    8377.8
+   ],
+   "recalc_9pct": [
+    2733.3,
+    16755.6
+   ]
+  },
+  {
+   "indicator": "Énergie",
+   "label": "CE Delft 2021, demande d'énergie 2030",
+   "refs": "Q-K-0021 ; Q-K-0126 (hyp. protéine) ; Q-C-0021",
+   "input_nature": "model_assumption + model_output",
+   "unit": "MJ/kg protéine",
+   "published_basis_25_to_18pct": [
+    588.0,
+    1466.7
+   ],
+   "recalc_9pct": [
+    1633.3,
+    2933.3
+   ]
+  },
+  {
+   "indicator": "Eau bleue",
+   "label": "CE Delft 2021, eau bleue 2030",
+   "refs": "Q-K-0017 ; Q-K-0126 (hyp. protéine) ; Q-C-0021",
+   "input_nature": "model_assumption + model_output",
+   "unit": "L/kg protéine",
+   "published_basis_25_to_18pct": [
+    168.0,
+    311.1
+   ],
+   "recalc_9pct": [
+    466.7,
+    622.2
+   ]
+  },
+  {
+   "indicator": "Surface",
+   "label": "CE Delft 2021, occupation des sols 2030",
+   "refs": "Q-K-0015 ; Q-K-0126 (hyp. protéine) ; Q-C-0021",
+   "input_nature": "model_assumption + model_output",
+   "unit": "m2·an/kg protéine",
+   "published_basis_25_to_18pct": [
+    6.8,
+    10.0
+   ],
+   "recalc_9pct": [
+    18.9,
+    20.0
+   ]
+  }
+ ],
+ "C": [
+  {
+   "indicator": "Coût",
+   "label": "Isolat de soja, prix de marché 2019-2023",
+   "unit": "EUR/kg protéine",
+   "values": [
+    1.8,
+    8.1
+   ],
+   "refs": "Q-E-0065",
+   "input_nature": "measured_reported_by_review",
+   "usd": [
+    1.9,
+    8.53
+   ],
+   "note": "prix, pas un coût ; USD au change 2022 (indicatif)"
+  },
+  {
+   "indicator": "Coût",
+   "label": "e-SCP (bactéries H2), sites les moins chers 2028",
+   "unit": "EUR/kg protéine",
+   "values": [
+    5.5,
+    6.1
+   ],
+   "refs": "Q-E-0041",
+   "input_nature": "model_output",
+   "usd": [
+    6.21,
+    6.89
+   ],
+   "note": "sortie de modèle ; co-auteurs Solar Foods (SRC-E-0028)"
+  },
+  {
+   "indicator": "Coût",
+   "label": "Mycoprotéine, TEA (Risner 2023)",
+   "unit": "USD/kg protéine",
+   "values": [
+    29.56,
+    29.56
+   ],
+   "refs": "Q-K-0085",
+   "input_nature": "model_output",
+   "usd": [
+    29.56,
+    29.56
+   ],
+   "note": "3,55 $/kg de mycoprotéine humide à 11-12 % de protéines"
+  },
+  {
+   "indicator": "GES",
+   "label": "Protéine microbienne H2 (Järviö 2021, mix finlandais)",
+   "unit": "kg CO2-eq/kg protéine",
+   "values": [
+    11.6,
+    13.0
+   ],
+   "refs": "Q-K-0089",
+   "input_nature": "model_output",
+   "note": "hydroélectricité : ~8 fois moins (par kg de produit)"
+  },
+  {
+   "indicator": "GES",
+   "label": "Mycoprotéine (Shahid 2024 ÷ 11 % de protéines)",
+   "unit": "kg CO2-eq/kg protéine",
+   "values": [
+    6.6,
+    6.6
+   ],
+   "refs": "Q-A-0064 ; Q-A-0019",
+   "input_nature": "company_claim + published_estimate",
+   "note": "co-auteur industriel (CT-11)"
+  },
+  {
+   "indicator": "GES",
+   "label": "Tofu, Poore & Nemecek (moyenne)",
+   "unit": "kg CO2-eq/kg protéine",
+   "values": [
+    20.0,
+    20.0
+   ],
+   "refs": "Q-K-0104",
+   "input_nature": "model_output",
+   "note": ""
+  },
+  {
+   "indicator": "GES",
+   "label": "Tofu, ifeu 2020 (÷ 11 % de protéines CE Delft)",
+   "unit": "kg CO2-eq/kg protéine",
+   "values": [
+    9.1,
+    9.1
+   ],
+   "refs": "Q-K-0094 ; Q-K-0025",
+   "input_nature": "model_output + published_estimate",
+   "note": "deux sources combinées (Allemagne / Pays-Bas)"
+  },
+  {
+   "indicator": "GES",
+   "label": "Pois (graine), Poore & Nemecek (moyenne)",
+   "unit": "kg CO2-eq/kg protéine",
+   "values": [
+    4.0,
+    4.0
+   ],
+   "refs": "Q-K-0106",
+   "input_nature": "model_output",
+   "note": "ingrédient brut"
+  },
+  {
+   "indicator": "GES",
+   "label": "Escalope végétale soja, AGRIBALYSE (produit, toutes étapes)",
+   "unit": "kg CO2-eq/kg protéine",
+   "values": [
+    9.4,
+    11.4
+   ],
+   "refs": "Q-K-0042 ; Q-K-0125 (hyp.)",
+   "input_nature": "model_assumption + model_output",
+   "note": "inclut emballage, distribution, consommation"
+  },
+  {
+   "indicator": "GES",
+   "label": "Nuggets de soja, AGRIBALYSE (produit)",
+   "unit": "kg CO2-eq/kg protéine",
+   "values": [
+    7.7,
+    9.3
+   ],
+   "refs": "Q-K-0044 ; Q-K-0125 (hyp.)",
+   "input_nature": "model_assumption + model_output",
+   "note": ""
+  },
+  {
+   "indicator": "GES",
+   "label": "Protéine bactérienne FeedKind (méthanotrophe, aliment), biogaz+renouvelable → gaz fossile",
+   "unit": "kg CO2-eq/kg protéine",
+   "values": [
+    2.23,
+    7.99
+   ],
+   "refs": "Q-S-0053 ; Q-S-0051",
+   "input_nature": "model_output",
+   "note": "t/t = kg/kg ; ingrédient pour l'alimentation animale"
+  },
+  {
+   "indicator": "GES",
+   "label": "Concentré protéique de soja (référence du rapport FeedKind)",
+   "unit": "kg CO2-eq/kg protéine",
+   "values": [
+    0.791,
+    0.791
+   ],
+   "refs": "Q-S-0054",
+   "input_nature": "published_estimate",
+   "note": "ingrédient"
+  },
+  {
+   "indicator": "GES",
+   "label": "Mycoprotéine Quorn 2018 (Carbon Trust) ÷ 11 % de protéines",
+   "unit": "kg CO2-eq/kg protéine",
+   "values": [
+    10.3,
+    10.3
+   ],
+   "refs": "Q-S-0019 ; Q-A-0019",
+   "input_nature": "company_claim",
+   "note": "déclaration d'entreprise"
+  },
+  {
+   "indicator": "GES",
+   "label": "Tofu au supermarché, RIVM 2024 (÷ 11 % de protéines)",
+   "unit": "kg CO2-eq/kg protéine",
+   "values": [
+    20.8,
+    20.8
+   ],
+   "refs": "Q-S-0087 ; Q-K-0025",
+   "input_nature": "published_estimate + statistical",
+   "note": "Pays-Bas"
+  },
+  {
+   "indicator": "Énergie",
+   "label": "Protéine microbienne H2 (Järviö 2021), hydro → mix finlandais",
+   "unit": "MJ/kg protéine",
+   "values": [
+    156,
+    370
+   ],
+   "refs": "Q-K-0116 ; Q-K-0087 ; Q-K-0090",
+   "input_nature": "company_claim + model_output",
+   "note": "demande cumulée d'énergie (CED)"
+  },
+  {
+   "indicator": "Énergie",
+   "label": "e-SCP 2030, électricité seule (Fasihi 2025)",
+   "unit": "MJ/kg protéine",
+   "values": [
+    252,
+    263
+   ],
+   "refs": "Q-E-0042",
+   "input_nature": "model_output",
+   "note": "MWh/t = kWh/kg ; électricité finale"
+  },
+  {
+   "indicator": "Énergie",
+   "label": "Escalope végétale soja, AGRIBALYSE (MJ non renouvelables, toutes étapes)",
+   "unit": "MJ/kg protéine",
+   "values": [
+    283.9,
+    343.7
+   ],
+   "refs": "Q-K-0043 ; Q-K-0125 (hyp.)",
+   "input_nature": "model_assumption + model_output",
+   "note": "transformation = 61 % du total"
+  },
+  {
+   "indicator": "Énergie",
+   "label": "Tofu, ifeu 2020 (énergie primaire ÷ 11 %)",
+   "unit": "MJ/kg protéine",
+   "values": [
+    98.2,
+    98.2
+   ],
+   "refs": "Q-K-0118 ; Q-K-0025",
+   "input_nature": "model_output + published_estimate",
+   "note": ""
+  },
+  {
+   "indicator": "Eau bleue",
+   "label": "Tofu, CE Delft 2021",
+   "unit": "L/kg protéine",
+   "values": [
+    245.5,
+    245.5
+   ],
+   "refs": "Q-K-0019 ; Q-K-0025",
+   "input_nature": "model_output + published_estimate",
+   "note": "même méthode que B et la référence poulet CE Delft"
+  },
+  {
+   "indicator": "Surface",
+   "label": "Tofu, Poore & Nemecek (moyenne)",
+   "unit": "m2·an/kg protéine",
+   "values": [
+    22.0,
+    22.0
+   ],
+   "refs": "Q-K-0105",
+   "input_nature": "model_output",
+   "note": ""
+  },
+  {
+   "indicator": "Surface",
+   "label": "Tofu, CE Delft 2021",
+   "unit": "m2·an/kg protéine",
+   "values": [
+    16.4,
+    16.4
+   ],
+   "refs": "Q-K-0020 ; Q-K-0025",
+   "input_nature": "model_output + published_estimate",
+   "note": ""
+  },
+  {
+   "indicator": "Surface",
+   "label": "Pois (graine), Poore & Nemecek (moyenne)",
+   "unit": "m2·an/kg protéine",
+   "values": [
+    34.0,
+    34.0
+   ],
+   "refs": "Q-K-0119",
+   "input_nature": "model_output",
+   "note": ""
+  },
+  {
+   "indicator": "Surface",
+   "label": "Soja (graine), rendement protéique mondial",
+   "unit": "m2·an/kg protéine",
+   "values": [
+    8.7,
+    8.7
+   ],
+   "refs": "Q-A-0023",
+   "input_nature": "published_estimate",
+   "note": "1/rendement"
+  },
+  {
+   "indicator": "Surface",
+   "label": "SCP photovoltaïque (modèle, borne)",
+   "unit": "m2·an/kg protéine",
+   "values": [
+    0.0,
+    0.83
+   ],
+   "refs": "Q-A-0024",
+   "input_nature": "model_output",
+   "note": "« >1 200 g/m2/an » → < 0,83"
+  }
+ ],
+ "sensitivity": {
+  "A_cost_standard_EU6_2021": [
+   12.7,
+   [
+    {
+     "factor": "protein_definition",
+     "low_value": 0.824,
+     "high_value": 1.0,
+     "result_low": 15.4,
+     "result_high": 12.7,
+     "ratio_max_min": 1.21,
+     "refs": "Q-K-0053/Q-K-0052 (acides aminés vs N×facteur)"
+    },
+    {
+     "factor": "yield",
+     "low_value": 0.414,
+     "high_value": 0.47,
+     "result_low": 13.2,
+     "result_high": 11.6,
+     "ratio_max_min": 1.14,
+     "refs": "Q-N-0035 ; Q-N-0014 ; Q-K-0064+Q-K-0065"
+    },
+    {
+     "factor": "protein",
+     "low_value": 0.206,
+     "high_value": 0.232,
+     "result_low": 13.2,
+     "result_high": 11.7,
+     "ratio_max_min": 1.13,
+     "refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123"
+    },
+    {
+     "factor": "slaughter",
+     "low_value": 0.27,
+     "high_value": 0.4,
+     "result_low": 12.2,
+     "result_high": 13.2,
+     "ratio_max_min": 1.08,
+     "refs": "Q-K-0060"
+    },
+    {
+     "factor": "farm",
+     "low_value": 0.897,
+     "high_value": 0.955,
+     "result_low": 12.4,
+     "result_high": 13.0,
+     "ratio_max_min": 1.05,
+     "refs": "Q-K-0059"
+    }
+   ]
+  ],
+  "A_cost_system_choice_FR2022": {
+   "standard": 16.7,
+   "label_rouge": 42.1,
+   "bio": 55.5,
+   "unit": "EUR2022/kg protéine comestible",
+   "refs": "Q-E-0029/0030/0031 ; Q-K-0112 ; Q-K-0128 ; Q-K-0121 ; rendements"
+  },
+  "B_cost_E_model": [
+   225.0,
+   [
+    {
+     "factor": "biomass_cost",
+     "low_value": 7.65,
+     "high_value": 60.3,
+     "result_low": 85.0,
+     "result_high": 670.0,
+     "ratio_max_min": 7.88,
+     "refs": "Q-X-0001 / Q-X-0003 (× 0,09)"
+    },
+    {
+     "factor": "protein",
+     "low_value": 0.088,
+     "high_value": 0.25,
+     "result_low": 230.1,
+     "result_high": 81.0,
+     "ratio_max_min": 2.84,
+     "refs": "Q-C-0021 ; Q-K-0126 (8,8-25 %)"
+    }
+   ]
+  ],
+  "A_GHG_standard_NL": [
+   35.8,
+   [
+    {
+     "factor": "LUC",
+     "low_value": 1.38,
+     "high_value": 3.75,
+     "result_low": 13.2,
+     "result_high": 35.8,
+     "ratio_max_min": 2.72,
+     "refs": "Q-K-0070 (sans) / Q-K-0069 (avec)"
+    },
+    {
+     "factor": "allocation",
+     "low_value": 0.88,
+     "high_value": 1.0,
+     "result_low": 35.8,
+     "result_high": 40.7,
+     "ratio_max_min": 1.14,
+     "refs": "Q-K-0124"
+    },
+    {
+     "factor": "yield",
+     "low_value": 0.414,
+     "high_value": 0.47,
+     "result_low": 37.2,
+     "result_high": 32.8,
+     "ratio_max_min": 1.14,
+     "refs": "Q-N-0035 ; Q-N-0014 ; Q-K-0064+Q-K-0065"
+    },
+    {
+     "factor": "protein",
+     "low_value": 0.206,
+     "high_value": 0.232,
+     "result_low": 37.2,
+     "result_high": 33.0,
+     "ratio_max_min": 1.13,
+     "refs": "Q-K-0049 ; Q-K-0046 ; Q-K-0123"
+    }
+   ]
+  ],
+  "B_GHG": [
+   158.9,
+   [
+    {
+     "factor": "energy_and_purity",
+     "low_value": 2.8,
+     "high_value": 1508.0,
+     "result_low": 31.1,
+     "result_high": 16755.6,
+     "ratio_max_min": 538.57,
+     "refs": "Q-E-0037 (renouvelable) → Q-E-0014 (intrants purifiés, Risner)"
+    },
+    {
+     "factor": "protein",
+     "low_value": 0.088,
+     "high_value": 0.25,
+     "result_low": 162.5,
+     "result_high": 57.2,
+     "ratio_max_min": 2.84,
+     "refs": "Q-C-0021 ; Q-K-0126"
+    }
+   ]
+  ]
+ },
+ "parity": [
+  {
+   "comparator": "UE moyenne 2017, standard",
+   "A_usd_per_kg_protein_high": 14.45,
+   "max_biomass_usd_per_kg_at_9pct": 1.3,
+   "max_biomass_usd_per_kg_at_21pct": 3.03
+  },
+  {
+   "comparator": "UE six pays 2021, standard",
+   "A_usd_per_kg_protein_high": 17.29,
+   "max_biomass_usd_per_kg_at_9pct": 1.56,
+   "max_biomass_usd_per_kg_at_21pct": 3.63
+  },
+  {
+   "comparator": "France 2022, standard (ITAVI)",
+   "A_usd_per_kg_protein_high": 19.03,
+   "max_biomass_usd_per_kg_at_9pct": 1.71,
+   "max_biomass_usd_per_kg_at_21pct": 4.0
+  },
+  {
+   "comparator": "États-Unis 2023, standard (grande échelle, hors abattage)",
+   "A_usd_per_kg_protein_high": 13.43,
+   "max_biomass_usd_per_kg_at_9pct": 1.21,
+   "max_biomass_usd_per_kg_at_21pct": 2.82
+  },
+  {
+   "comparator": "Brésil (Paraná) 2025, standard (hors abattage)",
+   "A_usd_per_kg_protein_high": 9.66,
+   "max_biomass_usd_per_kg_at_9pct": 0.87,
+   "max_biomass_usd_per_kg_at_21pct": 2.03
+  }
+ ],
+ "CT10": {
+  "protein_whole_animal_kg_per_kg_lw": 0.181,
+  "edible_protein_kg_per_kg_lw": 0.0922,
+  "ratio_whole_to_edible": 1.96,
+  "EV-A-0042_price_whole_basis_usd_per_kg_protein": 4.6,
+  "same_price_on_edible_basis_usd_per_kg_protein": 9.0,
+  "refs": "Q-N-0034 ; Q-A-0053 ; rendement Q-N-0014 ; protéine Q-K-0046"
+ },
+ "DIAAS_factors": {
+  "poulet (filet et cuisse, in vitro)": [
+   1.0,
+   1.0
+  ],
+  "analogues végétaux de poulet du commerce (in vitro, 5 produits)": [
+   0.52,
+   0.65
+  ],
+  "biomasse de mycoprotéine (enfant → adulte)": [
+   0.8300000000000001,
+   0.97
+  ],
+  "poudre Solein (protéine bactérienne H2)": [
+   0.51,
+   0.51
+  ]
+ },
+ "DIAAS_rows": [
+  {
+   "label": "Poulet cru, AGRIBALYSE toutes étapes (GES)",
+   "unit": "kg CO2-eq/kg protéine de qualité équivalente",
+   "per_kg_protein": "19.2–24.0",
+   "diaas_factor": "1.00",
+   "per_kg_quality_protein": [
+    19.2,
+    24.0
+   ],
+   "refs": "Q-K-0045 ; Q-K-0040 ; Q-S-0036"
+  },
+  {
+   "label": "Analogues végétaux de soja, AGRIBALYSE (GES)",
+   "unit": "kg CO2-eq/kg protéine de qualité équivalente",
+   "per_kg_protein": "7.7–11.4",
+   "diaas_factor": "0.52–0.65",
+   "per_kg_quality_protein": [
+    11.8,
+    21.9
+   ],
+   "refs": "Q-K-0042 ; Q-K-0044 ; Q-K-0125 ; Q-S-0015"
+  },
+  {
+   "label": "Mycoprotéine, coût TEA",
+   "unit": "USD/kg protéine de qualité équivalente",
+   "per_kg_protein": "29.56",
+   "diaas_factor": "0.83–0.97",
+   "per_kg_quality_protein": [
+    30.5,
+    35.6
+   ],
+   "refs": "Q-K-0085 ; Q-S-0001 ; Q-S-0002"
+  },
+  {
+   "label": "Mycoprotéine, GES (Shahid 2024 ; Quorn 2018)",
+   "unit": "kg CO2-eq/kg protéine de qualité équivalente",
+   "per_kg_protein": "6.6–10.3",
+   "diaas_factor": "0.83–0.97",
+   "per_kg_quality_protein": [
+    6.8,
+    12.4
+   ],
+   "refs": "Q-A-0064 ; Q-S-0019 ; Q-S-0001 ; Q-S-0002"
+  },
+  {
+   "label": "Protéine bactérienne H2, coût e-SCP 2028 (USD)",
+   "unit": "USD/kg protéine de qualité équivalente",
+   "per_kg_protein": "6.21–6.89",
+   "diaas_factor": "0.51",
+   "per_kg_quality_protein": [
+    12.2,
+    13.5
+   ],
+   "refs": "Q-E-0041 ; Q-S-0017"
+  },
+  {
+   "label": "Protéine bactérienne H2, GES (Järviö 2021)",
+   "unit": "kg CO2-eq/kg protéine de qualité équivalente",
+   "per_kg_protein": "11.6–13.0",
+   "diaas_factor": "0.51",
+   "per_kg_quality_protein": [
+    22.7,
+    25.5
+   ],
+   "refs": "Q-K-0089 ; Q-S-0017"
+  }
+ ],
+ "Q_used": {
+  "Q-K-0049": {
+   "parameter": "Proteína, frango inteiro sem pele cru",
+   "value": "20.6",
+   "unit_original": "g/100 g",
+   "data_nature": "measured",
+   "source_id": "SRC-K-0007",
+   "scale": "not_applicable"
+  },
+  "Q-K-0046": {
+   "parameter": "Protéines, viande de poulet crue sans peau (viande seule)",
+   "value": "21.4",
+   "unit_original": "g/100 g",
+   "data_nature": "measured",
+   "source_id": "SRC-K-0006",
+   "scale": "not_applicable"
+  },
+  "Q-K-0123": {
+   "parameter": "Hypothèse : teneur en protéines de la viande désossée identique pour les systèmes standard, certifié et bio",
+   "value": "20.6-23.2",
+   "unit_original": "g/100 g",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0019",
+   "scale": "model"
+  },
+  "Q-K-0053": {
+   "parameter": "アミノ酸組成によるたんぱく質, 若どり むね 皮なし 生",
+   "value": "19.2",
+   "unit_original": "g/100 g",
+   "data_nature": "measured",
+   "source_id": "SRC-K-0008",
+   "scale": "not_applicable"
+  },
+  "Q-K-0052": {
+   "parameter": "たんぱく質（N×係数）, 若どり むね 皮なし 生",
+   "value": "23.3",
+   "unit_original": "g/100 g",
+   "data_nature": "measured",
+   "source_id": "SRC-K-0008",
+   "scale": "not_applicable"
+  },
+  "Q-N-0035": {
+   "parameter": "Part de la viande dans le poids vif, poulet de chair",
+   "value": "47",
+   "unit_original": "% du PV",
+   "data_nature": "measured_reported_by_review",
+   "source_id": "SRC-N-0012",
+   "scale": "not_applicable"
+  },
+  "Q-N-0014": {
+   "parameter": "Viande totale désossée (filet + cuisse sans peau ni os), mâle Ross 308 à 3,0 kg",
+   "value": "43.10",
+   "unit_original": "% of live weight",
+   "data_nature": "company_claim",
+   "source_id": "SRC-N-0003",
+   "scale": "commercial_farm"
+  },
+  "Q-K-0064": {
+   "parameter": "Filet en % du poids vif : conventionnel / DRB / Beter Leven 1 étoile",
+   "value": "25.0",
+   "unit_original": "% of live weight",
+   "data_nature": "company_claim",
+   "source_id": "SRC-K-0010",
+   "scale": "model"
+  },
+  "Q-K-0065": {
+   "parameter": "Viande de cuisse en % du poids vif : conventionnel / DRB / BLS",
+   "value": "16.4",
+   "unit_original": "% of live weight",
+   "data_nature": "company_claim",
+   "source_id": "SRC-K-0010",
+   "scale": "model"
+  },
+  "Q-K-0066": {
+   "parameter": "Viande désossée totale (filet + viande de cuisse) en % du poids vif, poulet Beter Leven 1 étoile",
+   "value": "35.3",
+   "unit_original": "% of live weight",
+   "data_nature": "company_claim",
+   "source_id": "SRC-K-0010",
+   "scale": "model"
+  },
+  "Q-K-0077": {
+   "parameter": "Rendement en filet, souche JA757 (poulet certifié) bio à 71 j",
+   "value": "15.8-16.4",
+   "unit_original": "% of BW",
+   "data_nature": "measured",
+   "source_id": "SRC-K-0011",
+   "scale": "lab"
+  },
+  "Q-K-0122": {
+   "parameter": "Hypothèse : viande de cuisse désossée des souches Label Rouge / bio = valeur du poulet Beter Leven 1 étoile",
+   "value": "16.1",
+   "unit_original": "% of live weight",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0019",
+   "scale": "model"
+  },
+  "Q-K-0076": {
+   "parameter": "Rendement en filet, souche S757N (type Label Rouge) bio à 85 j, mâles peu/très utilisateurs du parcours",
+   "value": "14.1-14.5",
+   "unit_original": "% of BW",
+   "data_nature": "measured",
+   "source_id": "SRC-K-0011",
+   "scale": "lab"
+  },
+  "Q-K-0124": {
+   "parameter": "Hypothèse : allocation de 100 % (prudent) ou 88 % (intermédiaire, optimiste) des impacts et coûts à la viande désossée",
+   "value": "0.88-1.0",
+   "unit_original": "fraction",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0019",
+   "scale": "model"
+  },
+  "Q-K-0006": {
+   "parameter": "Part des émissions allouée aux coproduits d'abattage (convention Kool et al. 2009 reprise par la FAO)",
+   "value": "12",
+   "unit_original": "%",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0001",
+   "scale": "not_applicable"
+  },
+  "Q-E-0061": {
+   "parameter": "Taux de change annuel moyen USD/EUR 2017",
+   "value": "1.1297",
+   "unit_original": "US dollar/Euro",
+   "data_nature": "statistical",
+   "source_id": "SRC-E-0038",
+   "scale": "national"
+  },
+  "Q-K-0107": {
+   "parameter": "Taux de change annuel moyen USD/EUR 2021",
+   "value": "1.1827",
+   "unit_original": "US dollar/Euro",
+   "data_nature": "statistical",
+   "source_id": "SRC-E-0038",
+   "scale": "not_applicable"
+  },
+  "Q-E-0063": {
+   "parameter": "Taux de change annuel moyen USD/EUR 2022",
+   "value": "1.0530",
+   "unit_original": "US dollar/Euro",
+   "data_nature": "statistical",
+   "source_id": "SRC-E-0038",
+   "scale": "national"
+  },
+  "Q-K-0108": {
+   "parameter": "Taux de change annuel moyen USD/EUR 2023",
+   "value": "1.0813",
+   "unit_original": "US dollar/Euro",
+   "data_nature": "statistical",
+   "source_id": "SRC-E-0038",
+   "scale": "not_applicable"
+  },
+  "Q-K-0109": {
+   "parameter": "Taux de change annuel moyen USD/EUR 2025",
+   "value": "1.1300",
+   "unit_original": "US dollar/Euro",
+   "data_nature": "statistical",
+   "source_id": "SRC-E-0038",
+   "scale": "not_applicable"
+  },
+  "Q-E-0064": {
+   "parameter": "Taux de change annuel moyen BRL/EUR 2025",
+   "value": "6.3072",
+   "unit_original": "Brazilian real/Euro",
+   "data_nature": "statistical",
+   "source_id": "SRC-E-0038",
+   "scale": "national"
+  },
+  "Q-C-0021": {
+   "parameter": "Protéines dans la biomasse cellulaire récoltée (caille cultivée)",
+   "value": "8.8-9.5",
+   "unit_original": "g protein per 100 g",
+   "data_nature": "measured",
+   "source_id": "SRC-C-0008",
+   "scale": "pilot"
+  },
+  "Q-K-0126": {
+   "parameter": "Hypothèse : teneur en protéines du produit de viande cultivée de Sinke et al. 2023 = composition CE Delft 2021 (18-25 %), avec recalcul à 9 % et 8,8 %",
+   "value": "9-25",
+   "unit_original": "% of total weight",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0019",
+   "scale": "model"
+  },
+  "Q-C-0082": {
+   "parameter": "Teneur en protéines de la biomasse humide implicite dans l'hypothèse de Humbird",
+   "value": "21",
+   "unit_original": "% (0.30 dry fraction × 0.70 protein in dry mass)",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-E-0001",
+   "scale": "model"
+  },
+  "Q-E-0022": {
+   "parameter": "Coût de production poulet en élevage, moyenne UE",
+   "value": "82.5",
+   "unit_original": "eurocent per kg live weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-E-0011",
+   "scale": "national"
+  },
+  "Q-K-0110": {
+   "parameter": "Coût d'abattage du poulet, neuf pays de l'UE 2017",
+   "value": "21-38",
+   "unit_original": "eurocents per kg carcass weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-E-0011",
+   "scale": "model"
+  },
+  "Q-E-0049": {
+   "parameter": "Rendement carcasse supposé (carcasse/poids vif)",
+   "value": "70",
+   "unit_original": "% of live weight",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-E-0011",
+   "scale": "model"
+  },
+  "Q-K-0059": {
+   "parameter": "Coût de production sortie ferme, poulet conventionnel, six pays de l'UE 2021 (PL-DE)",
+   "value": "89.7-95.5",
+   "unit_original": "cents per kg live weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0009",
+   "scale": "model"
+  },
+  "Q-K-0060": {
+   "parameter": "Coût d'abattage, poulet conventionnel, six pays de l'UE 2021",
+   "value": "27-40",
+   "unit_original": "cents per kg carcass weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0009",
+   "scale": "model"
+  },
+  "Q-K-0061": {
+   "parameter": "Rendement d'abattage retenu (carcasse / poids vif)",
+   "value": "73",
+   "unit_original": "%",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0009",
+   "scale": "model"
+  },
+  "Q-E-0029": {
+   "parameter": "Coût de production poulet standard France (rémunération éleveur incluse)",
+   "value": "1.264",
+   "unit_original": "€/kg vif",
+   "data_nature": "statistical",
+   "source_id": "SRC-E-0012",
+   "scale": "national"
+  },
+  "Q-K-0112": {
+   "parameter": "Coût d'abattage, France 2021 : conventionnel",
+   "value": "38",
+   "unit_original": "cents per kg carcass weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0009",
+   "scale": "model"
+  },
+  "Q-K-0080": {
+   "parameter": "Coût total de production, poulet conventionnel grande échelle, États-Unis (prix S1 2023)",
+   "value": "0.5197",
+   "unit_original": "USD/lb live weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0013",
+   "scale": "model"
+  },
+  "Q-E-0032": {
+   "parameter": "Coût de production poulet de chair Paraná (ICPFrango)",
+   "value": "4.60",
+   "unit_original": "R$/kg",
+   "data_nature": "statistical",
+   "source_id": "SRC-E-0013",
+   "scale": "national"
+  },
+  "Q-K-0056": {
+   "parameter": "Coût de production sortie ferme, poulet ECC sans éclaircie, Pays-Bas 2021",
+   "value": "112.3",
+   "unit_original": "cents per kg live weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0009",
+   "scale": "model"
+  },
+  "Q-K-0111": {
+   "parameter": "Coût d'abattage, poulet ECC, six pays de l'UE 2021",
+   "value": "28.2-41.2",
+   "unit_original": "cents per kg carcass weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0009",
+   "scale": "model"
+  },
+  "Q-K-0114": {
+   "parameter": "Rendement d'abattage supposé du poulet ECC",
+   "value": "71.5",
+   "unit_original": "%",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0009",
+   "scale": "model"
+  },
+  "Q-K-0058": {
+   "parameter": "Coût de production sortie ferme, poulet ECC, France 2021",
+   "value": "108.2",
+   "unit_original": "cents per kg live weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0009",
+   "scale": "model"
+  },
+  "Q-K-0113": {
+   "parameter": "Coût d'abattage, France 2021 : poulet ECC",
+   "value": "39.2",
+   "unit_original": "cents per kg carcass weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0009",
+   "scale": "model"
+  },
+  "Q-K-0082": {
+   "parameter": "Coût total de production, poulet en pâturage (parcs mobiles), États-Unis (2023)",
+   "value": "1.916",
+   "unit_original": "USD/lb live weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0013",
+   "scale": "model"
+  },
+  "Q-E-0030": {
+   "parameter": "Coût de production poulet Label Rouge France",
+   "value": "2.485",
+   "unit_original": "€/kg vif",
+   "data_nature": "statistical",
+   "source_id": "SRC-E-0012",
+   "scale": "national"
+  },
+  "Q-K-0128": {
+   "parameter": "Hypothèse : coût d'abattage des poulets Label Rouge et bio français = coût ECC France 2021",
+   "value": "39.2",
+   "unit_original": "cents per kg carcass weight",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0019",
+   "scale": "model"
+  },
+  "Q-K-0121": {
+   "parameter": "Rendement carcasse, souche S757N (type Label Rouge) bio à 85 j",
+   "value": "67.6-69.0",
+   "unit_original": "% of BW",
+   "data_nature": "measured",
+   "source_id": "SRC-K-0011",
+   "scale": "lab"
+  },
+  "Q-E-0031": {
+   "parameter": "Coût de production poulet biologique France",
+   "value": "3.366",
+   "unit_original": "€/kg vif",
+   "data_nature": "statistical",
+   "source_id": "SRC-E-0012",
+   "scale": "national"
+  },
+  "Q-K-0115": {
+   "parameter": "GES de l'énergie d'abattoir et du transport vers l'abattoir, par kg de poids vif",
+   "value": "0.09",
+   "unit_original": "kg CO2-eq/kg live weight",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0010",
+   "scale": "model"
+  },
+  "Q-K-0074": {
+   "parameter": "Électricité d'abattoir par tonne de poids vif",
+   "value": "95",
+   "unit_original": "kWh/ton live weight",
+   "data_nature": "company_claim",
+   "source_id": "SRC-K-0010",
+   "scale": "industrial"
+  },
+  "Q-K-0027": {
+   "parameter": "Changement climatique, poulet conventionnel, sortie ferme (France)",
+   "value": "1.864",
+   "unit_original": "kg CO2 eq/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0069": {
+   "parameter": "GES par kg de poids vif abattu, avec LUC : conventionnel / DRB / BLS",
+   "value": "3.75",
+   "unit_original": "kg CO2-eq/kg live weight",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0010",
+   "scale": "model"
+  },
+  "Q-K-0070": {
+   "parameter": "GES par kg de poids vif abattu, sans LUC : conventionnel / DRB / BLS",
+   "value": "1.38",
+   "unit_original": "kg CO2-eq/kg live weight",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0010",
+   "scale": "model"
+  },
+  "Q-K-0071": {
+   "parameter": "GES par kg de poids vif abattu, poulet Beter Leven 1 étoile (avec / sans LUC)",
+   "value": "1.75-3.64",
+   "unit_original": "kg CO2-eq/kg live weight",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0010",
+   "scale": "model"
+  },
+  "Q-K-0031": {
+   "parameter": "Changement climatique, poulet Label Rouge, sortie ferme (France)",
+   "value": "2.335",
+   "unit_original": "kg CO2 eq/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0035": {
+   "parameter": "Changement climatique, poulet biologique (moyenne), sortie ferme (France)",
+   "value": "2.985",
+   "unit_original": "kg CO2 eq/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0039": {
+   "parameter": "Changement climatique, poulet biologique systèmes n° 1 et 2, sortie ferme",
+   "value": "4.23-4.47",
+   "unit_original": "kg CO2 eq/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0001": {
+   "parameter": "GES moyens mondiaux de la viande de poulet de chair (berceau-détail, GLEAM)",
+   "value": "5.4",
+   "unit_original": "kg CO2-eq/kg CW",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0001",
+   "scale": "global"
+  },
+  "Q-K-0005": {
+   "parameter": "Rendement en viande sans gras ni os supposé dans les comparaisons de la FAO",
+   "value": "59",
+   "unit_original": "% of carcass weight",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0001",
+   "scale": "not_applicable"
+  },
+  "Q-K-0004": {
+   "parameter": "GES de la viande de poulet britannique par kg de protéine (méthode GLEAM)",
+   "value": "43.5",
+   "unit_original": "kg CO2-eq/kg meat protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0001",
+   "scale": "national"
+  },
+  "Q-K-0102": {
+   "parameter": "GES de la viande de volaille par 100 g de protéine (moyenne ; 10e centile)",
+   "value": "5.7",
+   "unit_original": "kg CO2eq per 100 g protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0030",
+   "scale": "global"
+  },
+  "Q-K-0045": {
+   "parameter": "Changement climatique, viande de poulet crue (France, toutes étapes)",
+   "value": "4.113",
+   "unit_original": "kg CO2 eq/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0005",
+   "scale": "national"
+  },
+  "Q-K-0040": {
+   "parameter": "Changement climatique, filet de poulet sans peau cru (France, toutes étapes)",
+   "value": "5.404",
+   "unit_original": "kg CO2 eq/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0005",
+   "scale": "national"
+  },
+  "Q-K-0047": {
+   "parameter": "Protéines, filet de poulet cru sans peau ni os",
+   "value": "22.5",
+   "unit_original": "g/100 g",
+   "data_nature": "measured",
+   "source_id": "SRC-K-0006",
+   "scale": "not_applicable"
+  },
+  "Q-K-0041": {
+   "parameter": "Épuisement des ressources énergétiques, filet de poulet cru (toutes étapes)",
+   "value": "68.8",
+   "unit_original": "MJ/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0005",
+   "scale": "national"
+  },
+  "Q-K-0091": {
+   "parameter": "CO2-Fußabdruck, Hähnchen (Durchschnitt), an der Supermarktkasse",
+   "value": "5.5",
+   "unit_original": "kg CO2-Äq./kg Lebensmittel",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0016",
+   "scale": "national"
+  },
+  "Q-K-0093": {
+   "parameter": "Primärenergiebedarf, Hähnchen (Durchschnitt)",
+   "value": "10",
+   "unit_original": "kWh Primärenergie-Äq./kg LM",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0016",
+   "scale": "national"
+  },
+  "Q-K-0092": {
+   "parameter": "Flächen-Fußabdruck, Hähnchen (Durchschnitt)",
+   "value": "4",
+   "unit_original": "m2·a Naturflächenbelegung/kg LM",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0016",
+   "scale": "national"
+  },
+  "Q-S-0085": {
+   "parameter": "Potentiel de réchauffement du filet de poulet au supermarché (RIVM 2024)",
+   "value": "3.943",
+   "unit_original": "kg CO2 eq/kg",
+   "data_nature": "statistical",
+   "source_id": "SRC-S-0030",
+   "scale": "national"
+  },
+  "Q-S-0089": {
+   "parameter": "Occupation des sols du filet de poulet (RIVM 2024)",
+   "value": "5.48",
+   "unit_original": "m2a crop eq/kg",
+   "data_nature": "statistical",
+   "source_id": "SRC-S-0030",
+   "scale": "national"
+  },
+  "Q-K-0028": {
+   "parameter": "Épuisement des ressources énergétiques, poulet conventionnel, sortie ferme",
+   "value": "11.34",
+   "unit_original": "MJ/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0032": {
+   "parameter": "Épuisement des ressources énergétiques, poulet Label Rouge, sortie ferme",
+   "value": "18.5",
+   "unit_original": "MJ/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0036": {
+   "parameter": "Épuisement des ressources énergétiques, poulet biologique (moyenne), sortie ferme",
+   "value": "24.26",
+   "unit_original": "MJ/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0010": {
+   "parameter": "Teneur en protéines de la viande de poulet utilisée par Mekonnen & Hoekstra",
+   "value": "127",
+   "unit_original": "g/kg",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0002",
+   "scale": "not_applicable"
+  },
+  "Q-K-0012": {
+   "parameter": "Empreinte eau bleue de la viande de poulet, système industriel (moyenne mondiale)",
+   "value": "210",
+   "unit_original": "m3/ton",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0002",
+   "scale": "global"
+  },
+  "Q-K-0120": {
+   "parameter": "Empreinte eau bleue de la viande de poulet, système mixte (moyenne mondiale)",
+   "value": "348",
+   "unit_original": "m3/ton",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0002",
+   "scale": "global"
+  },
+  "Q-K-0013": {
+   "parameter": "Empreinte eau bleue de la viande de poulet, système de pâturage (moyenne mondiale)",
+   "value": "734",
+   "unit_original": "m3/ton",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0002",
+   "scale": "global"
+  },
+  "Q-K-0018": {
+   "parameter": "Eau bleue du poulet, référence ambitieuse 2030 (CE Delft)",
+   "value": "46",
+   "unit_original": "litre/kg product",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0003",
+   "scale": "model"
+  },
+  "Q-K-0024": {
+   "parameter": "Teneur en protéines du poulet retenue par CE Delft",
+   "value": "23",
+   "unit_original": "% of total weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0003",
+   "scale": "not_applicable"
+  },
+  "Q-K-0030": {
+   "parameter": "Épuisement des ressources en eau, poulet conventionnel, sortie ferme",
+   "value": "0.72",
+   "unit_original": "m3 depriv./kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0034": {
+   "parameter": "Épuisement des ressources en eau, poulet Label Rouge, sortie ferme",
+   "value": "1.306",
+   "unit_original": "m3 depriv./kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0038": {
+   "parameter": "Épuisement des ressources en eau, poulet biologique (moyenne), sortie ferme",
+   "value": "3.296",
+   "unit_original": "m3 depriv./kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0072": {
+   "parameter": "Occupation des sols par kg de poids vif abattu : conventionnel",
+   "value": "3.59",
+   "unit_original": "m2a crop eq/kg live weight",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0010",
+   "scale": "model"
+  },
+  "Q-K-0073": {
+   "parameter": "Occupation des sols par kg de poids vif abattu : Beter Leven 1 étoile",
+   "value": "4.32",
+   "unit_original": "m2a crop eq/kg live weight",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0010",
+   "scale": "model"
+  },
+  "Q-K-0100": {
+   "parameter": "Surface de maïs et de soja mobilisée par kg de poids vif, Brésil 2020 (sans allocation huile/tourteau)",
+   "value": "4.0",
+   "unit_original": "m2/kg live weight",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0017",
+   "scale": "national"
+  },
+  "Q-K-0103": {
+   "parameter": "Occupation des sols de la viande de volaille par 100 g de protéine (moyenne ; 10e centile)",
+   "value": "7.1",
+   "unit_original": "m2·year per 100 g protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0030",
+   "scale": "global"
+  },
+  "Q-K-0016": {
+   "parameter": "Occupation des sols du poulet, référence ambitieuse 2030 (CE Delft)",
+   "value": "4.6",
+   "unit_original": "m2a crop-eq./kg product",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0003",
+   "scale": "model"
+  },
+  "Q-K-0033": {
+   "parameter": "Utilisation du sol, poulet Label Rouge, sortie ferme",
+   "value": "210.1",
+   "unit_original": "Pt/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0029": {
+   "parameter": "Utilisation du sol, poulet conventionnel, sortie ferme",
+   "value": "161.6",
+   "unit_original": "Pt/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-K-0037": {
+   "parameter": "Utilisation du sol, poulet biologique (moyenne), sortie ferme",
+   "value": "416.0",
+   "unit_original": "Pt/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0004",
+   "scale": "national"
+  },
+  "Q-E-0001": {
+   "parameter": "Coût de production, masse cellulaire humide, fed-batch",
+   "value": "37",
+   "unit_original": "$/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0001",
+   "scale": "model"
+  },
+  "Q-E-0002": {
+   "parameter": "Coût de production, masse cellulaire humide, perfusion",
+   "value": "51",
+   "unit_original": "$/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0001",
+   "scale": "model"
+  },
+  "Q-E-0006": {
+   "parameter": "Coût fed-batch avec hydrolysat végétal à 2 $/kg",
+   "value": "22",
+   "unit_original": "$/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0001",
+   "scale": "model"
+  },
+  "Q-E-0034": {
+   "parameter": "COGS viande cultivée, scénario 2030 tous leviers (8)",
+   "value": "6.43",
+   "unit_original": "$/kg CM",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0014",
+   "scale": "model"
+  },
+  "Q-E-0033": {
+   "parameter": "COGS viande cultivée, scénario actuel (1)",
+   "value": "22421",
+   "unit_original": "$/kg CM",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0014",
+   "scale": "model"
+  },
+  "Q-E-0011": {
+   "parameter": "Coût minimal de la viande cultivée, scénario 4 (limites levées)",
+   "value": "1.95",
+   "unit_original": "USD/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0002",
+   "scale": "model"
+  },
+  "Q-E-0010": {
+   "parameter": "Coût minimal de la viande cultivée, scénario 1 (référence 2019)",
+   "value": "437000",
+   "unit_original": "USD/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0002",
+   "scale": "model"
+  },
+  "Q-E-0020": {
+   "parameter": "Coût projeté du poulet cultivé, usine 50 000 L",
+   "value": "6.2",
+   "unit_original": "US$/lb",
+   "data_nature": "model_output",
+   "source_id": "SRC-X-0001",
+   "scale": "model"
+  },
+  "Q-E-0045": {
+   "parameter": "Coût TEA Pasitka et al. selon revue",
+   "value": "23.26-27.24",
+   "unit_original": "$/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-A-0024",
+   "scale": "model"
+  },
+  "Q-X-0001": {
+   "parameter": "Coût de la protéine cultivée, recalcul avec 9 % de protéines (scénario optimiste)",
+   "value": "85",
+   "unit_original": "USD/kg protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0042;SRC-C-0008",
+   "scale": "model"
+  },
+  "Q-X-0002": {
+   "parameter": "Coût de la protéine cultivée, recalcul avec 9 % de protéines (scénario intermédiaire)",
+   "value": "225",
+   "unit_original": "USD/kg protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0042;SRC-C-0008",
+   "scale": "model"
+  },
+  "Q-X-0003": {
+   "parameter": "Coût de la protéine cultivée, recalcul avec 9 % de protéines (scénario prudent)",
+   "value": "670",
+   "unit_original": "USD/kg protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0042;SRC-C-0008",
+   "scale": "model"
+  },
+  "Q-E-0037": {
+   "parameter": "Empreinte carbone viande cultivée 2030, benchmark ambitieux (renouvelable scopes 1-3)",
+   "value": "2.8",
+   "unit_original": "kg CO2-eq./kg meat",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0015",
+   "scale": "model"
+  },
+  "Q-E-0038": {
+   "parameter": "Empreinte carbone viande cultivée 2030, mix énergétique mondial",
+   "value": "14.3",
+   "unit_original": "kg CO2-eq./kg meat",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0015",
+   "scale": "model"
+  },
+  "Q-K-0022": {
+   "parameter": "Empreinte carbone de la viande cultivée 2030 (plage des scénarios)",
+   "value": "2.5-13.5",
+   "unit_original": "kg CO2-eq./kg product",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0003",
+   "scale": "model"
+  },
+  "Q-E-0014": {
+   "parameter": "PRG viande cultivée, scénarios à intrants purifiés",
+   "value": "246-1508",
+   "unit_original": "kg CO2e/kg cultured meat",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0003",
+   "scale": "model"
+  },
+  "Q-K-0021": {
+   "parameter": "Demande d'énergie de la viande cultivée 2030 (plage des scénarios)",
+   "value": "147-264",
+   "unit_original": "MJ/kg product",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0003",
+   "scale": "model"
+  },
+  "Q-K-0017": {
+   "parameter": "Eau bleue de la viande cultivée 2030 (énergie conventionnelle / renouvelable)",
+   "value": "42-56",
+   "unit_original": "litre/kg product",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0003",
+   "scale": "model"
+  },
+  "Q-K-0015": {
+   "parameter": "Occupation des sols de la viande cultivée 2030 (énergie renouvelable / conventionnelle)",
+   "value": "1.7-1.8",
+   "unit_original": "m2a crop-eq./kg product",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0003",
+   "scale": "model"
+  },
+  "Q-K-0023": {
+   "parameter": "Teneur en protéines supposée du produit de viande cultivée (CE Delft)",
+   "value": "18-25",
+   "unit_original": "% of total weight",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0003",
+   "scale": "model"
+  },
+  "Q-E-0065": {
+   "parameter": "Prix de marché des isolats de protéine de soja",
+   "value": "1.8-8.1",
+   "unit_original": "€/kg protein",
+   "data_nature": "measured_reported_by_review",
+   "source_id": "SRC-A-0024",
+   "scale": "global"
+  },
+  "Q-E-0041": {
+   "parameter": "Coût de la protéine e-SCP 2028, sites les moins chers",
+   "value": "5500-6100",
+   "unit_original": "€ t−1 protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0028",
+   "scale": "model"
+  },
+  "Q-K-0085": {
+   "parameter": "Coût de production de la protéine de mycoprotéine (TEA, base)",
+   "value": "29.56",
+   "unit_original": "$/kg protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0014",
+   "scale": "model"
+  },
+  "Q-K-0089": {
+   "parameter": "GES de la protéine microbienne par 100 g de protéine (mix électrique finlandais)",
+   "value": "1.16-1.3",
+   "unit_original": "kg CO2-eq per 100 g protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0015",
+   "scale": "pilot"
+  },
+  "Q-A-0064": {
+   "parameter": "Émissions GES de la mycoprotéine (ingrédient)",
+   "value": "0.73",
+   "unit_original": "kg CO2e/kg",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-A-0045",
+   "scale": "industrial"
+  },
+  "Q-A-0019": {
+   "parameter": "Protéines, mycoprotéine (ingrédient, poids humide)",
+   "value": "11",
+   "unit_original": "g/100 g",
+   "data_nature": "company_claim",
+   "source_id": "SRC-A-0005",
+   "scale": "industrial"
+  },
+  "Q-K-0104": {
+   "parameter": "GES du tofu par 100 g de protéine (moyenne)",
+   "value": "2.0",
+   "unit_original": "kg CO2eq per 100 g protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0030",
+   "scale": "global"
+  },
+  "Q-K-0094": {
+   "parameter": "CO2-Fußabdruck, Tofu",
+   "value": "1.0",
+   "unit_original": "kg CO2-Äq./kg Lebensmittel",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0016",
+   "scale": "national"
+  },
+  "Q-K-0025": {
+   "parameter": "Teneur en protéines du tofu retenue par CE Delft",
+   "value": "11",
+   "unit_original": "% of total weight",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-K-0003",
+   "scale": "not_applicable"
+  },
+  "Q-K-0106": {
+   "parameter": "GES des pois par 100 g de protéine (moyenne)",
+   "value": "0.4",
+   "unit_original": "kg CO2eq per 100 g protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0030",
+   "scale": "global"
+  },
+  "Q-K-0042": {
+   "parameter": "Changement climatique, escalope végétale ou steak à base de soja (France, toutes étapes)",
+   "value": "2.168",
+   "unit_original": "kg CO2 eq/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0005",
+   "scale": "national"
+  },
+  "Q-K-0125": {
+   "parameter": "Hypothèse : teneur en protéines de l'escalope végétale à base de soja d'AGRIBALYSE = plage des analogues de morceaux de poulet néerlandais",
+   "value": "19-23",
+   "unit_original": "g/100 g",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0019",
+   "scale": "model"
+  },
+  "Q-K-0044": {
+   "parameter": "Changement climatique, nuggets de soja (France, toutes étapes)",
+   "value": "1.76",
+   "unit_original": "kg CO2 eq/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0005",
+   "scale": "national"
+  },
+  "Q-S-0053": {
+   "parameter": "Empreinte carbone de FeedKind par tonne de protéine, biogaz + électricité renouvelable",
+   "value": "2.23",
+   "unit_original": "tCO2e/t protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-S-0021",
+   "scale": "model"
+  },
+  "Q-S-0051": {
+   "parameter": "Empreinte carbone de FeedKind par tonne de protéine, scénario 1 (gaz fossile)",
+   "value": "7.99",
+   "unit_original": "tCO2e/t protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-S-0021",
+   "scale": "model"
+  },
+  "Q-S-0054": {
+   "parameter": "Empreinte carbone du concentré protéique de soja par kg de protéine (référence du rapport FeedKind)",
+   "value": "0.791",
+   "unit_original": "kgCO2e/kg protein",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-S-0021",
+   "scale": "not_applicable"
+  },
+  "Q-S-0019": {
+   "parameter": "Empreinte carbone de la mycoprotéine Quorn (cradle-to-processor gate), 2018",
+   "value": "1.137",
+   "unit_original": "kg CO2e/kg",
+   "data_nature": "company_claim",
+   "source_id": "SRC-S-0005",
+   "scale": "industrial"
+  },
+  "Q-S-0087": {
+   "parameter": "Potentiel de réchauffement du tofu au supermarché (RIVM 2024)",
+   "value": "2.293",
+   "unit_original": "kg CO2 eq/kg",
+   "data_nature": "statistical",
+   "source_id": "SRC-S-0030",
+   "scale": "national"
+  },
+  "Q-K-0090": {
+   "parameter": "Teneur en protéines de la poudre de protéine microbienne (mesures nutritionnelles du produit)",
+   "value": "65",
+   "unit_original": "%",
+   "data_nature": "company_claim",
+   "source_id": "SRC-K-0015",
+   "scale": "pilot"
+  },
+  "Q-K-0116": {
+   "parameter": "Demande cumulée d'énergie de la protéine microbienne, scénario hydroélectrique (FHE)",
+   "value": "101.2",
+   "unit_original": "MJ/kg product",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0015",
+   "scale": "pilot"
+  },
+  "Q-K-0087": {
+   "parameter": "Demande cumulée d'énergie de la protéine microbienne (poudre, mix électrique finlandais)",
+   "value": "240.2",
+   "unit_original": "MJ/kg product",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0015",
+   "scale": "pilot"
+  },
+  "Q-E-0042": {
+   "parameter": "Consommation d'électricité Power-to-SCP 2030",
+   "value": "70-73",
+   "unit_original": "MWh t−1 protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0028",
+   "scale": "model"
+  },
+  "Q-K-0043": {
+   "parameter": "Épuisement des ressources énergétiques, escalope végétale à base de soja (toutes étapes)",
+   "value": "65.3",
+   "unit_original": "MJ/kg",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0005",
+   "scale": "national"
+  },
+  "Q-K-0118": {
+   "parameter": "Primärenergiebedarf, Tofu",
+   "value": "3",
+   "unit_original": "kWh Primärenergie-Äq./kg LM",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0016",
+   "scale": "national"
+  },
+  "Q-K-0019": {
+   "parameter": "Eau bleue du tofu (CE Delft)",
+   "value": "27",
+   "unit_original": "litre/kg product",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0003",
+   "scale": "model"
+  },
+  "Q-K-0105": {
+   "parameter": "Occupation des sols du tofu par 100 g de protéine (moyenne)",
+   "value": "2.2",
+   "unit_original": "m2·year per 100 g protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0030",
+   "scale": "global"
+  },
+  "Q-K-0020": {
+   "parameter": "Occupation des sols du tofu (CE Delft)",
+   "value": "1.8",
+   "unit_original": "m2a crop-eq./kg product",
+   "data_nature": "model_output",
+   "source_id": "SRC-K-0003",
+   "scale": "model"
+  },
+  "Q-K-0119": {
+   "parameter": "Occupation des sols des pois par 100 g de protéine (moyenne)",
+   "value": "3.4",
+   "unit_original": "m2·year per 100 g protein",
+   "data_nature": "model_output",
+   "source_id": "SRC-E-0030",
+   "scale": "global"
+  },
+  "Q-A-0023": {
+   "parameter": "Rendement protéique du soja (moyenne mondiale pondérée)",
+   "value": "115",
+   "unit_original": "g protéine/m²/an",
+   "data_nature": "published_estimate",
+   "source_id": "SRC-A-0011",
+   "scale": "global"
+  },
+  "Q-A-0024": {
+   "parameter": "Rendement protéique modélisé de la SCP photovoltaïque (H2, méthanol, formiate)",
+   "value": ">1200",
+   "unit_original": "g protéine/m²/an",
+   "data_nature": "model_output",
+   "source_id": "SRC-A-0011",
+   "scale": "model"
+  },
+  "Q-N-0034": {
+   "parameter": "Teneur en protéines de l'animal entier (carcasse + cinquième quartier), poulet de chair",
+   "value": "181",
+   "unit_original": "g/kg",
+   "data_nature": "measured_reported_by_review",
+   "source_id": "SRC-N-0012",
+   "scale": "not_applicable"
+  },
+  "Q-A-0053": {
+   "parameter": "Prix par kg de protéine sèche, poulet",
+   "value": "4.6",
+   "unit_original": "USD/kg protéine MS",
+   "data_nature": "statistical",
+   "source_id": "SRC-A-0037",
+   "scale": "global"
+  },
+  "Q-K-0186": {
+   "parameter": "Hypothèse : ajustement à la qualité protéique par le DIAAS tronqué à 100 % (kg de protéine de qualité équivalente = kg de protéine × min(DIAAS ; 100)/100)",
+   "value": "100",
+   "unit_original": "% (plafond de troncature)",
+   "data_nature": "model_assumption",
+   "source_id": "SRC-K-0019",
+   "scale": "model"
+  },
+  "Q-S-0036": {
+   "parameter": "DIAAS in vitro du poulet (filet et cuisse)",
+   "value": "100",
+   "unit_original": "%",
+   "data_nature": "measured",
+   "source_id": "SRC-S-0003",
+   "scale": "lab"
+  },
+  "Q-S-0015": {
+   "parameter": "DIAAS in vitro de cinq analogues végétaux de poulet du commerce",
+   "value": "52-65",
+   "unit_original": "%",
+   "data_nature": "measured",
+   "source_id": "SRC-S-0003",
+   "scale": "lab"
+  },
+  "Q-S-0001": {
+   "parameter": "ivDIAAS biomasse de mycoprotéine ABUNDA, profil enfant 3–10 ans (AA limitant : soufrés)",
+   "value": "83",
+   "unit_original": "%",
+   "data_nature": "measured",
+   "source_id": "SRC-S-0001",
+   "scale": "lab"
+  },
+  "Q-S-0002": {
+   "parameter": "ivDIAAS biomasse de mycoprotéine ABUNDA, profil adulte (AA limitant : soufrés)",
+   "value": "97",
+   "unit_original": "%",
+   "data_nature": "measured",
+   "source_id": "SRC-S-0001",
+   "scale": "lab"
+  },
+  "Q-S-0017": {
+   "parameter": "ivDIAAS de la poudre Solein (émulsion non fermentée), AA limitant Ile",
+   "value": "51.0",
+   "unit_original": "%",
+   "data_nature": "measured",
+   "source_id": "SRC-S-0004",
+   "scale": "lab"
+  }
+ }
+}
