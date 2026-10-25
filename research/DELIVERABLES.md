@@ -15,7 +15,7 @@
 | 9 | Cartographie des brevets, chercheurs et entreprises | `reports/patents_and_innovation.md` + `agents/P/patent_map.csv` + `agents/P/actors.csv` | ✅ (échantillon) |
 | 10 | Analyse économique et environnementale | `reports/industrialization.md` + `reports/deep/K_comparaison_voies.md` + `agents/{E,K}/models/` | ✅ |
 | 11 | Inventaire des questions scientifiques non résolues | `knowledge_gaps.md` | ✅ |
-| 12 | Liste hiérarchisée d'opportunités d'innovation | `innovation_opportunities.md` (21 pistes classées) | ✅ |
+| 12 | Liste hiérarchisée d'opportunités d'innovation | `innovation_opportunities.md` (21 pistes classées) + page web `pistes_innovation.html` | ✅ |
 | 13 | Rapport final avec recommandations | `reports/final_synthesis.md` (v1) | ✅ |
 
 ## Bases de données (section 7)

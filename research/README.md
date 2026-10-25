@@ -3,6 +3,10 @@
 Base de connaissances scientifique, traçable et réutilisable, sur la production de muscle de poulet :
 **A** — optimisation de l'élevage et de l'alimentation, **B** — viande cultivée (culture cellulaire), **C** — substituts du muscle.
 
+## Page des pistes d'innovation
+
+`pistes_innovation.html` — page web autonome présentant les 21 pistes classées (ouvrable directement, ou via GitHub Pages). Source : `innovation_opportunities.md`.
+
 ## Démarrer / reprendre
 
 1. Lire `progress.md` (état, dernière session, prochaines actions).

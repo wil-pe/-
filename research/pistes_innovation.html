@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pistes d'innovation — Chicken Muscle Research Lab</title>
+<meta name="description" content="Liste hiérarchisée des 21 pistes d'innovation pour produire du muscle de poulet (élevage, viande cultivée, substituts), avec grille de notation, fiches et pistes écartées.">
+<style>
+  :root{
+    --bg:#f6f7f5; --surface:#ffffff; --surface-2:#eef1ec; --ink:#1b2019; --muted:#5c6658;
+    --line:#d9ddd3; --accent:#3f7d4e; --accent-ink:#fff;
+    --A:#2f6f9e; --Abg:#e4f0f8; --B:#b4532a; --Bbg:#f7e7df; --C:#6b8e23; --Cbg:#eef3df;
+    --R:#2e7d4f; --D:#9a6b00; --S:#8a4ac0;
+    --radius:12px;
+  }
+  :root:not([data-theme="light"]){ }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#14171a; --surface:#1d2125; --surface-2:#242a2e; --ink:#e8ece6; --muted:#9aa89a;
+      --line:#333b40; --accent:#6bbf7e; --accent-ink:#0c1410;
+      --A:#7db8e0; --Abg:#1c2b36; --B:#e0906d; --Bbg:#33231b; --C:#aecb6a; --Cbg:#272f18;
+      --R:#6bbf7e; --D:#d6a93d; --S:#bd8ee6;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#14171a; --surface:#1d2125; --surface-2:#242a2e; --ink:#e8ece6; --muted:#9aa89a;
+    --line:#333b40; --accent:#6bbf7e; --accent-ink:#0c1410;
+    --A:#7db8e0; --Abg:#1c2b36; --B:#e0906d; --Bbg:#33231b; --C:#aecb6a; --Cbg:#272f18;
+    --R:#6bbf7e; --D:#d6a93d; --S:#bd8ee6;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 16px 64px}
+  header.hero{padding:40px 16px 24px;max-width:1040px;margin:0 auto}
+  h1{font-size:1.9rem;line-height:1.2;margin:0 0 .3em}
+  .sub{color:var(--muted);font-size:1rem;max-width:70ch}
+  .note{background:var(--surface-2);border-left:4px solid var(--D);padding:12px 16px;border-radius:8px;margin:18px 0;font-size:.92rem}
+  h2{font-size:1.35rem;margin:40px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+  h3{font-size:1.08rem;margin:26px 0 8px}
+  a{color:var(--accent)}
+  .legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:16px 0}
+  .legend div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:.88rem}
+  .legend b{display:block;margin-bottom:3px}
+  .badge{display:inline-block;padding:1px 8px;border-radius:999px;font-size:.78rem;font-weight:600;white-space:nowrap}
+  .voieA{background:var(--Abg);color:var(--A)} .voieB{background:var(--Bbg);color:var(--B)} .voieC{background:var(--Cbg);color:var(--C)}
+  .clR{color:var(--R);font-weight:700} .clD{color:var(--D);font-weight:700} .clS{color:var(--S);font-weight:700}
+  .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0}
+  .controls button{cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+    padding:6px 12px;border-radius:999px;font-size:.86rem;font-weight:600}
+  .controls button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+  .controls .grp{display:flex;gap:6px;flex-wrap:wrap}
+  .controls .lbl{color:var(--muted);font-size:.8rem;margin-right:2px;align-self:center}
+  table{width:100%;border-collapse:collapse;margin:8px 0;font-size:.9rem;background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  caption{caption-side:bottom;color:var(--muted);font-size:.8rem;padding:8px 2px;text-align:left}
+  th,td{padding:9px 11px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+  thead th{background:var(--surface-2);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);position:sticky;top:0}
+  th.num,td.num{text-align:center;font-variant-numeric:tabular-nums;white-space:nowrap}
+  tbody tr:hover{background:var(--surface-2)}
+  .rank{font-weight:700;font-size:1rem}
+  .score{font-weight:700}
+  .piste-t{font-weight:600}
+  .orig{color:var(--muted);font-size:.8rem}
+  .bar{display:inline-block;width:34px;height:8px;border-radius:4px;background:var(--surface-2);position:relative;vertical-align:middle}
+  .bar i{position:absolute;left:0;top:0;height:100%;border-radius:4px;background:var(--accent)}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;margin:14px 0}
+  .card h3{margin-top:0}
+  .card ul{margin:.4em 0;padding-left:1.1em}
+  .card li{margin:.25em 0}
+  .k{font-weight:600}
+  .warn{color:var(--B);font-weight:600}
+  .foot{margin-top:40px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:16px}
+  code{background:var(--surface-2);padding:1px 5px;border-radius:5px;font-size:.85em}
+  @media (max-width:640px){
+    h1{font-size:1.5rem}
+    thead{display:none}
+    table,tbody,tr,td{display:block;width:100%}
+    tr{border:1px solid var(--line);border-radius:10px;margin:10px 0;background:var(--surface)}
+    td{border-bottom:1px solid var(--line);padding:8px 12px}
+    td:last-child{border-bottom:none}
+    td::before{content:attr(data-h);display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);margin-bottom:2px}
+    td.piste::before{content:""}
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <h1>Pistes d'innovation — produire du muscle de poulet</h1>
+  <p class="sub">Liste hiérarchisée des 21 pistes consolidées par le laboratoire de recherche, à partir de 29 propositions des agents, pour les trois voies : <span class="badge voieA">A élevage</span> <span class="badge voieB">B viande cultivée</span> <span class="badge voieC">C substituts</span>. Version 1 (2026-10-25).</p>
+  <div class="note"><b>Provisoire.</b> Classement fondé sur une base de connaissances traçable (456 sources, 100 affirmations contre-vérifiées de façon indépendante). La notation reflète le jugement explicite du coordinateur ; elle sera revue si une preuve de base est infirmée. Les coûts (en mois-personne) sont des estimations non sourcées. Chaque piste renvoie au détail dans le dépôt (<code>research/innovation_opportunities.md</code> et les rapports d'origine).</div>
+</header>
+
+<div class="wrap">
+
+  <section aria-label="Grille de notation">
+    <h2>Comment lire le classement</h2>
+    <div class="legend">
+      <div><b>Impact (I, 1–3)</b>Effet attendu sur le principal verrou de la voie. 3 = multiplie/divise le coût par kg de protéine comestible ou débloque une capacité inexistante ; 1 = gain de niche.</div>
+      <div><b>Base de preuves (E, 1–3)</b>3 = mécanisme et données directes chez le poulet ; 2 = données partielles ou espèce proche ; 1 = surtout théorique.</div>
+      <div><b>Testabilité (T, 1–3)</b>3 = expérience décisive en ≤ 6 mois-personne, sans bioréacteur &gt; 2 L ni ferme commerciale ; 1 = pilote &gt; 100 L ou &gt; 1 an.</div>
+      <div><b>Score = 2·I + E + T</b>Maximum 12. Égalités départagées par l'effet de levier entre voies.</div>
+      <div><b>Classe</b><span class="clR">R</span> amélioration réalisable · <span class="clD">D</span> innovation à développer · <span class="clS">S</span> hypothèse spéculative.</div>
+    </div>
+  </section>
+
+  <section aria-label="Classement">
+    <h2>Classement général des 21 pistes</h2>
+    <div class="controls">
+      <span class="lbl">Voie :</span>
+      <div class="grp" id="fvoie">
+        <button data-f="all" aria-pressed="true">Toutes</button>
+        <button data-f="A">A élevage</button>
+        <button data-f="B">B cultivée</button>
+        <button data-f="C">C substituts</button>
+      </div>
+      <span class="lbl" style="margin-left:10px">Classe :</span>
+      <div class="grp" id="fclasse">
+        <button data-f="all" aria-pressed="true">Toutes</button>
+        <button data-f="R">R réalisable</button>
+        <button data-f="D">D à développer</button>
+        <button data-f="S">S spéculative</button>
+      </div>
+    </div>
+    <table id="tbl">
+      <thead>
+        <tr>
+          <th class="num">Rang</th><th>ID</th><th>Voie</th><th>Piste</th>
+          <th class="num" title="Classe">Cl.</th><th class="num" title="Impact">I</th>
+          <th class="num" title="Base de preuves">E</th><th class="num" title="Testabilité">T</th>
+          <th class="num">Score</th><th>Origine</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+      <caption>I = impact · E = base de preuves · T = testabilité · Score = 2·I + E + T (max 12). Source : <code>research/innovation_opportunities.md</code>.</caption>
+    </table>
+    <p class="orig" id="count"></p>
+  </section>
+
+  <section aria-label="Lecture du classement">
+    <h2>Ce que dit le classement</h2>
+    <ol>
+      <li><span class="k">Le verrou de la voie B est le coût par kg de protéine, pas la biologie de base.</span> Les quatre premières pistes B attaquent les facteurs du modèle de conversion : acides aminés du milieu (INN-01), protéines par kg de biomasse (INN-02 — facteur ×2 mesuré entre 9 % et 21 %), litres de milieu par kg (INN-03, absent de toutes les analyses économiques publiques), et nature du produit (INN-04 : passer de la biomasse de fibroblastes au muscle). Même en cas de succès, la parité avec le poulet standard reste <span class="k">non démontrée</span> : le plancher modélisé milieu + exploitation (≈ 6 USD/kg humide) dépasse le seuil de parité (1,4–3,3 USD/kg humide).</li>
+      <li><span class="k">La voie A conserve les leviers les moins risqués.</span> INN-05 et INN-06 reposent sur des preuves solides chez le poulet et sont testables en station expérimentale standard. Leur impact est surtout environnemental (soja, azote, compétition alimentaire avec l'humain) ; l'effet sur le coût reste à chiffrer.</li>
+      <li><span class="k">Les ponts entre voies sont les espaces les moins explorés.</span> La même matière protéique (soja, protéines unicellulaires) nourrit le poulet, pourrait nourrir les cellules (INN-01) et sert de base aux substituts ; le plasma d'abattoir (INN-08) relie A et B ; les hybrides (INN-07) relient B et C.</li>
+      <li><span class="k">Tests rapides et peu coûteux à lancer en premier</span> (≤ 6 mois-personne, sans bioréacteur) : INN-02, INN-07, INN-08, INN-10, INN-05/06.</li>
+    </ol>
+  </section>
+
+  <section aria-label="Fiches des pistes de tête">
+    <h2>Fiches des pistes de tête</h2>
+
+    <div class="card">
+      <h3>INN-01 — Acides aminés du milieu de qualité « alimentation animale » <span class="clD">D</span> <span class="badge voieB">B (A+B+C)</span></h3>
+      <ul>
+        <li><span class="k">Problème.</span> Selon une revue de 2026, les acides aminés représenteraient ~76 % du coût d'un milieu à grande échelle — sortie de modèle sur milieu bovin, donc une extrapolation.</li>
+        <li><span class="k">Insuffisances actuelles.</span> Acides aminés purifiés coûteux ; les extraits microbiens couvrent mal Gln, Cys, Ser et Arg ; purification (endotoxines).</li>
+        <li><span class="k">Preuves.</span> Chez Humbird, un hydrolysat à 2 USD/kg ramène le coût modélisé de 37 à 22 USD/kg humide (condition « nécessaire mais insuffisante ») ; protéines unicellulaires et soja déjà produits à l'échelle de l'alimentation animale.</li>
+        <li><span class="k">Expérience.</span> Plan factoriel 0/25/50/75/100 % des acides aminés de DMEM/F12 remplacés par un hydrolysat (soja ou SCP), ± complémentation en 4 acides aminés, sur fibroblastes de poulet, 10 passages ; endotoxines, croissance, coût du milieu.</li>
+        <li><span class="k">Succès / échec.</span> ≥ 75 % remplacés avec perte ≤ 20 % et coût inférieur à la référence / toxicité ou endotoxines non éliminables.</li>
+        <li><span class="k">Précision phase 4.</span> La lysine « alimentation animale » contient 10–29 UI/g d'endotoxines (proche du seuil culture ≤ 10 UE/g), la thréonine ~300 000 UI/g : purification à cibler par acide aminé.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>INN-02 — Densifier la biomasse en protéines avant récolte <span class="clD">D</span> <span class="badge voieB">B</span></h3>
+      <ul>
+        <li><span class="k">Problème.</span> La biomasse aviaire récoltée contient 9 g de protéines/100 g, contre 18,5 g pour le filet : à coût égal par kg humide, le coût par kg de protéine double.</li>
+        <li><span class="k">Preuves.</span> Le mémo FDA d'UPSIDE signale une hypertrophie cellulaire (sans chiffres) ; l'hypothèse (maturation sans division, mTOR) n'a pas été testée sur cellules de poulet — base de preuves faible.</li>
+        <li><span class="k">Expérience.</span> DF-1 en suspension sans sérum, maturation 24–72 h à 41 °C, milieu riche en acides aminés essentiels ; azote total (Kjeldahl/Dumas), humidité, lipides, hydroxyproline.</li>
+        <li><span class="k">Succès / échec.</span> ≥ 13 g de protéines/100 g / &lt; 10 g ou perte de viabilité. Coût : faible (≤ 3 mois-personne).</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>INN-03 — Mesurer puis réduire les litres de milieu par kg <span class="clD">D</span> <span class="badge voieB">B</span></h3>
+      <ul>
+        <li><span class="k">Problème.</span> Aucune donnée publique ne donne le volume de milieu par kg ; au prix déclaré de 0,63 USD/L, le coût du milieu va de 1,45 à 31,5 USD/kg selon qu'on consomme 2,3 ou 50 L/kg.</li>
+        <li><span class="k">Expérience.</span> Perfusion de 2 à 10 L pendant 21 jours, avec et sans recyclage et élimination de NH₃/lactate ; bilan matière complet, publié.</li>
+        <li><span class="k">Succès.</span> ≤ 10 L/kg avec une productivité ≥ 80 % du témoin.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>INN-04 — Différenciation musculaire par petites molécules en suspension <span class="clD">D</span> <span class="badge voieB">B</span></h3>
+      <ul>
+        <li><span class="k">Problème.</span> Les produits autorisés sont des biomasses de fibroblastes, pas du muscle. Le meilleur indice de fusion publié est de 30 % et exige un transgène.</li>
+        <li><span class="k">Preuves.</span> Selon un brevet (donnée de déposant, non publiée en revue), un inhibiteur ERK porte l'indice de fusion de myoblastes primaires de poulet de 15 à 62 % ; les agrégats en suspension de lignées aviaires sont maîtrisés.</li>
+        <li><span class="k">Expérience.</span> Dose-réponse sur 3 lignées, en plaque puis en agrégats ; MyHC/MyoG, protéines myofibrillaires.</li>
+        <li><span class="k">Succès / échec.</span> ≥ 20 % de noyaux MyHC+ / &lt; 5 %.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>INN-05 &amp; INN-06 — Formulation à efficience nette &amp; basse protéine <span class="clR">R</span> <span class="badge voieA">A</span></h3>
+      <ul>
+        <li><span class="k">Preuves.</span> L'efficience protéique nette atteint 0,88 en poulet standard français et varie de 0,8 à 2 selon la seule formulation. Chaque point de protéine brute retiré dégrade l'indice de consommation de 1,2–1,9 % mais réduit l'azote excrété de 11–14 %. Plancher vers 17 % de protéine brute (glycine+sérine, potassium, gras abdominal).</li>
+        <li><span class="k">Expériences.</span> INN-05 : 3 régimes × 12 parquets de Ross 308, 0–42 j. INN-06 : dose-réponse 19/17/15 % de PB × glycine × K₂CO₃.</li>
+        <li><span class="k">Points d'attention.</span> L'indicateur d'efficience nette dépend de sa définition ; l'effet sur le rendement en filet n'est pas généralisable.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section aria-label="Pistes écartées">
+    <h2>Pistes écartées ou à surveiller</h2>
+    <div class="card">
+      <ul>
+        <li><span class="warn">Revendications non démontrées.</span> Densité de 10¹⁰ cellules/mL revendiquée dans un brevet UPSIDE, physiquement impossible : à ne pas utiliser comme base.</li>
+        <li><span class="warn">Insectes à fort taux dans l'aliment.</span> Performances contradictoires et bilan environnemental défavorable si le substrat n'est pas un vrai déchet. À ne relancer que sur substrat de déchet (lien avec INN-18).</li>
+        <li><span class="warn">Bioréacteurs géants.</span> Abandon de cuves de 250 000 L ; les filets de viande cultivée sont encore produits en flacons de 2 L. Le passage à l'échelle par la seule taille des cuves n'est pas crédible à court terme.</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="foot">
+    <p>Chicken Muscle Research Lab — base de connaissances traçable. Détail et sources dans le dépôt : <code>research/innovation_opportunities.md</code>, <code>research/reports/final_synthesis.md</code>, <code>research/DELIVERABLES.md</code>. Page générée depuis le fichier source ; en cas de divergence, le fichier Markdown fait foi.</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  // Données issues de research/innovation_opportunities.md (classement général). Aucune valeur inventée.
+  var P=[
+    [1,"INN-01","B","Acides aminés du milieu à partir de matières de qualité alimentation animale (hydrolysats soja/SCP complétés en Gln/Cys/Ser/Arg ; filière commune avec l'aliment volaille)","D",3,2,2,10,"E-3, P-3, A-4","B (A+B+C)"],
+    [2,"INN-02","B","Densifier la biomasse en protéines avant récolte (maturation sans division) : viser ≥ 13 g/100 g contre 9 g mesurés","D",3,1,3,10,"C I-1","B"],
+    [3,"INN-03","B","Mesurer puis réduire les litres de milieu par kg : perfusion avec recyclage et élimination NH₃/lactate","D",3,2,2,10,"E-1, C I-3","B"],
+    [4,"INN-04","B","Différenciation musculaire de lignées immortalisées en suspension par petites molécules (inhibiteur ERK, Ca²⁺) — base : donnée de brevet","D",3,2,2,10,"P-2","B"],
+    [5,"INN-05","A","Formulation « efficience protéique nette + énergie nette » (moins de protéines consommables par l'humain dans l'aliment)","R",2,3,3,10,"N-1","A"],
+    [6,"INN-06","A","Abaisser le plancher de protéine brute (glycine, potassium/bilan électrolytique, amidon lent) : 15 % de PB sans pénalité d'IC > 2 %","R",2,3,3,10,"N-2","A"],
+    [7,"INN-07","BC","Dose-réponse sensorielle des hybrides (0–20 % de biomasse/graisse cultivée) + audit de liberté d'exploitation du domaine public","R",2,2,3,9,"P-6, P-9, E-4","B+C"],
+    [8,"INN-08","AB","Plasma d'abattoir de poulet fractionné comme supplément de milieu","R",2,2,3,9,"P-4","A+B"],
+    [9,"INN-09","C","Filet laminé par films protéiques (« yuba 2.0 ») perforés : fibrosité du filet avec moins d'énergie que l'extrusion humide","D",2,2,3,9,"A-1, S","C"],
+    [10,"INN-10","C","Arôme « poulet » sans hème : précurseurs soufrés (cystéine, ribose/IMP, thiamine) + émulsion de phospholipides — ⚠ brevet DSM actif jusqu'en 2034","R",2,2,3,9,"A-2, S","C"],
+    [11,"INN-11","A","Nutrition dédiée aux souches à croissance lente (écart d'IC ≤ 0,15, azote excrété −30 %)","R",2,2,3,9,"N-4","A"],
+    [12,"INN-12","B","Aseptie de qualité alimentaire sans salle blanche (< 2 % de lots contaminés sur ≥ 50 lots de 200–1 000 L)","D",3,1,1,8,"E-2","B"],
+    [13,"INN-13","B","Indépendance aux facteurs de croissance : lignées cisgéniques autocrines (FGF2/IGF1 thermostables) ou co-culture fibroblastes–cellules satellites","D",2,2,2,8,"P-5, C I-4","B"],
+    [14,"INN-14","B","Qualifier les lignées aviaires d'origine vaccinale (DF-1, EBx…) en milieu alimentaire + suivi de la dérive clonale en culture continue","RS",2,2,2,8,"P-1, P-7","B"],
+    [15,"INN-15","C","Matrice fermentée déphytatée productrice de B12 (Rhizopus + bactérie propionique)","D",2,2,2,8,"A-3","C"],
+    [16,"INN-16","A","Programmation musculaire en péri-éclosion (in ovo, alimentation précoce, précurseurs de créatine/GAA) contre le woody breast","DS",2,1,3,8,"N-3, P-10","A"],
+    [17,"INN-17","B","Structuration par fibres creuses comestibles espacées de ≤ 0,8 mm (tissu ≥ 1 cm)","D",2,2,1,7,"P-8","B"],
+    [18,"INN-18","A","« Verminière moderne » : larves vivantes produites à la ferme pour le démarrage des poussins","R",1,2,3,7,"H-1","A"],
+    [19,"INN-19","A","Finition au lactosérum acide des souches lentes (stabilité oxydative du filet)","R",1,2,3,7,"H-2","A"],
+    [20,"INN-20","A","Cuisson à la vapeur des céréales locales (retester Réaumur ; élevages sans granulation)","R",1,2,3,7,"H-3","A"],
+    [21,"INN-21","B","Culture à la température physiologique (39–41 °C) en perfusion","R",1,1,3,6,"C I-2","B"]
+  ];
+  var voieClass={A:"voieA",B:"voieB",C:"voieC",AB:"voieB",BC:"voieB",ABC:"voieB"};
+  function clBadge(cl){return cl.split("").map(function(c){return '<span class="cl'+c+'">'+c+'</span>';}).join("/");}
+  var fV="all",fC="all";
+  var rows=document.getElementById("rows"),count=document.getElementById("count");
+  function matches(p){
+    var voies=p[2]; // "A","B","C","AB","BC"
+    var okV = fV==="all" || voies.indexOf(fV)>=0;
+    var okC = fC==="all" || p[4].indexOf(fC)>=0;
+    return okV&&okC;
+  }
+  function render(){
+    var html="",n=0;
+    P.forEach(function(p){
+      if(!matches(p))return; n++;
+      var vlabel=p[10];
+      html+='<tr>'+
+        '<td class="num rank" data-h="Rang">'+p[0]+'</td>'+
+        '<td data-h="ID"><strong>'+p[1]+'</strong></td>'+
+        '<td data-h="Voie"><span class="badge '+(voieClass[p[2]]||"voieB")+'">'+vlabel+'</span></td>'+
+        '<td class="piste piste-t" data-h="Piste">'+p[3]+'</td>'+
+        '<td class="num" data-h="Classe">'+clBadge(p[4])+'</td>'+
+        '<td class="num" data-h="Impact">'+p[5]+'</td>'+
+        '<td class="num" data-h="Preuves">'+p[6]+'</td>'+
+        '<td class="num" data-h="Testabilité">'+p[7]+'</td>'+
+        '<td class="num score" data-h="Score">'+p[8]+' <span class="bar"><i style="width:'+Math.round(p[8]/12*100)+'%"></i></span></td>'+
+        '<td class="orig" data-h="Origine">'+p[9]+'</td>'+
+      '</tr>';
+    });
+    rows.innerHTML=html;
+    count.textContent=n+" piste"+(n>1?"s":"")+" affichée"+(n>1?"s":"")+" sur 21.";
+  }
+  function wire(id,set){
+    var g=document.getElementById(id);
+    g.addEventListener("click",function(e){
+      var b=e.target.closest("button"); if(!b)return;
+      [].forEach.call(g.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed","false");});
+      b.setAttribute("aria-pressed","true"); set(b.getAttribute("data-f")); render();
+    });
+  }
+  wire("fvoie",function(v){fV=v;});
+  wire("fclasse",function(v){fC=v;});
+  render();
+})();
+</script>
+</body>
+</html>
